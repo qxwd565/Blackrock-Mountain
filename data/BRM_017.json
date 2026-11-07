@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "Resurrect",
+  "card": {
+    "id": "BRM_017",
+    "dbfId": 2298,
+    "name": "부활",
+    "text": "[x]이번 게임에서 죽은\n무작위 아군 하수인을\n소환합니다.",
+    "type": "SPELL",
+    "cardClass": "PRIEST",
+    "classes": [],
+    "nativeSetId": 14,
+    "set": "BRM",
+    "rarity": "RARE",
+    "race": "",
+    "races": [],
+    "spellSchool": "HOLY",
+    "cost": 2,
+    "attack": 0,
+    "health": 0,
+    "armor": 0,
+    "durability": 0,
+    "collectible": true,
+    "chooseOne": false,
+    "heroPowerDbfId": 0,
+    "installed": true,
+    "portrait": "W17_a009_D.psd:528b5d1dd0de40940977c489790b471e",
+    "flavor": "던전에 들어간 나는 죽은 모험가를 발견했다. 마지막 순간 그는 온 힘을 짜내어, 먼지 덮인 벽에 이승에서 남기고 싶은 마지막 말을 썼던 것 같다. 두 마디였다. \"부활 좀\"",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 6
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 1635,
+        "name": "주문 속성",
+        "value": 5
+      }
+    ],
+    "nativeRawText": "[x]이번 게임에서 죽은\n무작위 아군 하수인을\n소환합니다.",
+    "nativeTextBuilder": 0
+  },
+  "root": true,
+  "relatedIds": [],
+  "expansion": {
+    "id": 14,
+    "slug": "blackrock-mountain",
+    "name": "검은바위 산",
+    "type": "adventure",
+    "englishName": "Blackrock Mountain"
+  },
+  "setOrder": 40,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  }
+}

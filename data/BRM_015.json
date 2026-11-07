@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "Revenge",
+  "card": {
+    "id": "BRM_015",
+    "dbfId": 2296,
+    "name": "복수",
+    "text": "<b>모든</b> 하수인에게 피해를 $1 줍니다.\n내 생명력이 12 이하면, 피해를 $3 줍니다.",
+    "type": "SPELL",
+    "cardClass": "WARRIOR",
+    "classes": [],
+    "nativeSetId": 14,
+    "set": "BRM",
+    "rarity": "RARE",
+    "race": "",
+    "races": [],
+    "spellSchool": "",
+    "cost": 2,
+    "attack": 0,
+    "health": 0,
+    "armor": 0,
+    "durability": 0,
+    "collectible": true,
+    "chooseOne": false,
+    "heroPowerDbfId": 0,
+    "installed": true,
+    "portrait": "W14_a143_D.psd:6a42c7af46ce9304eaf2cdcf4b2c697b",
+    "flavor": "화염구가 필사의 일격보다 좋아서 서운하셨다고요? 이제 마법사 친구가 잘난 척 하는 꼴을 볼 필요가 없습니다. 복수가 신비한 폭발보다 좋으니까요! ...아마도.",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 10
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "nativeRawText": "<b>모든</b> 하수인에게 피해를 $1 줍니다.\n내 생명력이 12 이하면, 피해를 $3 줍니다.",
+    "nativeTextBuilder": 0
+  },
+  "root": true,
+  "relatedIds": [],
+  "expansion": {
+    "id": 14,
+    "slug": "blackrock-mountain",
+    "name": "검은바위 산",
+    "type": "adventure",
+    "englishName": "Blackrock Mountain"
+  },
+  "setOrder": 40,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  }
+}
