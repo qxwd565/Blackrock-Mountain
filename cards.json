@@ -11,7 +11,7 @@
       "rarity": "COMMON",
       "collectible": true,
       "cost": 5,
-      "text": "카드를 2장 뽑습니다.\n이번 턴에 죽은 하수인\n하나당 비용이 (1)씩\n감소합니다.",
+      "text": "[x]카드를 2장 뽑습니다.\n이번 턴에 죽은 하수인\n하나당 비용이 (1)씩\n감소합니다.",
       "attack": 0,
       "health": 0,
       "durability": 0,
@@ -46,7 +46,11 @@
           "name": "수집 가능",
           "value": 1
         }
-      ]
+      ],
+      "race": "",
+      "races": [],
+      "spellSchool": "",
+      "classes": []
     },
     {
       "id": "BRM_002",
@@ -110,7 +114,11 @@
       ],
       "mechanics": [
         "TRIGGER_VISUAL"
-      ]
+      ],
+      "race": "",
+      "races": [],
+      "spellSchool": "",
+      "classes": []
     },
     {
       "id": "BRM_003",
@@ -162,7 +170,10 @@
           "name": "주문 속성",
           "value": 2
         }
-      ]
+      ],
+      "race": "",
+      "races": [],
+      "classes": []
     },
     {
       "id": "BRM_004",
@@ -184,7 +195,7 @@
       "races": [
         "DRAGON"
       ],
-      "race": "DRAGON",
+      "race": "용족",
       "set": "BRM",
       "nativeTags": [
         {
@@ -240,7 +251,9 @@
       ],
       "mechanics": [
         "BATTLECRY"
-      ]
+      ],
+      "spellSchool": "",
+      "classes": []
     },
     {
       "id": "BRM_005",
@@ -297,7 +310,10 @@
           "name": "주문 속성",
           "value": 7
         }
-      ]
+      ],
+      "race": "",
+      "races": [],
+      "classes": []
     },
     {
       "id": "BRM_006",
@@ -319,7 +335,7 @@
       "races": [
         "DEMON"
       ],
-      "race": "DEMON",
+      "race": "악마",
       "set": "BRM",
       "nativeTags": [
         {
@@ -383,7 +399,9 @@
       ],
       "relatedDbfIds": [
         2779
-      ]
+      ],
+      "spellSchool": "",
+      "classes": []
     },
     {
       "id": "BRM_006t",
@@ -404,7 +422,7 @@
       "races": [
         "DEMON"
       ],
-      "race": "DEMON",
+      "race": "악마",
       "set": "BRM",
       "nativeTags": [
         {
@@ -442,7 +460,10 @@
           "name": "임프",
           "value": 1
         }
-      ]
+      ],
+      "spellSchool": "",
+      "classes": [],
+      "flavor": ""
     },
     {
       "id": "BRM_007",
@@ -453,7 +474,7 @@
       "rarity": "COMMON",
       "collectible": true,
       "cost": 2,
-      "text": "하수인을 선택합니다.\n그 하수인을 셋 복사하여\n내 덱에 섞어 넣습니다.",
+      "text": "[x]하수인을 선택합니다.\n그 하수인을 셋 복사하여\n내 덱에 섞어 넣습니다.",
       "attack": 0,
       "health": 0,
       "durability": 0,
@@ -488,7 +509,11 @@
           "name": "수집 가능",
           "value": 1
         }
-      ]
+      ],
+      "race": "",
+      "races": [],
+      "spellSchool": "",
+      "classes": []
     },
     {
       "id": "BRM_008",
@@ -552,7 +577,11 @@
       ],
       "mechanics": [
         "BATTLECRY"
-      ]
+      ],
+      "race": "",
+      "races": [],
+      "spellSchool": "",
+      "classes": []
     },
     {
       "id": "BRM_009",
@@ -616,7 +645,11 @@
       ],
       "mechanics": [
         "TAUNT"
-      ]
+      ],
+      "race": "",
+      "races": [],
+      "spellSchool": "",
+      "classes": []
     },
     {
       "id": "BRM_010",
@@ -686,7 +719,11 @@
         2294,
         2310,
         2311
-      ]
+      ],
+      "race": "",
+      "races": [],
+      "spellSchool": "",
+      "classes": []
     },
     {
       "id": "BRM_010a",
@@ -708,7 +745,7 @@
         "BEAST",
         "ELEMENTAL"
       ],
-      "race": "BEAST",
+      "race": "야수, 정령",
       "set": "BRM",
       "nativeTags": [
         {
@@ -756,7 +793,10 @@
           "name": "게임 태그 2540",
           "value": 1
         }
-      ]
+      ],
+      "spellSchool": "",
+      "classes": [],
+      "flavor": ""
     },
     {
       "id": "BRM_010b",
@@ -778,7 +818,7 @@
         "BEAST",
         "ELEMENTAL"
       ],
-      "race": "BEAST",
+      "race": "야수, 정령",
       "set": "BRM",
       "nativeTags": [
         {
@@ -821,7 +861,10 @@
           "name": "게임 태그 2540",
           "value": 1
         }
-      ]
+      ],
+      "spellSchool": "",
+      "classes": [],
+      "flavor": ""
     },
     {
       "id": "BRM_010t",
@@ -843,7 +886,7 @@
         "BEAST",
         "ELEMENTAL"
       ],
-      "race": "BEAST",
+      "race": "야수, 정령",
       "set": "BRM",
       "nativeTags": [
         {
@@ -891,7 +934,10 @@
           "name": "게임 태그 2540",
           "value": 1
         }
-      ]
+      ],
+      "spellSchool": "",
+      "classes": [],
+      "flavor": ""
     },
     {
       "id": "BRM_010t2",
@@ -913,7 +959,7 @@
         "BEAST",
         "ELEMENTAL"
       ],
-      "race": "BEAST",
+      "race": "야수, 정령",
       "set": "BRM",
       "nativeTags": [
         {
@@ -956,7 +1002,10 @@
           "name": "게임 태그 2540",
           "value": 1
         }
-      ]
+      ],
+      "spellSchool": "",
+      "classes": [],
+      "flavor": ""
     },
     {
       "id": "BRM_011",
@@ -967,7 +1016,7 @@
       "rarity": "RARE",
       "collectible": true,
       "cost": 2,
-      "text": "피해를 $2 줍니다.\n<b>과부하</b>된 내 마나 수정이\n모두 잠금 해제됩니다.",
+      "text": "[x]피해를 $2 줍니다.\n<b>과부하</b>된 내 마나 수정이\n모두 잠금 해제됩니다.",
       "attack": 0,
       "health": 0,
       "durability": 0,
@@ -1016,7 +1065,10 @@
       ],
       "mechanics": [
         "OVERLOAD"
-      ]
+      ],
+      "race": "",
+      "races": [],
+      "classes": []
     },
     {
       "id": "BRM_012",
@@ -1038,7 +1090,7 @@
       "races": [
         "ELEMENTAL"
       ],
-      "race": "ELEMENTAL",
+      "race": "정령",
       "set": "BRM",
       "nativeTags": [
         {
@@ -1095,7 +1147,9 @@
       "mechanics": [
         "OVERLOAD",
         "BATTLECRY"
-      ]
+      ],
+      "spellSchool": "",
+      "classes": []
     },
     {
       "id": "BRM_013",
@@ -1106,7 +1160,7 @@
       "rarity": "COMMON",
       "collectible": true,
       "cost": 2,
-      "text": "피해를 $3 줍니다.\n내 손에 카드가 없으면,\n카드를 뽑습니다.",
+      "text": "[x]피해를 $3 줍니다.\n내 손에 카드가 없으면,\n카드를 뽑습니다.",
       "attack": 0,
       "health": 0,
       "durability": 0,
@@ -1147,14 +1201,10 @@
           "value": 1
         }
       ],
-      "history": [
-        {
-          "before": "2019-04-04",
-          "changes": {
-            "name": "속사"
-          }
-        }
-      ]
+      "race": "",
+      "races": [],
+      "spellSchool": "",
+      "classes": []
     },
     {
       "id": "BRM_014",
@@ -1177,7 +1227,7 @@
         "BEAST",
         "ELEMENTAL"
       ],
-      "race": "BEAST",
+      "race": "야수, 정령",
       "set": "BRM",
       "nativeTags": [
         {
@@ -1233,7 +1283,9 @@
       ],
       "mechanics": [
         "BATTLECRY"
-      ]
+      ],
+      "spellSchool": "",
+      "classes": []
     },
     {
       "id": "BRM_015",
@@ -1279,7 +1331,11 @@
           "name": "수집 가능",
           "value": 1
         }
-      ]
+      ],
+      "race": "",
+      "races": [],
+      "spellSchool": "",
+      "classes": []
     },
     {
       "id": "BRM_016",
@@ -1343,7 +1399,11 @@
       ],
       "mechanics": [
         "TRIGGER_VISUAL"
-      ]
+      ],
+      "race": "",
+      "races": [],
+      "spellSchool": "",
+      "classes": []
     },
     {
       "id": "BRM_017",
@@ -1354,7 +1414,7 @@
       "rarity": "RARE",
       "collectible": true,
       "cost": 2,
-      "text": "이번 게임에서 죽은\n무작위 아군 하수인을\n소환합니다.",
+      "text": "[x]이번 게임에서 죽은\n무작위 아군 하수인을\n소환합니다.",
       "attack": 0,
       "health": 0,
       "durability": 0,
@@ -1395,7 +1455,10 @@
           "name": "주문 속성",
           "value": 5
         }
-      ]
+      ],
+      "race": "",
+      "races": [],
+      "classes": []
     },
     {
       "id": "BRM_018",
@@ -1406,7 +1469,7 @@
       "rarity": "RARE",
       "collectible": true,
       "cost": 5,
-      "text": "<b>전투의 함성:</b> 다음에 내가\n내는 용족의 비용이\n(2) 감소합니다.",
+      "text": "[x]<b>전투의 함성:</b> 다음에 내가\n내는 용족의 비용이\n(2) 감소합니다.",
       "attack": 5,
       "health": 5,
       "durability": 0,
@@ -1417,7 +1480,7 @@
       "races": [
         "DRAGON"
       ],
-      "race": "DRAGON",
+      "race": "용족",
       "set": "BRM",
       "nativeTags": [
         {
@@ -1468,7 +1531,9 @@
       ],
       "mechanics": [
         "BATTLECRY"
-      ]
+      ],
+      "spellSchool": "",
+      "classes": []
     },
     {
       "id": "BRM_019",
@@ -1535,7 +1600,11 @@
       ],
       "relatedDbfIds": [
         2279
-      ]
+      ],
+      "race": "",
+      "races": [],
+      "spellSchool": "",
+      "classes": []
     },
     {
       "id": "BRM_020",
@@ -1557,7 +1626,7 @@
       "races": [
         "DRAGON"
       ],
-      "race": "DRAGON",
+      "race": "용족",
       "set": "BRM",
       "nativeTags": [
         {
@@ -1608,7 +1677,9 @@
       ],
       "mechanics": [
         "TRIGGER_VISUAL"
-      ]
+      ],
+      "spellSchool": "",
+      "classes": []
     },
     {
       "id": "BRM_022",
@@ -1675,7 +1746,11 @@
       ],
       "relatedDbfIds": [
         2436
-      ]
+      ],
+      "race": "",
+      "races": [],
+      "spellSchool": "",
+      "classes": []
     },
     {
       "id": "BRM_022t",
@@ -1696,7 +1771,7 @@
       "races": [
         "DRAGON"
       ],
-      "race": "DRAGON",
+      "race": "용족",
       "set": "BRM",
       "nativeTags": [
         {
@@ -1734,7 +1809,10 @@
           "name": "새끼용",
           "value": 1
         }
-      ]
+      ],
+      "spellSchool": "",
+      "classes": [],
+      "flavor": ""
     },
     {
       "id": "BRM_024",
@@ -1756,7 +1834,7 @@
       "races": [
         "DRAGON"
       ],
-      "race": "DRAGON",
+      "race": "용족",
       "set": "BRM",
       "nativeTags": [
         {
@@ -1807,7 +1885,9 @@
       ],
       "mechanics": [
         "BATTLECRY"
-      ]
+      ],
+      "spellSchool": "",
+      "classes": []
     },
     {
       "id": "BRM_025",
@@ -1829,7 +1909,7 @@
       "races": [
         "DRAGON"
       ],
-      "race": "DRAGON",
+      "race": "용족",
       "set": "BRM",
       "nativeTags": [
         {
@@ -1872,7 +1952,9 @@
           "name": "수집 가능",
           "value": 1
         }
-      ]
+      ],
+      "spellSchool": "",
+      "classes": []
     },
     {
       "id": "BRM_026",
@@ -1894,7 +1976,7 @@
       "races": [
         "DRAGON"
       ],
-      "race": "DRAGON",
+      "race": "용족",
       "set": "BRM",
       "nativeTags": [
         {
@@ -1945,7 +2027,9 @@
       ],
       "mechanics": [
         "BATTLECRY"
-      ]
+      ],
+      "spellSchool": "",
+      "classes": []
     },
     {
       "id": "BRM_027",
@@ -2023,7 +2107,11 @@
       "relatedDbfIds": [
         2318,
         2319
-      ]
+      ],
+      "race": "",
+      "races": [],
+      "spellSchool": "",
+      "classes": []
     },
     {
       "id": "BRM_027h",
@@ -2067,14 +2155,11 @@
       "relatedDbfIds": [
         2319
       ],
-      "history": [
-        {
-          "before": "2014-12-04",
-          "changes": {
-            "legacyArt": true
-          }
-        }
-      ]
+      "race": "",
+      "races": [],
+      "spellSchool": "",
+      "classes": [],
+      "flavor": ""
     },
     {
       "id": "BRM_027p",
@@ -2114,7 +2199,12 @@
           "name": "워터마크 숨김",
           "value": 1
         }
-      ]
+      ],
+      "race": "",
+      "races": [],
+      "spellSchool": "",
+      "classes": [],
+      "flavor": ""
     },
     {
       "id": "BRM_028",
@@ -2184,14 +2274,10 @@
       "mechanics": [
         "TRIGGER_VISUAL"
       ],
-      "history": [
-        {
-          "before": "2023-08-23",
-          "changes": {
-            "cost": 6
-          }
-        }
-      ]
+      "race": "",
+      "races": [],
+      "spellSchool": "",
+      "classes": []
     },
     {
       "id": "BRM_029",
@@ -2260,7 +2346,11 @@
       ],
       "mechanics": [
         "BATTLECRY"
-      ]
+      ],
+      "race": "",
+      "races": [],
+      "spellSchool": "",
+      "classes": []
     },
     {
       "id": "BRM_030",
@@ -2271,7 +2361,7 @@
       "rarity": "LEGENDARY",
       "collectible": true,
       "cost": 9,
-      "text": "<b>전투의 함성:</b>\n<i>상대편 직업</i>의 무작위\n주문 둘을 내 손으로\n가져옵니다.",
+      "text": "[x]<b>전투의 함성:</b>\n<i>상대편 직업</i>의 무작위\n주문 둘을 내 손으로\n가져옵니다.",
       "attack": 8,
       "health": 8,
       "durability": 0,
@@ -2282,7 +2372,7 @@
       "races": [
         "DRAGON"
       ],
-      "race": "DRAGON",
+      "race": "용족",
       "set": "BRM",
       "nativeTags": [
         {
@@ -2341,7 +2431,9 @@
       ],
       "relatedDbfIds": [
         2421
-      ]
+      ],
+      "spellSchool": "",
+      "classes": []
     },
     {
       "id": "BRM_030t",
@@ -2381,7 +2473,12 @@
           "name": "워터마크 숨김",
           "value": 1
         }
-      ]
+      ],
+      "race": "",
+      "races": [],
+      "spellSchool": "",
+      "classes": [],
+      "flavor": ""
     },
     {
       "id": "BRM_031",
@@ -2392,7 +2489,7 @@
       "rarity": "LEGENDARY",
       "collectible": true,
       "cost": 8,
-      "text": "내가 카드를 뽑을 때마다\n그 카드를 복사하여 1장 더\n내 손으로 가져옵니다.",
+      "text": "[x]내가 카드를 뽑을 때마다\n그 카드를 복사하여 1장 더\n내 손으로 가져옵니다.",
       "attack": 6,
       "health": 8,
       "durability": 0,
@@ -2403,7 +2500,7 @@
       "races": [
         "DRAGON"
       ],
-      "race": "DRAGON",
+      "race": "용족",
       "set": "BRM",
       "nativeTags": [
         {
@@ -2459,7 +2556,9 @@
       ],
       "mechanics": [
         "TRIGGER_VISUAL"
-      ]
+      ],
+      "spellSchool": "",
+      "classes": []
     },
     {
       "id": "BRM_033",
@@ -2470,7 +2569,7 @@
       "rarity": "COMMON",
       "collectible": true,
       "cost": 3,
-      "text": "<b>전투의 함성:</b>\n내 손에 용족이 있으면,\n+1/+1을 얻습니다.",
+      "text": "[x]<b>전투의 함성:</b>\n내 손에 용족이 있으면,\n+1/+1을 얻습니다.",
       "attack": 2,
       "health": 4,
       "durability": 0,
@@ -2528,7 +2627,11 @@
       ],
       "mechanics": [
         "BATTLECRY"
-      ]
+      ],
+      "race": "",
+      "races": [],
+      "spellSchool": "",
+      "classes": []
     },
     {
       "id": "BRM_034",
@@ -2597,7 +2700,11 @@
       ],
       "mechanics": [
         "BATTLECRY"
-      ]
+      ],
+      "race": "",
+      "races": [],
+      "spellSchool": "",
+      "classes": []
     },
     {
       "id": "OG_044b",
@@ -2619,7 +2726,7 @@
         "BEAST",
         "ELEMENTAL"
       ],
-      "race": "BEAST",
+      "race": "야수, 정령",
       "set": "BRM",
       "nativeTags": [
         {
@@ -2667,7 +2774,10 @@
           "name": "게임 태그 2540",
           "value": 1
         }
-      ]
+      ],
+      "spellSchool": "",
+      "classes": [],
+      "flavor": ""
     }
   ]
 }
