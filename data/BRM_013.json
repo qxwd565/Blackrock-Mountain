@@ -60,7 +60,15 @@
       }
     ],
     "nativeRawText": "[x]피해를 $3 줍니다.\n내 손에 카드가 없으면,\n카드를 뽑습니다.",
-    "nativeTextBuilder": 0
+    "nativeTextBuilder": 0,
+    "history": [
+      {
+        "before": "2019-04-04",
+        "changes": {
+          "name": "속사"
+        }
+      }
+    ]
   },
   "root": true,
   "relatedIds": [],

@@ -1146,6 +1146,14 @@
           "name": "주문 공격력 적용",
           "value": 1
         }
+      ],
+      "history": [
+        {
+          "before": "2019-04-04",
+          "changes": {
+            "name": "속사"
+          }
+        }
       ]
     },
     {
@@ -2058,6 +2066,14 @@
       ],
       "relatedDbfIds": [
         2319
+      ],
+      "history": [
+        {
+          "before": "2014-12-04",
+          "changes": {
+            "legacyArt": true
+          }
+        }
       ]
     },
     {
@@ -2167,6 +2183,14 @@
       ],
       "mechanics": [
         "TRIGGER_VISUAL"
+      ],
+      "history": [
+        {
+          "before": "2023-08-23",
+          "changes": {
+            "cost": 6
+          }
+        }
       ]
     },
     {

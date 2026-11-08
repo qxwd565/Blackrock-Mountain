@@ -75,7 +75,15 @@
       }
     ],
     "nativeRawText": "내 턴이 끝날 때, 내 손에 있는 카드들의 비용이 (1) 감소합니다.",
-    "nativeTextBuilder": 0
+    "nativeTextBuilder": 0,
+    "history": [
+      {
+        "before": "2023-08-23",
+        "changes": {
+          "cost": 6
+        }
+      }
+    ]
   },
   "root": true,
   "relatedIds": [],
