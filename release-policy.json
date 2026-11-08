@@ -1,0 +1,175 @@
+{
+  "schema": 1,
+  "timezone": "Asia/Seoul",
+  "default": {
+    "date": null,
+    "status": "pending"
+  },
+  "prefixes": {},
+  "cards": {
+    "BRM_013": {
+      "date": "2015-04-03",
+      "status": "verified"
+    },
+    "BRM_007": {
+      "date": "2015-04-03",
+      "status": "verified"
+    },
+    "BRM_017": {
+      "date": "2015-04-03",
+      "status": "verified"
+    },
+    "BRM_028": {
+      "date": "2015-04-03",
+      "status": "verified"
+    },
+    "BRM_003": {
+      "date": "2015-04-03",
+      "status": "verified"
+    },
+    "BRM_019": {
+      "date": "2015-04-03",
+      "status": "verified"
+    },
+    "BRM_010": {
+      "date": "2015-04-10",
+      "status": "verified"
+    },
+    "BRM_010a": {
+      "date": "2015-04-10",
+      "status": "verified"
+    },
+    "BRM_010b": {
+      "date": "2015-04-10",
+      "status": "verified"
+    },
+    "BRM_010t": {
+      "date": "2015-04-10",
+      "status": "verified"
+    },
+    "BRM_010t2": {
+      "date": "2015-04-10",
+      "status": "verified"
+    },
+    "BRM_033": {
+      "date": "2015-04-10",
+      "status": "verified"
+    },
+    "BRM_006": {
+      "date": "2015-04-10",
+      "status": "verified"
+    },
+    "BRM_006t": {
+      "date": "2015-04-10",
+      "status": "verified"
+    },
+    "BRM_027": {
+      "date": "2015-04-10",
+      "status": "verified"
+    },
+    "BRM_027h": {
+      "date": "2015-04-10",
+      "status": "verified"
+    },
+    "BRM_027p": {
+      "date": "2015-04-10",
+      "status": "verified"
+    },
+    "BRM_016": {
+      "date": "2015-04-10",
+      "status": "verified"
+    },
+    "BRM_011": {
+      "date": "2015-04-10",
+      "status": "verified"
+    },
+    "BRM_014": {
+      "date": "2015-04-17",
+      "status": "verified"
+    },
+    "BRM_018": {
+      "date": "2015-04-17",
+      "status": "verified"
+    },
+    "BRM_022": {
+      "date": "2015-04-17",
+      "status": "verified"
+    },
+    "BRM_022t": {
+      "date": "2015-04-17",
+      "status": "verified"
+    },
+    "BRM_029": {
+      "date": "2015-04-17",
+      "status": "verified"
+    },
+    "BRM_004": {
+      "date": "2015-04-17",
+      "status": "verified"
+    },
+    "BRM_009": {
+      "date": "2015-04-17",
+      "status": "verified"
+    },
+    "BRM_015": {
+      "date": "2015-04-24",
+      "status": "verified"
+    },
+    "BRM_002": {
+      "date": "2015-04-24",
+      "status": "verified"
+    },
+    "BRM_026": {
+      "date": "2015-04-24",
+      "status": "verified"
+    },
+    "BRM_012": {
+      "date": "2015-04-24",
+      "status": "verified"
+    },
+    "BRM_031": {
+      "date": "2015-04-24",
+      "status": "verified"
+    },
+    "BRM_005": {
+      "date": "2015-04-24",
+      "status": "verified"
+    },
+    "BRM_008": {
+      "date": "2015-04-24",
+      "status": "verified"
+    },
+    "BRM_025": {
+      "date": "2015-05-01",
+      "status": "verified"
+    },
+    "BRM_034": {
+      "date": "2015-05-01",
+      "status": "verified"
+    },
+    "BRM_024": {
+      "date": "2015-05-01",
+      "status": "verified"
+    },
+    "BRM_020": {
+      "date": "2015-05-01",
+      "status": "verified"
+    },
+    "BRM_030": {
+      "date": "2015-05-01",
+      "status": "verified"
+    },
+    "BRM_030t": {
+      "date": "2015-05-01",
+      "status": "verified"
+    },
+    "BRM_001": {
+      "date": "2015-05-01",
+      "status": "verified"
+    }
+  },
+  "sources": {
+    "wings": "https://hearthstone.wiki.gg/wiki/Blackrock_Mountain",
+    "launch": "https://hearthstone.blizzard.com/ko-kr/news/18390556"
+  }
+}
