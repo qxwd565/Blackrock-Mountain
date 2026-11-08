@@ -19,11 +19,15 @@ jobs:
           curl --fail --location --retry 3 --silent --show-error 'https://raw.githubusercontent.com/qxwd565/legacy/15f96caff722c12b25fba97cfbe82806dbc43bb1/tools/normalize-history.py' -o tools/normalize-history.py
       - name: Normalize per-card JSON and render catalog
         run: python3 tools/normalize-history.py
+      - name: Build compact history index
+        run: |
+          curl --fail --location --retry 3 --silent --show-error 'https://raw.githubusercontent.com/qxwd565/legacy/6bf815278c87e96827fa39366457383e51386c9e/tools/build-history-index.py' -o tools/build-history-index.py
+          python3 tools/build-history-index.py
       - name: Commit generated API data
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -- cards.json render.json data
+          git add -- cards.json render.json history.json data
           if ! git diff --cached --quiet; then
             git commit -m "Normalize historical card JSON and compact render API [skip ci]"
             git push
