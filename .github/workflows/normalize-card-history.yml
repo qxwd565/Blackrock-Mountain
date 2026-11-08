@@ -16,7 +16,7 @@ jobs:
       - name: Fetch verified shared API builder
         run: |
           mkdir -p tools
-          curl --fail --location --retry 3 --silent --show-error 'https://raw.githubusercontent.com/qxwd565/legacy/645e692cbc0c9407ad1878a5bfe0c22e3ccec399/tools/build-api.py' -o tools/build-api.py
+          curl --fail --location --retry 3 --silent --show-error 'https://raw.githubusercontent.com/qxwd565/legacy/f3c8843070780ba643ef4f6bff694bacfe1bfdf2/tools/build-api.py' -o tools/build-api.py
       - name: Generate current and historical API indexes
         run: python3 tools/build-api.py
       - name: Commit changed API indexes
