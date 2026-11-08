@@ -4,6 +4,7 @@ on:
     paths:
       - '.github/workflows/normalize-card-history.yml'
       - 'cards.json'
+      - 'release-policy.json'
       - 'data/**'
   workflow_dispatch:
 permissions:
@@ -16,14 +17,14 @@ jobs:
       - name: Fetch verified shared API builder
         run: |
           mkdir -p tools
-          curl --fail --location --retry 3 --silent --show-error 'https://raw.githubusercontent.com/qxwd565/legacy/5eb2721213d5583981a57ff5ab907bb910d2558e/tools/build-api.py' -o tools/build-api.py
+          curl --fail --location --retry 3 --silent --show-error 'https://raw.githubusercontent.com/qxwd565/legacy/a39c65fc67695398e454fb01a651ac09d187c5c7/tools/build-api.py' -o tools/build-api.py
       - name: Generate current and historical API indexes
         run: python3 tools/build-api.py
       - name: Commit changed API indexes
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -- cards.json render.json history.json
+          git add -- cards.json render.json history.json data
           if ! git diff --cached --quiet; then
             git commit -m "Publish card API indexes [skip ci]"
             git push
