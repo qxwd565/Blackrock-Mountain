@@ -75,7 +75,9 @@
       }
     ],
     "nativeRawText": "<b>전투의 함성:</b>\n내 손에 용족이 있으면, 피해를 5 줍니다.",
-    "nativeTextBuilder": 0
+    "nativeTextBuilder": 0,
+    "releasedAt": "2015-05-01",
+    "releaseStatus": "verified"
   },
   "root": true,
   "relatedIds": [],

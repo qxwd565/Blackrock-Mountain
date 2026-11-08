@@ -46,7 +46,9 @@
           "name": "수집 가능",
           "value": 1
         }
-      ]
+      ],
+      "releasedAt": "2015-05-01",
+      "releaseStatus": "verified"
     },
     {
       "id": "BRM_002",
@@ -110,7 +112,9 @@
       ],
       "mechanics": [
         "TRIGGER_VISUAL"
-      ]
+      ],
+      "releasedAt": "2015-04-24",
+      "releaseStatus": "verified"
     },
     {
       "id": "BRM_003",
@@ -162,7 +166,9 @@
           "name": "주문 속성",
           "value": 2
         }
-      ]
+      ],
+      "releasedAt": "2015-04-03",
+      "releaseStatus": "verified"
     },
     {
       "id": "BRM_004",
@@ -240,7 +246,9 @@
       ],
       "mechanics": [
         "BATTLECRY"
-      ]
+      ],
+      "releasedAt": "2015-04-17",
+      "releaseStatus": "verified"
     },
     {
       "id": "BRM_005",
@@ -297,7 +305,9 @@
           "name": "주문 속성",
           "value": 7
         }
-      ]
+      ],
+      "releasedAt": "2015-04-24",
+      "releaseStatus": "verified"
     },
     {
       "id": "BRM_006",
@@ -383,7 +393,9 @@
       ],
       "relatedDbfIds": [
         2779
-      ]
+      ],
+      "releasedAt": "2015-04-10",
+      "releaseStatus": "verified"
     },
     {
       "id": "BRM_006t",
@@ -442,7 +454,9 @@
           "name": "임프",
           "value": 1
         }
-      ]
+      ],
+      "releasedAt": "2015-04-10",
+      "releaseStatus": "verified"
     },
     {
       "id": "BRM_007",
@@ -488,7 +502,9 @@
           "name": "수집 가능",
           "value": 1
         }
-      ]
+      ],
+      "releasedAt": "2015-04-03",
+      "releaseStatus": "verified"
     },
     {
       "id": "BRM_008",
@@ -552,7 +568,9 @@
       ],
       "mechanics": [
         "BATTLECRY"
-      ]
+      ],
+      "releasedAt": "2015-04-24",
+      "releaseStatus": "verified"
     },
     {
       "id": "BRM_009",
@@ -616,7 +634,9 @@
       ],
       "mechanics": [
         "TAUNT"
-      ]
+      ],
+      "releasedAt": "2015-04-17",
+      "releaseStatus": "verified"
     },
     {
       "id": "BRM_010",
@@ -686,7 +706,9 @@
         2294,
         2310,
         2311
-      ]
+      ],
+      "releasedAt": "2015-04-10",
+      "releaseStatus": "verified"
     },
     {
       "id": "BRM_010a",
@@ -756,7 +778,9 @@
           "name": "게임 태그 2540",
           "value": 1
         }
-      ]
+      ],
+      "releasedAt": "2015-04-10",
+      "releaseStatus": "verified"
     },
     {
       "id": "BRM_010b",
@@ -821,7 +845,9 @@
           "name": "게임 태그 2540",
           "value": 1
         }
-      ]
+      ],
+      "releasedAt": "2015-04-10",
+      "releaseStatus": "verified"
     },
     {
       "id": "BRM_010t",
@@ -891,7 +917,9 @@
           "name": "게임 태그 2540",
           "value": 1
         }
-      ]
+      ],
+      "releasedAt": "2015-04-10",
+      "releaseStatus": "verified"
     },
     {
       "id": "BRM_010t2",
@@ -956,7 +984,9 @@
           "name": "게임 태그 2540",
           "value": 1
         }
-      ]
+      ],
+      "releasedAt": "2015-04-10",
+      "releaseStatus": "verified"
     },
     {
       "id": "BRM_011",
@@ -1016,7 +1046,9 @@
       ],
       "mechanics": [
         "OVERLOAD"
-      ]
+      ],
+      "releasedAt": "2015-04-10",
+      "releaseStatus": "verified"
     },
     {
       "id": "BRM_012",
@@ -1095,7 +1127,9 @@
       "mechanics": [
         "OVERLOAD",
         "BATTLECRY"
-      ]
+      ],
+      "releasedAt": "2015-04-24",
+      "releaseStatus": "verified"
     },
     {
       "id": "BRM_013",
@@ -1146,7 +1180,9 @@
           "name": "주문 공격력 적용",
           "value": 1
         }
-      ]
+      ],
+      "releasedAt": "2015-04-03",
+      "releaseStatus": "verified"
     },
     {
       "id": "BRM_014",
@@ -1225,7 +1261,9 @@
       ],
       "mechanics": [
         "BATTLECRY"
-      ]
+      ],
+      "releasedAt": "2015-04-17",
+      "releaseStatus": "verified"
     },
     {
       "id": "BRM_015",
@@ -1271,7 +1309,9 @@
           "name": "수집 가능",
           "value": 1
         }
-      ]
+      ],
+      "releasedAt": "2015-04-24",
+      "releaseStatus": "verified"
     },
     {
       "id": "BRM_016",
@@ -1335,7 +1375,9 @@
       ],
       "mechanics": [
         "TRIGGER_VISUAL"
-      ]
+      ],
+      "releasedAt": "2015-04-10",
+      "releaseStatus": "verified"
     },
     {
       "id": "BRM_017",
@@ -1387,7 +1429,9 @@
           "name": "주문 속성",
           "value": 5
         }
-      ]
+      ],
+      "releasedAt": "2015-04-03",
+      "releaseStatus": "verified"
     },
     {
       "id": "BRM_018",
@@ -1460,7 +1504,9 @@
       ],
       "mechanics": [
         "BATTLECRY"
-      ]
+      ],
+      "releasedAt": "2015-04-17",
+      "releaseStatus": "verified"
     },
     {
       "id": "BRM_019",
@@ -1527,7 +1573,9 @@
       ],
       "relatedDbfIds": [
         2279
-      ]
+      ],
+      "releasedAt": "2015-04-03",
+      "releaseStatus": "verified"
     },
     {
       "id": "BRM_020",
@@ -1600,7 +1648,9 @@
       ],
       "mechanics": [
         "TRIGGER_VISUAL"
-      ]
+      ],
+      "releasedAt": "2015-05-01",
+      "releaseStatus": "verified"
     },
     {
       "id": "BRM_022",
@@ -1667,7 +1717,9 @@
       ],
       "relatedDbfIds": [
         2436
-      ]
+      ],
+      "releasedAt": "2015-04-17",
+      "releaseStatus": "verified"
     },
     {
       "id": "BRM_022t",
@@ -1726,7 +1778,9 @@
           "name": "새끼용",
           "value": 1
         }
-      ]
+      ],
+      "releasedAt": "2015-04-17",
+      "releaseStatus": "verified"
     },
     {
       "id": "BRM_024",
@@ -1799,7 +1853,9 @@
       ],
       "mechanics": [
         "BATTLECRY"
-      ]
+      ],
+      "releasedAt": "2015-05-01",
+      "releaseStatus": "verified"
     },
     {
       "id": "BRM_025",
@@ -1864,7 +1920,9 @@
           "name": "수집 가능",
           "value": 1
         }
-      ]
+      ],
+      "releasedAt": "2015-05-01",
+      "releaseStatus": "verified"
     },
     {
       "id": "BRM_026",
@@ -1937,7 +1995,9 @@
       ],
       "mechanics": [
         "BATTLECRY"
-      ]
+      ],
+      "releasedAt": "2015-04-24",
+      "releaseStatus": "verified"
     },
     {
       "id": "BRM_027",
@@ -2015,7 +2075,9 @@
       "relatedDbfIds": [
         2318,
         2319
-      ]
+      ],
+      "releasedAt": "2015-04-10",
+      "releaseStatus": "verified"
     },
     {
       "id": "BRM_027h",
@@ -2058,7 +2120,9 @@
       ],
       "relatedDbfIds": [
         2319
-      ]
+      ],
+      "releasedAt": "2015-04-10",
+      "releaseStatus": "verified"
     },
     {
       "id": "BRM_027p",
@@ -2098,7 +2162,9 @@
           "name": "워터마크 숨김",
           "value": 1
         }
-      ]
+      ],
+      "releasedAt": "2015-04-10",
+      "releaseStatus": "verified"
     },
     {
       "id": "BRM_028",
@@ -2167,7 +2233,9 @@
       ],
       "mechanics": [
         "TRIGGER_VISUAL"
-      ]
+      ],
+      "releasedAt": "2015-04-03",
+      "releaseStatus": "verified"
     },
     {
       "id": "BRM_029",
@@ -2236,7 +2304,9 @@
       ],
       "mechanics": [
         "BATTLECRY"
-      ]
+      ],
+      "releasedAt": "2015-04-17",
+      "releaseStatus": "verified"
     },
     {
       "id": "BRM_030",
@@ -2317,7 +2387,9 @@
       ],
       "relatedDbfIds": [
         2421
-      ]
+      ],
+      "releasedAt": "2015-05-01",
+      "releaseStatus": "verified"
     },
     {
       "id": "BRM_030t",
@@ -2357,7 +2429,9 @@
           "name": "워터마크 숨김",
           "value": 1
         }
-      ]
+      ],
+      "releasedAt": "2015-05-01",
+      "releaseStatus": "verified"
     },
     {
       "id": "BRM_031",
@@ -2435,7 +2509,9 @@
       ],
       "mechanics": [
         "TRIGGER_VISUAL"
-      ]
+      ],
+      "releasedAt": "2015-04-24",
+      "releaseStatus": "verified"
     },
     {
       "id": "BRM_033",
@@ -2504,7 +2580,9 @@
       ],
       "mechanics": [
         "BATTLECRY"
-      ]
+      ],
+      "releasedAt": "2015-04-10",
+      "releaseStatus": "verified"
     },
     {
       "id": "BRM_034",
@@ -2573,7 +2651,9 @@
       ],
       "mechanics": [
         "BATTLECRY"
-      ]
+      ],
+      "releasedAt": "2015-05-01",
+      "releaseStatus": "verified"
     },
     {
       "id": "OG_044b",
@@ -2643,7 +2723,9 @@
           "name": "게임 태그 2540",
           "value": 1
         }
-      ]
+      ],
+      "releasedAt": null,
+      "releaseStatus": "pending"
     }
   ]
 }

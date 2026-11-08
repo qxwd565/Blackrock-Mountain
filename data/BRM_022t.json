@@ -67,7 +67,9 @@
       }
     ],
     "nativeRawText": "",
-    "nativeTextBuilder": 0
+    "nativeTextBuilder": 0,
+    "releasedAt": "2015-04-17",
+    "releaseStatus": "verified"
   },
   "root": false,
   "relatedIds": [],

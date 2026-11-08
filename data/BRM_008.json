@@ -70,7 +70,9 @@
       }
     ],
     "nativeRawText": "<b>전투의 함성:</b> 피해를 받지 않은 모든 적 하수인에게 피해를 2 줍니다.",
-    "nativeTextBuilder": 0
+    "nativeTextBuilder": 0,
+    "releasedAt": "2015-04-24",
+    "releaseStatus": "verified"
   },
   "root": true,
   "relatedIds": [],

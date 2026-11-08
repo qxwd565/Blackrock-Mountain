@@ -83,7 +83,9 @@
       }
     ],
     "nativeRawText": "<b>전투의_함성:</b> 내 손에 카드가 없으면, +3/+3을 얻습니다.",
-    "nativeTextBuilder": 0
+    "nativeTextBuilder": 0,
+    "releasedAt": "2015-04-17",
+    "releaseStatus": "verified"
   },
   "root": true,
   "relatedIds": [],

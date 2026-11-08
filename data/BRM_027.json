@@ -80,7 +80,9 @@
       }
     ],
     "nativeRawText": "<b>죽음의 메아리:</b> 내 영웅을 불의 군주 라그나로스로 교체합니다.",
-    "nativeTextBuilder": 0
+    "nativeTextBuilder": 0,
+    "releasedAt": "2015-04-10",
+    "releaseStatus": "verified"
   },
   "root": true,
   "relatedIds": [

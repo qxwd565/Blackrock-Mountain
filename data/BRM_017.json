@@ -60,7 +60,9 @@
       }
     ],
     "nativeRawText": "[x]이번 게임에서 죽은\n무작위 아군 하수인을\n소환합니다.",
-    "nativeTextBuilder": 0
+    "nativeTextBuilder": 0,
+    "releasedAt": "2015-04-03",
+    "releaseStatus": "verified"
   },
   "root": true,
   "relatedIds": [],

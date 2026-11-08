@@ -82,7 +82,9 @@
       }
     ],
     "nativeRawText": "<b>전투의 함성:</b> 내 손에 용족이 있으면, 생명력을 +2 얻습니다.",
-    "nativeTextBuilder": 0
+    "nativeTextBuilder": 0,
+    "releasedAt": "2015-04-17",
+    "releaseStatus": "verified"
   },
   "root": true,
   "relatedIds": [],

@@ -77,7 +77,9 @@
       }
     ],
     "nativeRawText": "<b>전투의 함성:</b> 상대편의 생명력이 15 이하면, +3/+3을 얻습니다.",
-    "nativeTextBuilder": 0
+    "nativeTextBuilder": 0,
+    "releasedAt": "2015-05-01",
+    "releaseStatus": "verified"
   },
   "root": true,
   "relatedIds": [],

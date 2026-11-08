@@ -68,7 +68,9 @@
           "name": "속사"
         }
       }
-    ]
+    ],
+    "releasedAt": "2015-04-03",
+    "releaseStatus": "verified"
   },
   "root": true,
   "relatedIds": [],

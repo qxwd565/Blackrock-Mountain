@@ -77,7 +77,9 @@
       }
     ],
     "nativeRawText": "내가 주문의 대상으로 이 하수인을 지정할 때마다 +1/+1을 얻습니다.",
-    "nativeTextBuilder": 0
+    "nativeTextBuilder": 0,
+    "releasedAt": "2015-05-01",
+    "releaseStatus": "verified"
   },
   "root": true,
   "relatedIds": [],

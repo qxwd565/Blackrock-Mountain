@@ -77,7 +77,9 @@
       }
     ],
     "nativeRawText": "[x]<b>전투의 함성:</b> 다음에 내가\n내는 용족의 비용이\n(2) 감소합니다.",
-    "nativeTextBuilder": 0
+    "nativeTextBuilder": 0,
+    "releasedAt": "2015-04-17",
+    "releaseStatus": "verified"
   },
   "root": true,
   "relatedIds": [],

@@ -70,7 +70,9 @@
       }
     ],
     "nativeRawText": "이 하수인은 피해를 받을 때마다 적 영웅에게 피해를 2 줍니다.",
-    "nativeTextBuilder": 0
+    "nativeTextBuilder": 0,
+    "releasedAt": "2015-04-10",
+    "releaseStatus": "verified"
   },
   "root": true,
   "relatedIds": [],

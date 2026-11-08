@@ -55,7 +55,9 @@
       }
     ],
     "nativeRawText": "[x]하수인을 선택합니다.\n그 하수인을 셋 복사하여\n내 덱에 섞어 넣습니다.",
-    "nativeTextBuilder": 0
+    "nativeTextBuilder": 0,
+    "releasedAt": "2015-04-03",
+    "releaseStatus": "verified"
   },
   "root": true,
   "relatedIds": [],

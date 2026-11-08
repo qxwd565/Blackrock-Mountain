@@ -82,7 +82,9 @@
       }
     ],
     "nativeRawText": "[x]내가 카드를 뽑을 때마다\n그 카드를 복사하여 1장 더\n내 손으로 가져옵니다.",
-    "nativeTextBuilder": 0
+    "nativeTextBuilder": 0,
+    "releasedAt": "2015-04-24",
+    "releaseStatus": "verified"
   },
   "root": true,
   "relatedIds": [],

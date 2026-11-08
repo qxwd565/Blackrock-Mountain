@@ -82,7 +82,9 @@
       }
     ],
     "nativeRawText": "<b>전투의 함성:</b> 공격력을 1-4 얻습니다.\n<b>과부하:</b> (1)",
-    "nativeTextBuilder": 0
+    "nativeTextBuilder": 0,
+    "releasedAt": "2015-04-24",
+    "releaseStatus": "verified"
   },
   "root": true,
   "relatedIds": [],

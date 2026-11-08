@@ -70,7 +70,9 @@
       }
     ],
     "nativeRawText": "<b>도발</b>\n이번 턴에 죽은 하수인 하나당 비용이 (1)씩 감소합니다.",
-    "nativeTextBuilder": 0
+    "nativeTextBuilder": 0,
+    "releasedAt": "2015-04-17",
+    "releaseStatus": "verified"
   },
   "root": true,
   "relatedIds": [],

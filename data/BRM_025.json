@@ -72,7 +72,9 @@
       }
     ],
     "nativeRawText": "이번 턴에 죽은 하수인 하나당 비용이 (1)씩 감소합니다.",
-    "nativeTextBuilder": 0
+    "nativeTextBuilder": 0,
+    "releasedAt": "2015-05-01",
+    "releaseStatus": "verified"
   },
   "root": true,
   "relatedIds": [],

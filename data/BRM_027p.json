@@ -50,7 +50,9 @@
       }
     ],
     "nativeRawText": "무작위 적에게 피해를 $8 줍니다.",
-    "nativeTextBuilder": 0
+    "nativeTextBuilder": 0,
+    "releasedAt": "2015-04-10",
+    "releaseStatus": "verified"
   },
   "root": false,
   "relatedIds": [],

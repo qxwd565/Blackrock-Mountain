@@ -70,7 +70,9 @@
       }
     ],
     "nativeRawText": "내가 주문을 시전한 후에, 모든 적에게 2의 피해를 무작위로 나누어 입힙니다.",
-    "nativeTextBuilder": 0
+    "nativeTextBuilder": 0,
+    "releasedAt": "2015-04-24",
+    "releaseStatus": "verified"
   },
   "root": true,
   "relatedIds": [],

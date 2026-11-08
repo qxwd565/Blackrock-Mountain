@@ -65,7 +65,9 @@
       }
     ],
     "nativeRawText": "악마를 제외한 <b>모든</b> 하수인에게 피해를 $2 줍니다.",
-    "nativeTextBuilder": 0
+    "nativeTextBuilder": 0,
+    "releasedAt": "2015-04-24",
+    "releaseStatus": "verified"
   },
   "root": true,
   "relatedIds": [],

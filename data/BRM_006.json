@@ -87,7 +87,9 @@
       }
     ],
     "nativeRawText": "이 하수인은 피해를 받을 때마다 1/1 임프를 소환합니다.",
-    "nativeTextBuilder": 0
+    "nativeTextBuilder": 0,
+    "releasedAt": "2015-04-10",
+    "releaseStatus": "verified"
   },
   "root": true,
   "relatedIds": [

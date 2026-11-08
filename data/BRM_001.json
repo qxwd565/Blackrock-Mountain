@@ -55,7 +55,9 @@
       }
     ],
     "nativeRawText": "[x]카드를 2장 뽑습니다.\n이번 턴에 죽은 하수인\n하나당 비용이 (1)씩\n감소합니다.",
-    "nativeTextBuilder": 0
+    "nativeTextBuilder": 0,
+    "releasedAt": "2015-05-01",
+    "releaseStatus": "verified"
   },
   "root": true,
   "relatedIds": [],

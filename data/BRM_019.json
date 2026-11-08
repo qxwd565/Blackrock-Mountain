@@ -70,7 +70,9 @@
       }
     ],
     "nativeRawText": "이 하수인은 피해를 받고 생존한 후에, 다른 험상궂은 손님을 소환합니다.",
-    "nativeTextBuilder": 0
+    "nativeTextBuilder": 0,
+    "releasedAt": "2015-04-03",
+    "releaseStatus": "verified"
   },
   "root": true,
   "relatedIds": [

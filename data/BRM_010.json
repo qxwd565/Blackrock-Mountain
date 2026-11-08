@@ -70,7 +70,9 @@
       }
     ],
     "nativeRawText": "<b>선택 -</b> 5/2 또는 2/5 하수인으로 변신합니다.",
-    "nativeTextBuilder": 0
+    "nativeTextBuilder": 0,
+    "releasedAt": "2015-04-10",
+    "releaseStatus": "verified"
   },
   "root": true,
   "relatedIds": [

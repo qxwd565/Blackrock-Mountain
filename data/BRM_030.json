@@ -82,7 +82,9 @@
       }
     ],
     "nativeRawText": "[x]<b>전투의 함성:</b>\n<i>상대편 직업</i>의 무작위\n주문 둘을 내 손으로\n가져옵니다.",
-    "nativeTextBuilder": 0
+    "nativeTextBuilder": 0,
+    "releasedAt": "2015-05-01",
+    "releaseStatus": "verified"
   },
   "root": true,
   "relatedIds": [

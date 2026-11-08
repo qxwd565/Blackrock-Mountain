@@ -75,7 +75,9 @@
       }
     ],
     "nativeRawText": "[x]<b>전투의 함성:</b>\n내 손에 용족이 있으면,\n+1/+1을 얻습니다.",
-    "nativeTextBuilder": 0
+    "nativeTextBuilder": 0,
+    "releasedAt": "2015-04-10",
+    "releaseStatus": "verified"
   },
   "root": true,
   "relatedIds": [],
