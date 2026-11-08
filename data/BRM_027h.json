@@ -50,15 +50,7 @@
       }
     ],
     "nativeRawText": "",
-    "nativeTextBuilder": 0,
-    "history": [
-      {
-        "before": "2014-12-04",
-        "changes": {
-          "legacyArt": true
-        }
-      }
-    ]
+    "nativeTextBuilder": 0
   },
   "root": false,
   "relatedIds": [
