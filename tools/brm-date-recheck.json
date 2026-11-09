@@ -1,0 +1,71 @@
+{
+  "schema": 1,
+  "timezone": "Asia/Seoul",
+  "decision": "No confirmed date correction. Preserve all existing BRM dates with the evidence limits below.",
+  "availabilityScope": "Ordinary constructed-match acquisition in Korea, excluding client preload and earlier adventure challenge use.",
+  "collectibleWings": [
+    {
+      "date": "2015-04-03",
+      "bossAndWingRewards": ["BRM_019", "BRM_007", "BRM_017", "BRM_028"],
+      "classRewards": ["BRM_013", "BRM_003"],
+      "sources": ["https://hearthstone.blizzard.com/ko-kr/news/18390556", "https://hearthstone.blizzard.com/ko-kr/news/18555823"]
+    },
+    {
+      "date": "2015-04-10",
+      "bossAndWingRewards": ["BRM_010", "BRM_033", "BRM_006", "BRM_027"],
+      "classRewards": ["BRM_016", "BRM_011"],
+      "sources": ["https://hearthstone.blizzard.com/ko-kr/news/18644230", "https://www.inven.co.kr/webzine/news/?news=130378&vtype=pc"],
+      "note": "Contemporary Inven article explicitly states Korea 10:00."
+    },
+    {
+      "date": "2015-04-17",
+      "bossAndWingRewards": ["BRM_014", "BRM_018", "BRM_022", "BRM_029"],
+      "classRewards": ["BRM_004", "BRM_009"],
+      "sources": ["https://hearthstone.blizzard.com/ko-kr/news/18648154", "https://m.kbench.com/?q=node%2F149201"],
+      "note": "The official article April 16 header is not the Korean unlock date."
+    },
+    {
+      "date": "2015-04-24",
+      "bossAndWingRewards": ["BRM_015", "BRM_002", "BRM_026", "BRM_012", "BRM_031"],
+      "classRewards": ["BRM_005", "BRM_008"],
+      "sources": ["https://www.bodnara.co.kr/bbs/article.html?num=120961"]
+    },
+    {
+      "date": "2015-05-01",
+      "bossAndWingRewards": ["BRM_025", "BRM_034", "BRM_024", "BRM_020", "BRM_030"],
+      "classRewards": ["BRM_001"],
+      "sources": ["https://m.inven.co.kr/webzine/wznews.php?idx=131665"],
+      "note": "Dated May 1 11:17 article and rewards were visible in search. Direct fetch failed; this is not a new official fifth-wing source. Existing prior evidence remains preserved."
+    }
+  ],
+  "laterPatches": [
+    {
+      "patch": "27.2",
+      "date": "2023-08-23",
+      "cards": ["BRM_008", "BRM_016", "BRM_028", "BRM_034"],
+      "sources": ["https://hearthstone.blizzard.com/ko-kr/news/23987537"],
+      "note": "Official changes and August 23 schedule agree with existing dates."
+    },
+    {
+      "patch": "34.6",
+      "date": "2026-02-10",
+      "cards": ["BRM_014"],
+      "sources": ["https://hearthstone.blizzard.com/ko-kr/news/24242864", "https://hearthstone.blizzard.com/ko-kr/news/24242740", "https://www.inven.co.kr/board/hs/3508/23927", "https://www.inven.co.kr/board/hs/3508/23943"],
+      "note": "Official rewards table labels 34.6 patch and February 10 onward, supported by a February 10 03:03 contemporary repost. February 13 is a retrospective, not the effective day. High confidence patch day, not exact minute or card-specific gameplay-video evidence."
+    }
+  ],
+  "secondaryRaceTiming": {
+    "originals": ["BRM_010a", "BRM_010b", "BRM_010t", "BRM_010t2"],
+    "originalsRetainedDate": "2022-11-30",
+    "laterCombinedForm": "OG_044b",
+    "combinedFormRetainedDate": "2023-02-15",
+    "archiveFinding": "Actual secondary race tag 2540=1 is present on all four original forms in 25.0. OG_044b lacks it there and gains it in 25.4. Exact extracts and full XML hashes are in brm-mechanics-evidence.json.",
+    "sources": ["https://hearthstone.blizzard.com/ko-kr/news/23882860", "https://www.inven.co.kr/board/hs/3508/19548", "https://hearthstone.wiki.gg/wiki/Druid_of_the_Flame_%28Fire_Hawk_Form%29"],
+    "limitations": "The official 25.0 page describes dual types broadly, without the exact original-ID list. The contemporary 25.4 list groups all forms loosely. The BRM_010t2/DBF2311 wiki history explicitly says 25.0 but may derive from the same archive. No independent primary ID list, developer clarification or card-specific gameplay closes the exact server-live-day gap. Client/card-library preload is not live availability. Preserve the existing dates with this caveat, not a claim of independent server confirmation."
+  },
+  "remainingUncertainty": {
+    "initialNameTextTimelines": 14,
+    "rarityTimelines": 3,
+    "result": "No new confirmed corrections to these gaps. Keep observed ranges and provisional values explicit."
+  }
+}

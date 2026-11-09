@@ -1,8 +1,5 @@
 {
-  "schemaVersion": 2,
-  "mode": "constructed",
-  "englishName": "Dark Iron Skulker",
-  "card": {
+  "2015-04-24": {
     "id": "BRM_008",
     "dbfId": 2291,
     "name": "검은무쇠 잠복자",
@@ -10,118 +7,17 @@
     "type": "MINION",
     "cardClass": "ROGUE",
     "classes": [],
-    "nativeSetId": 14,
-    "set": "BRM",
     "rarity": "RARE",
-    "race": "",
-    "races": [],
-    "spellSchool": "",
     "cost": 5,
     "attack": 4,
     "health": 3,
-    "armor": 0,
-    "durability": 0,
     "collectible": true,
     "chooseOne": false,
-    "heroPowerDbfId": 0,
-    "installed": true,
-    "portrait": "HS4-048_D.psd:39bb5cc72fe60394d8122808f58fc6c6",
-    "flavor": "잠복하는 걸 아주 좋아합니다. 몇 시간이고 가만히 잠복해 있곤 합니다. 그래서 친구가 없습니다.",
-    "nativeTags": [
-      {
-        "id": 45,
-        "name": "생명력",
-        "value": 3
-      },
-      {
-        "id": 47,
-        "name": "공격력",
-        "value": 4
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 4
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 7
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 4
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 3
-      },
-      {
-        "id": 218,
-        "name": "전투의 함성",
-        "value": 1
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      }
-    ],
-    "nativeRawText": "<b>전투의 함성:</b> 피해를 받지 않은 모든 적 하수인에게 피해를 2 줍니다.",
-    "nativeTextBuilder": 0,
-    "releasedAt": "2015-04-24",
-    "releaseStatus": "verified",
     "mechanics": [
       "BATTLECRY"
-    ],
-    "patches": [
-      {
-        "date": "2023-08-23",
-        "changes": {
-          "cost": 4
-        }
-      }
-    ],
-    "patchSources": {
-      "2023-08-23": "https://hearthstone.blizzard.com/ko-kr/news/23987537"
-    },
-    "initialSpecStatus": "partially_verified"
+    ]
   },
-  "root": true,
-  "relatedIds": [],
-  "expansion": {
-    "id": 14,
-    "slug": "blackrock-mountain",
-    "name": "검은바위 산",
-    "type": "adventure",
-    "englishName": "Blackrock Mountain"
-  },
-  "setOrder": 40,
-  "formats": [
-    "wild"
-  ],
-  "provenance": {
-    "source": "Installed Hearthstone dbf.unity3d",
-    "gameVersion": "6000.3.11.3145967",
-    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
-    "locale": "koKR"
-  },
-  "historicalTextObservations": [
-    {
-      "build": "2.4.0.8311",
-      "name": "검은무쇠 잠복자",
-      "rawText": "<b>전투의 함성:</b> 피해를 입지 않은 모든 적 하수인에게 피해를 2 줍니다.",
-      "source": "https://github.com/HearthSim/hsdata/blob/b335c43f5580c215e5bcdc0e494b5a3f34ff8015/CardDefs.xml",
-      "lastObservedBuild": "8.0.0.18336"
-    },
-    {
-      "build": "9.0.0.20457",
-      "name": "검은무쇠 잠복자",
-      "rawText": "<b>전투의 함성:</b> 피해를 받지 않은 모든 적 하수인에게 피해를 2 줍니다.",
-      "source": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml",
-      "lastObservedBuild": "37.0.2.256589"
-    }
-  ]
+  "2023-08-23": {
+    "cost": 4
+  }
 }

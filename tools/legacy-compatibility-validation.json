@@ -1,0 +1,16 @@
+{
+  "result": "pass",
+  "sourceCommit": "0773e288056208e120d64f8fd11bf0834fa47b4a",
+  "oldPluginBase": "78ce6fdc4e70f689880a70d6f22aa77a6c75e337",
+  "currentCards": 41,
+  "currentCatalogueByteIdentical": true,
+  "legacyDateCases": 2583,
+  "artURLChecks": 246,
+  "preservedAssetFiles": 239,
+  "missingAssets": 0,
+  "rootHistoryBytes": 5050,
+  "preciseHistoryBytes": 26321,
+  "visibility": "unchanged; no new release/strict gating",
+  "reviewedHistoryCorrections": {},
+  "correctedLegacyDateCases": 0
+}

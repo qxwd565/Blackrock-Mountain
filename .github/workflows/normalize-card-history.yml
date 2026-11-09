@@ -8,6 +8,8 @@ on:
       - 'history.json'
       - 'release-policy.json'
       - 'data/**'
+      - 'metadata/**'
+      - '*-date.json'
       - 'tools/**'
   workflow_dispatch:
 permissions:
@@ -19,9 +21,18 @@ jobs:
       - uses: actions/checkout@v4
         with:
           persist-credentials: false
+          fetch-depth: 0
       - name: Generate API indexes with the committed builder
         run: python3 tools/build-api.py
       - name: Validate Blackrock Mountain release and patch history
         run: python3 tools/test-brm-history.py
+      - name: Validate date schema, preservation and compatibility
+        run: |
+          python3 tools/test-date-schema.py
+          python3 tools/test-brm-mechanics.py
+          python3 tools/test-future-canonical.py
+          python3 tools/test-legacy-compatibility.py
+          python3 tools/test-build-idempotence.py
+          python3 tools/test-clean-migration.py
       - name: Verify committed indexes are current
-        run: git diff --exit-code -- cards.json render.json history.json data
+        run: git diff --exit-code -- cards.json render.json history.json cards-date.json render-date.json history-date.json data metadata

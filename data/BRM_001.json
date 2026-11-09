@@ -1,8 +1,5 @@
 {
-  "schemaVersion": 2,
-  "mode": "constructed",
-  "englishName": "Solemn Vigil",
-  "card": {
+  "2015-05-01": {
     "id": "BRM_001",
     "dbfId": 2274,
     "name": "엄숙한 애도",
@@ -10,90 +7,10 @@
     "type": "SPELL",
     "cardClass": "PALADIN",
     "classes": [],
-    "nativeSetId": 14,
-    "set": "BRM",
     "rarity": "COMMON",
-    "race": "",
-    "races": [],
-    "spellSchool": "",
     "cost": 5,
-    "attack": 0,
-    "health": 0,
-    "armor": 0,
-    "durability": 0,
     "collectible": true,
     "chooseOne": false,
-    "heroPowerDbfId": 0,
-    "installed": true,
-    "portrait": "W6_058_D.psd:1333b936351dfff43b92bc185786fb1b",
-    "flavor": "매년 검은바위 산 앞에서는, 정신 지배 주문에 당해 용암 속으로 뛰어들어간 이들을 추모하는 행사가 열립니다.",
-    "nativeTags": [
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 5
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 5
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 5
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 1
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      }
-    ],
-    "nativeRawText": "[x]카드를 2장 뽑습니다.\n이번 턴에 죽은 하수인\n하나당 비용이 (1)씩\n감소합니다.",
-    "nativeTextBuilder": 0,
-    "releasedAt": "2015-05-01",
-    "releaseStatus": "verified",
-    "patches": [],
-    "initialSpecStatus": "partially_verified"
-  },
-  "root": true,
-  "relatedIds": [],
-  "expansion": {
-    "id": 14,
-    "slug": "blackrock-mountain",
-    "name": "검은바위 산",
-    "type": "adventure",
-    "englishName": "Blackrock Mountain"
-  },
-  "setOrder": 40,
-  "formats": [
-    "wild"
-  ],
-  "provenance": {
-    "source": "Installed Hearthstone dbf.unity3d",
-    "gameVersion": "6000.3.11.3145967",
-    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
-    "locale": "koKR"
-  },
-  "historicalTextObservations": [
-    {
-      "build": "2.4.0.8311",
-      "name": "엄숙한 애도",
-      "rawText": "카드를 2장 뽑습니다. 이번 턴에 죽은 하수인 하나당 비용이 (1)씩 감소합니다.",
-      "source": "https://github.com/HearthSim/hsdata/blob/b335c43f5580c215e5bcdc0e494b5a3f34ff8015/CardDefs.xml",
-      "lastObservedBuild": "5.0.0.12574"
-    },
-    {
-      "build": "6.0.0.13921",
-      "name": "엄숙한 애도",
-      "rawText": "[x]카드를 2장 뽑습니다.\n이번 턴에 죽은 하수인\n하나당 비용이 (1)씩\n감소합니다.",
-      "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
-      "lastObservedBuild": "37.0.2.256589"
-    }
-  ]
+    "mechanics": []
+  }
 }

@@ -1,8 +1,5 @@
 {
-  "schemaVersion": 2,
-  "mode": "constructed",
-  "englishName": "Emperor Thaurissan",
-  "card": {
+  "2015-04-03": {
     "id": "BRM_028",
     "dbfId": 2262,
     "name": "제왕 타우릿산",
@@ -10,118 +7,17 @@
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "classes": [],
-    "nativeSetId": 14,
-    "set": "BRM",
     "rarity": "LEGENDARY",
-    "race": "",
-    "races": [],
-    "spellSchool": "",
     "cost": 6,
     "attack": 5,
     "health": 5,
-    "armor": 0,
-    "durability": 0,
     "collectible": true,
     "chooseOne": false,
-    "heroPowerDbfId": 0,
-    "installed": true,
-    "portrait": "HS4_001_D.psd:c12c355650c99f842897a8ac6c894387",
-    "flavor": "그가 살면서 두 번째로 후회하는 일은, 사악한 불의 군주를 소환해 부족 전체를 노예 신세로 만든 것입니다.",
-    "nativeTags": [
-      {
-        "id": 32,
-        "name": "발동 효과 표시",
-        "value": 1
-      },
-      {
-        "id": 45,
-        "name": "생명력",
-        "value": 4
-      },
-      {
-        "id": 47,
-        "name": "공격력",
-        "value": 4
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 5
-      },
-      {
-        "id": 114,
-        "name": "전설 속성",
-        "value": 1
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 12
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 4
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 5
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      }
-    ],
-    "nativeRawText": "내 턴이 끝날 때, 내 손에 있는 카드들의 비용이 (1) 감소합니다.",
-    "nativeTextBuilder": 0,
-    "releasedAt": "2015-04-03",
-    "releaseStatus": "verified",
-    "mechanics": [
-      "TRIGGER_VISUAL"
-    ],
-    "patches": [
-      {
-        "date": "2023-08-23",
-        "changes": {
-          "cost": 5,
-          "attack": 4,
-          "health": 4
-        }
-      }
-    ],
-    "patchSources": {
-      "2023-08-23": "https://hearthstone.blizzard.com/ko-kr/news/23987537"
-    },
-    "initialSpecStatus": "partially_verified"
+    "mechanics": []
   },
-  "root": true,
-  "relatedIds": [],
-  "expansion": {
-    "id": 14,
-    "slug": "blackrock-mountain",
-    "name": "검은바위 산",
-    "type": "adventure",
-    "englishName": "Blackrock Mountain"
-  },
-  "setOrder": 40,
-  "formats": [
-    "wild"
-  ],
-  "provenance": {
-    "source": "Installed Hearthstone dbf.unity3d",
-    "gameVersion": "6000.3.11.3145967",
-    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
-    "locale": "koKR"
-  },
-  "historicalTextObservations": [
-    {
-      "build": "2.4.0.8311",
-      "name": "제왕 타우릿산",
-      "rawText": "내 턴이 끝날 때, 내 손에 있는 카드들의 비용이 (1) 감소합니다.",
-      "source": "https://github.com/HearthSim/hsdata/blob/b335c43f5580c215e5bcdc0e494b5a3f34ff8015/CardDefs.xml",
-      "lastObservedBuild": "37.0.2.256589"
-    }
-  ]
+  "2023-08-23": {
+    "cost": 5,
+    "attack": 4,
+    "health": 4
+  }
 }

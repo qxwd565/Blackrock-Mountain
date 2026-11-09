@@ -1,0 +1,290 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "BRM_022t",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2015-04-17",
+    "status": "verified"
+  },
+  "baselineStatus": "partially-verified",
+  "confidenceNote": "All existing dates and numeric evidence are preserved.14 initial Korean name/text timelines and3 rarity timelines remain provisional. No fully verified baseline or exact cosmetic transition is invented.",
+  "sourceCommit": "0773e288056208e120d64f8fd11bf0834fa47b4a",
+  "originalSource": {
+    "schemaVersion": 2,
+    "mode": "constructed",
+    "englishName": "Black Whelp",
+    "card": {
+      "id": "BRM_022t",
+      "dbfId": 2436,
+      "name": "검은 새끼용",
+      "text": "",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "classes": [],
+      "nativeSetId": 14,
+      "set": "BRM",
+      "rarity": "FREE",
+      "race": "DRAGON",
+      "races": [
+        "DRAGON"
+      ],
+      "spellSchool": "",
+      "cost": 1,
+      "attack": 2,
+      "health": 1,
+      "armor": 0,
+      "durability": 0,
+      "collectible": false,
+      "chooseOne": false,
+      "heroPowerDbfId": 0,
+      "installed": true,
+      "portrait": "HS4_007_D.tif:b16695b6887f22745b4a4672a6bd92a3",
+      "flavor": "",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 1
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 24
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 2355,
+          "name": "새끼용",
+          "value": 1
+        }
+      ],
+      "nativeRawText": "",
+      "nativeTextBuilder": 0,
+      "releasedAt": "2015-04-17",
+      "releaseStatus": "verified",
+      "patches": [],
+      "initialSpecStatus": "partially_verified"
+    },
+    "root": false,
+    "relatedIds": [],
+    "expansion": {
+      "id": 14,
+      "slug": "blackrock-mountain",
+      "name": "검은바위 산",
+      "type": "adventure",
+      "englishName": "Blackrock Mountain"
+    },
+    "setOrder": 40,
+    "formats": [
+      "wild"
+    ],
+    "provenance": {
+      "source": "Installed Hearthstone dbf.unity3d",
+      "gameVersion": "6000.3.11.3145967",
+      "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+      "locale": "koKR"
+    },
+    "historicalTextObservations": [
+      {
+        "build": "2.4.0.8311",
+        "name": "검은 새끼용",
+        "rawText": "",
+        "source": "https://github.com/HearthSim/hsdata/blob/b335c43f5580c215e5bcdc0e494b5a3f34ff8015/CardDefs.xml",
+        "lastObservedBuild": "37.0.2.256589"
+      }
+    ]
+  },
+  "currentCatalog": {
+    "id": "BRM_022t",
+    "dbfId": 2436,
+    "name": "검은 새끼용",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "FREE",
+    "collectible": false,
+    "cost": 1,
+    "text": "",
+    "attack": 2,
+    "health": 1,
+    "durability": 0,
+    "armor": 0,
+    "art": "art/BRM_022t.png",
+    "portrait": "HS4_007_D.tif:b16695b6887f22745b4a4672a6bd92a3",
+    "races": [
+      "DRAGON"
+    ],
+    "race": "DRAGON",
+    "set": "BRM",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 1
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 24
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 2355,
+        "name": "새끼용",
+        "value": 1
+      }
+    ],
+    "releasedAt": "2015-04-17",
+    "releaseStatus": "verified",
+    "classes": [],
+    "spellSchool": ""
+  },
+  "currentOnlyFields": [
+    "armor",
+    "art",
+    "durability",
+    "nativeTags",
+    "portrait",
+    "set",
+    "spellSchool"
+  ],
+  "canonicalFields": [
+    "attack",
+    "cardClass",
+    "chooseOne",
+    "classes",
+    "collectible",
+    "cost",
+    "dbfId",
+    "health",
+    "id",
+    "mechanics",
+    "name",
+    "race",
+    "races",
+    "rarity",
+    "text",
+    "type"
+  ],
+  "keywordAbilityEvidence": {
+    "source": "tools/brm-keyword-abilities.json",
+    "vocabulary": "Bounded intrinsic keyword abilities and concrete targeting restrictions observed in the 36 pinned archives, corroborated by own card text. Not a complete free-text effect or engine-flag inventory. Empty list means no recognized keyword, not no effect. AURA/TRIGGER_VISUAL remain implementation observations."
+  },
+  "legacyMechanicsConvention": {
+    "present": false,
+    "original": [],
+    "canonicalBaseline": []
+  },
+  "chooseOneEvidence": {
+    "meaning": "Original parent ability boolean, not generated-option membership.",
+    "preservedOriginalValue": false,
+    "baselineBasis": "BRM_010 release text explicitly has Choose One; the other40 original false booleans are retained. Current tags are corroboration, not release proof.",
+    "oldCurrentCatalogPresence": "Absent; root preserves endpoint-specific omission.",
+    "source": "tools/brm-keyword-abilities.json"
+  },
+  "baselineEvidence": {
+    "id": "BRM_022t",
+    "releasedAt": "2015-04-17",
+    "initialNumericSpecStatus": "verified against 2.4.0.8311",
+    "initialNumbers": {
+      "cost": 1,
+      "attack": 2,
+      "health": 1,
+      "durability": 0
+    },
+    "initialType": "MINION",
+    "initialName": "검은 새끼용",
+    "initialRawText": "",
+    "initialRarityEnum": 1,
+    "initialDisplayMatchesRelease": true,
+    "datedPatches": [],
+    "observedTextTransitionRanges": [],
+    "limitations": [
+      "Raw release RARITY=1, absent by12.0 after11.0; exact removal date unresolved. API rarity FREE remains provisional. WHELP engine classification and other internal tags are not modeled as display mechanics."
+    ],
+    "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/b335c43f5580c215e5bcdc0e494b5a3f34ff8015/CardDefs.xml"
+  },
+  "availabilityScope": "User-selected Korean ordinary constructed-match availability by wing/reward acquisition; excludes client preload and earlier adventure challenge use. Generated entities follow their producer, including OG_044b on 2016-04-27.",
+  "dateRecheckEvidence": "tools/brm-date-recheck.json",
+  "undatedEvidence": {
+    "historicalTextObservations": [
+      {
+        "build": "2.4.0.8311",
+        "name": "검은 새끼용",
+        "rawText": "",
+        "source": "https://github.com/HearthSim/hsdata/blob/b335c43f5580c215e5bcdc0e494b5a3f34ff8015/CardDefs.xml",
+        "lastObservedBuild": "37.0.2.256589"
+      }
+    ],
+    "reason": "Client observation ranges are not Korean effective dates."
+  },
+  "abilityImplementationObservations": [
+    {
+      "build": "2.4.0.8311",
+      "source": "https://github.com/HearthSim/hsdata/blob/b335c43f5580c215e5bcdc0e494b5a3f34ff8015/CardDefs.xml",
+      "Tag": {},
+      "ReferencedTag": {},
+      "dateStatus": "Observation only, not an asserted Korean effective date.",
+      "lastObservedBuild": "37.0.2.256589"
+    }
+  ],
+  "fieldUncertainty": {
+    "rarity": {
+      "preservedValue": "FREE",
+      "meaning": "Provisional inherited display value, not verified historical rarity.",
+      "observations": [
+        {
+          "build": "2.4.0.8311",
+          "rawTag203": "1",
+          "present": true,
+          "lastObservedBuild": "11.0.0.23966"
+        },
+        {
+          "build": "12.0.0.25770",
+          "rawTag203": null,
+          "present": false,
+          "lastObservedBuild": "37.0.2.256589"
+        }
+      ],
+      "unresolved": "Exact effective dates and generated-entity display semantics. No dated rarity patch invented.",
+      "source": "tools/brm-mechanics-evidence.json"
+    }
+  }
+}

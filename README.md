@@ -30,3 +30,7 @@ python3 tools/test-brm-history.py
 생성 파일을 직접 고치지 말고 원본 JSON을 수정한 뒤 빌드하세요. 빌더는 저장소에 커밋된 코드만 실행합니다. CI는 읽기 전용이며 외부 스크립트 다운로드나 자동 커밋/푸시를 하지 않습니다.
 
 검증 범위와 남은 한계는 [감사 기록](AUDIT.md), 카드별 근거는 `tools/brm-release-audit.json`에 있습니다.
+
+## Date-first canonical data
+
+Card-specific files now use ascending Korean date keys with explicit field-removal semantics. See [docs/date-schema.md](docs/date-schema.md) for the dual root transports, preserved source evidence, bounded historical uncertainty and reproducible checks. Existing schema1 plugin endpoints remain unchanged in purpose; precise clients must explicitly select the `*-date.json` siblings.

@@ -1,8 +1,5 @@
 {
-  "schemaVersion": 2,
-  "mode": "constructed",
-  "englishName": "Dragonkin Sorcerer",
-  "card": {
+  "2015-05-01": {
     "id": "BRM_020",
     "dbfId": 2306,
     "name": "용혈족 마술사",
@@ -10,125 +7,19 @@
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "classes": [],
-    "nativeSetId": 14,
-    "set": "BRM",
     "rarity": "COMMON",
     "race": "DRAGON",
     "races": [
       "DRAGON"
     ],
-    "spellSchool": "",
     "cost": 4,
     "attack": 3,
     "health": 5,
-    "armor": 0,
-    "durability": 0,
     "collectible": true,
     "chooseOne": false,
-    "heroPowerDbfId": 0,
-    "installed": true,
-    "portrait": "HS4_008_D.psd:3c4fa1946b9156e4f8c4e71066809895",
-    "flavor": "용족 마술사와 마법사를 어떻게 구분하냐고요? 모자 안에 비둘기가 있으면 마술사입니다.",
-    "nativeTags": [
-      {
-        "id": 32,
-        "name": "발동 효과 표시",
-        "value": 1
-      },
-      {
-        "id": 45,
-        "name": "생명력",
-        "value": 5
-      },
-      {
-        "id": 47,
-        "name": "공격력",
-        "value": 3
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 4
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 12
-      },
-      {
-        "id": 200,
-        "name": "종족",
-        "value": 24
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 4
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 1
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      }
-    ],
-    "nativeRawText": "내가 주문의 대상으로 이 하수인을 지정할 때마다 +1/+1을 얻습니다.",
-    "nativeTextBuilder": 0,
-    "releasedAt": "2015-05-01",
-    "releaseStatus": "verified",
-    "mechanics": [
-      "TRIGGER_VISUAL"
-    ],
-    "patches": [
-      {
-        "date": "2016-11-30",
-        "changes": {
-          "name": "용족 마술사"
-        }
-      }
-    ],
-    "patchSources": {
-      "2016-11-30": "https://hearthstone.blizzard.com/ko-kr/news/20382066"
-    },
-    "initialSpecStatus": "partially_verified"
+    "mechanics": []
   },
-  "root": true,
-  "relatedIds": [],
-  "expansion": {
-    "id": 14,
-    "slug": "blackrock-mountain",
-    "name": "검은바위 산",
-    "type": "adventure",
-    "englishName": "Blackrock Mountain"
-  },
-  "setOrder": 40,
-  "formats": [
-    "wild"
-  ],
-  "provenance": {
-    "source": "Installed Hearthstone dbf.unity3d",
-    "gameVersion": "6000.3.11.3145967",
-    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
-    "locale": "koKR"
-  },
-  "historicalTextObservations": [
-    {
-      "build": "2.4.0.8311",
-      "name": "용혈족 마술사",
-      "rawText": "내가 주문의 대상으로 이 하수인을 지정할 때마다 +1/+1을 얻습니다.",
-      "source": "https://github.com/HearthSim/hsdata/blob/b335c43f5580c215e5bcdc0e494b5a3f34ff8015/CardDefs.xml",
-      "lastObservedBuild": "6.2.0.15181"
-    },
-    {
-      "build": "7.0.0.15590",
-      "name": "용족 마술사",
-      "rawText": "내가 주문의 대상으로 이 하수인을 지정할 때마다 +1/+1을 얻습니다.",
-      "source": "https://github.com/HearthSim/hsdata/blob/2155786e4175c66348b73037d3799c3fe96eeb6d/CardDefs.xml",
-      "lastObservedBuild": "37.0.2.256589"
-    }
-  ]
+  "2016-11-30": {
+    "name": "용족 마술사"
+  }
 }

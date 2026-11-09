@@ -1,0 +1,519 @@
+{
+  "result": "pass",
+  "sourceCommit": "0773e288056208e120d64f8fd11bf0834fa47b4a",
+  "cards": 41,
+  "sourceDocumentsPreserved": 41,
+  "events": 35,
+  "baselineFullyVerified": 0,
+  "partialExactInitialTexts": 14,
+  "uncertainRarityHistories": 3,
+  "globalDateSamples": 63,
+  "exactSourceAndTransportChecks": 2583,
+  "types": {
+    "SPELL": 9,
+    "MINION": 30,
+    "HERO": 1,
+    "HERO_POWER": 1
+  },
+  "reconstructedKeywordLists": 41,
+  "keywordDeltasAddedToExistingEvents": 0,
+  "preservedChooseOneBooleans": {
+    "true": 1,
+    "false": 40
+  },
+  "preservedPriorEvidenceFiles": [
+    "golden/cards/BRM_001.json",
+    "golden/cards/BRM_002.json",
+    "golden/cards/BRM_003.json",
+    "golden/cards/BRM_004.json",
+    "golden/cards/BRM_005.json",
+    "golden/cards/BRM_006.json",
+    "golden/cards/BRM_006t.json",
+    "golden/cards/BRM_007.json",
+    "golden/cards/BRM_008.json",
+    "golden/cards/BRM_009.json",
+    "golden/cards/BRM_010.json",
+    "golden/cards/BRM_010a.json",
+    "golden/cards/BRM_010b.json",
+    "golden/cards/BRM_010t.json",
+    "golden/cards/BRM_010t2.json",
+    "golden/cards/BRM_011.json",
+    "golden/cards/BRM_012.json",
+    "golden/cards/BRM_013.json",
+    "golden/cards/BRM_014.json",
+    "golden/cards/BRM_015.json",
+    "golden/cards/BRM_016.json",
+    "golden/cards/BRM_017.json",
+    "golden/cards/BRM_018.json",
+    "golden/cards/BRM_019.json",
+    "golden/cards/BRM_020.json",
+    "golden/cards/BRM_022.json",
+    "golden/cards/BRM_022t.json",
+    "golden/cards/BRM_024.json",
+    "golden/cards/BRM_025.json",
+    "golden/cards/BRM_026.json",
+    "golden/cards/BRM_027.json",
+    "golden/cards/BRM_027h.json",
+    "golden/cards/BRM_027p.json",
+    "golden/cards/BRM_028.json",
+    "golden/cards/BRM_029.json",
+    "golden/cards/BRM_030.json",
+    "golden/cards/BRM_030t.json",
+    "golden/cards/BRM_031.json",
+    "golden/cards/BRM_033.json",
+    "golden/cards/BRM_034.json",
+    "golden/cards/OG_044b.json",
+    "golden/index.json",
+    "manifest.json",
+    "release-policy.json",
+    "tools/brm-client-numeric.json",
+    "tools/brm-current-fixtures.json",
+    "tools/brm-independent-review.json",
+    "tools/brm-release-audit.json"
+  ],
+  "projectionChanges": [
+    {
+      "id": "BRM_001",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "attack": 0,
+        "health": 0,
+        "armor": 0,
+        "durability": 0,
+        "heroPowerDbfId": 0
+      }
+    },
+    {
+      "id": "BRM_002",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0,
+        "heroPowerDbfId": 0
+      }
+    },
+    {
+      "id": "BRM_003",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "attack": 0,
+        "health": 0,
+        "armor": 0,
+        "durability": 0,
+        "heroPowerDbfId": 0
+      }
+    },
+    {
+      "id": "BRM_004",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0,
+        "heroPowerDbfId": 0
+      }
+    },
+    {
+      "id": "BRM_005",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "attack": 0,
+        "health": 0,
+        "armor": 0,
+        "durability": 0,
+        "heroPowerDbfId": 0
+      }
+    },
+    {
+      "id": "BRM_006",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0,
+        "heroPowerDbfId": 0
+      }
+    },
+    {
+      "id": "BRM_006t",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0,
+        "heroPowerDbfId": 0
+      }
+    },
+    {
+      "id": "BRM_007",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "attack": 0,
+        "health": 0,
+        "armor": 0,
+        "durability": 0,
+        "heroPowerDbfId": 0
+      }
+    },
+    {
+      "id": "BRM_008",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0,
+        "heroPowerDbfId": 0
+      }
+    },
+    {
+      "id": "BRM_009",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0,
+        "heroPowerDbfId": 0
+      }
+    },
+    {
+      "id": "BRM_010",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0,
+        "heroPowerDbfId": 0
+      }
+    },
+    {
+      "id": "BRM_010a",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "attack": 0,
+        "health": 0,
+        "armor": 0,
+        "durability": 0,
+        "heroPowerDbfId": 0
+      }
+    },
+    {
+      "id": "BRM_010b",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "attack": 0,
+        "health": 0,
+        "armor": 0,
+        "durability": 0,
+        "heroPowerDbfId": 0
+      }
+    },
+    {
+      "id": "BRM_010t",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0,
+        "heroPowerDbfId": 0
+      }
+    },
+    {
+      "id": "BRM_010t2",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0,
+        "heroPowerDbfId": 0
+      }
+    },
+    {
+      "id": "BRM_011",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "attack": 0,
+        "health": 0,
+        "armor": 0,
+        "durability": 0,
+        "heroPowerDbfId": 0
+      }
+    },
+    {
+      "id": "BRM_012",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0,
+        "heroPowerDbfId": 0
+      }
+    },
+    {
+      "id": "BRM_013",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "attack": 0,
+        "health": 0,
+        "armor": 0,
+        "durability": 0,
+        "heroPowerDbfId": 0
+      }
+    },
+    {
+      "id": "BRM_014",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0,
+        "heroPowerDbfId": 0
+      }
+    },
+    {
+      "id": "BRM_015",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "attack": 0,
+        "health": 0,
+        "armor": 0,
+        "durability": 0,
+        "heroPowerDbfId": 0
+      }
+    },
+    {
+      "id": "BRM_016",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0,
+        "heroPowerDbfId": 0
+      }
+    },
+    {
+      "id": "BRM_017",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "attack": 0,
+        "health": 0,
+        "armor": 0,
+        "durability": 0,
+        "heroPowerDbfId": 0
+      }
+    },
+    {
+      "id": "BRM_018",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0,
+        "heroPowerDbfId": 0
+      }
+    },
+    {
+      "id": "BRM_019",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0,
+        "heroPowerDbfId": 0
+      }
+    },
+    {
+      "id": "BRM_020",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0,
+        "heroPowerDbfId": 0
+      }
+    },
+    {
+      "id": "BRM_022",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0,
+        "heroPowerDbfId": 0
+      }
+    },
+    {
+      "id": "BRM_022t",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0,
+        "heroPowerDbfId": 0
+      }
+    },
+    {
+      "id": "BRM_024",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0,
+        "heroPowerDbfId": 0
+      }
+    },
+    {
+      "id": "BRM_025",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0,
+        "heroPowerDbfId": 0
+      }
+    },
+    {
+      "id": "BRM_026",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0,
+        "heroPowerDbfId": 0
+      }
+    },
+    {
+      "id": "BRM_027",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0,
+        "heroPowerDbfId": 0
+      }
+    },
+    {
+      "id": "BRM_027h",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "cost": 0,
+        "attack": 0,
+        "armor": 0,
+        "durability": 0
+      }
+    },
+    {
+      "id": "BRM_027p",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "attack": 0,
+        "health": 0,
+        "armor": 0,
+        "durability": 0,
+        "heroPowerDbfId": 0
+      }
+    },
+    {
+      "id": "BRM_028",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0,
+        "heroPowerDbfId": 0
+      }
+    },
+    {
+      "id": "BRM_029",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0,
+        "heroPowerDbfId": 0
+      }
+    },
+    {
+      "id": "BRM_030",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0,
+        "heroPowerDbfId": 0
+      }
+    },
+    {
+      "id": "BRM_030t",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "attack": 0,
+        "health": 0,
+        "armor": 0,
+        "durability": 0,
+        "heroPowerDbfId": 0
+      }
+    },
+    {
+      "id": "BRM_031",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0,
+        "heroPowerDbfId": 0
+      }
+    },
+    {
+      "id": "BRM_033",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0,
+        "heroPowerDbfId": 0
+      }
+    },
+    {
+      "id": "BRM_034",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0,
+        "heroPowerDbfId": 0
+      }
+    },
+    {
+      "id": "OG_044b",
+      "sourcePlaceholdersExcludedFromCanonical": {
+        "spellSchool": "",
+        "armor": 0,
+        "durability": 0,
+        "heroPowerDbfId": 0
+      }
+    }
+  ],
+  "presenceFixturesPassed": true
+}

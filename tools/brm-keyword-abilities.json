@@ -1,0 +1,83 @@
+{
+  "schema": 1,
+  "vocabulary": "Bounded intrinsic keyword abilities and concrete targeting restrictions observed in the 36 pinned archives, corroborated by own card text. Not a complete free-text effect or engine-flag inventory. Empty list means no recognized keyword, not no effect. AURA/TRIGGER_VISUAL remain implementation observations.",
+  "baseline": {
+    "BRM_001": [],
+    "BRM_002": [],
+    "BRM_003": [],
+    "BRM_004": [
+      "BATTLECRY"
+    ],
+    "BRM_005": [],
+    "BRM_006": [],
+    "BRM_006t": [],
+    "BRM_007": [],
+    "BRM_008": [
+      "BATTLECRY"
+    ],
+    "BRM_009": [
+      "TAUNT"
+    ],
+    "BRM_010": [
+      "CHOOSE_ONE"
+    ],
+    "BRM_010a": [],
+    "BRM_010b": [],
+    "BRM_010t": [],
+    "BRM_010t2": [],
+    "BRM_011": [],
+    "BRM_012": [
+      "BATTLECRY",
+      "OVERLOAD"
+    ],
+    "BRM_013": [],
+    "BRM_014": [
+      "BATTLECRY"
+    ],
+    "BRM_015": [],
+    "BRM_016": [],
+    "BRM_017": [],
+    "BRM_018": [
+      "BATTLECRY"
+    ],
+    "BRM_019": [],
+    "BRM_020": [],
+    "BRM_022": [],
+    "BRM_022t": [],
+    "BRM_024": [
+      "BATTLECRY"
+    ],
+    "BRM_025": [],
+    "BRM_026": [
+      "BATTLECRY"
+    ],
+    "BRM_027": [
+      "DEATHRATTLE"
+    ],
+    "BRM_027h": [],
+    "BRM_027p": [],
+    "BRM_028": [],
+    "BRM_029": [
+      "BATTLECRY"
+    ],
+    "BRM_030": [
+      "BATTLECRY"
+    ],
+    "BRM_030t": [],
+    "BRM_031": [],
+    "BRM_033": [
+      "BATTLECRY"
+    ],
+    "BRM_034": [
+      "BATTLECRY"
+    ],
+    "OG_044b": []
+  },
+  "events": {},
+  "exceptions": {
+    "BRM_010": "Choose One is explicit in release text before actual tag443 appears in sampled5.0; source chooseOne true is retained.",
+    "BRM_011": "Unlocks Overload; does not itself have the Overload keyword cost. Bold keyword mentions do not prove ownership.",
+    "BRM_027p": "Hero Power is card-type presentation, not an intrinsic keyword ability."
+  },
+  "source": "tools/brm-mechanics-evidence.json"
+}

@@ -1,0 +1,14 @@
+{
+  "result": "pass",
+  "builds": 36,
+  "cardKeywordObservations": 1470,
+  "boundedKeywordLists": 41,
+  "textBackedReleaseChooseOne": 1,
+  "sourceOverloadReferenceCorrectedInPreciseOnly": [
+    "BRM_011"
+  ],
+  "legacyTriggerVisualAnnotationsRetained": 8,
+  "legacyMechanicsAbsenceRetained": 18,
+  "futureCanonicalKeywordChangesFlowThrough": true,
+  "newGameplayDatesInferredFromFlags": 0
+}

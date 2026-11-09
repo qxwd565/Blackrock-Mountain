@@ -6,10 +6,11 @@ import copy,hashlib,importlib.util,json,re,subprocess,sys
 R=Path(__file__).resolve().parents[1]
 def load(p):return json.loads((R/p).read_text())
 def digest(x):return hashlib.sha256(json.dumps(x,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode()).hexdigest()
-spec=importlib.util.spec_from_file_location('builder',R/'tools/build-api.py');B=importlib.util.module_from_spec(spec);spec.loader.exec_module(B)
+spec=importlib.util.spec_from_file_location('builder',R/'tools/wrapper_api_reference.py');B=importlib.util.module_from_spec(spec);spec.loader.exec_module(B)
 fixtures=load('tools/brm-current-fixtures.json')['cards'];obs=load('tools/brm-client-numeric.json')['cards']
 current={c['id']:c for c in load('cards.json')['cards']};render={c['id']:c for c in load('render.json')['cards']};legacy=load('history.json')['cards']
-docs={p.stem:json.loads(p.read_text()) for p in (R/'data').glob('*.json')};audit=load('tools/brm-release-audit.json');policy=load('release-policy.json')
+from date_schema import compatibility_card
+docs={p.stem:dict(json.loads((R/'metadata'/p.name).read_text())['originalSource'],card=compatibility_card(R,p.stem)) for p in (R/'data').glob('*.json')};audit=load('tools/brm-release-audit.json');policy=load('release-policy.json')
 assert len(docs)==41 and set(docs)==set(current)==set(render)==set(fixtures)==set(obs)
 assert sum(c['collectible'] for c in current.values())==31
 for p in R.rglob('*.json'):json.loads(p.read_text())
@@ -125,4 +126,4 @@ before={p:p.read_bytes() for p in paths}
 for _ in range(2):
  subprocess.run([sys.executable,str(R/'tools/build-api.py')],check=True,capture_output=True)
  assert all(p.read_bytes()==b for p,b in before.items()),'non-idempotent builder'
-print(json.dumps({'cards':41,'collectible':31,'tokensAndOptions':10,'datedEvents':sum(len(d['card']['patches']) for d in docs.values()),'forwardReverseBoundaryChecks':checks,'clientNumericObservations':sum(map(len,obs.values())),'partialInitialDisplays':load('manifest.json')['partialInitialDisplayCardCount'],'currentGameplaySpecChanges':0,'currentReleaseMetadataChanges':1,'rawEvidencePreserved':True,'twoBuildsIdempotent':True}))
+print(json.dumps({'cards':41,'collectible':31,'tokensAndOptions':10,'datedEvents':sum(len(d['card']['patches']) for d in docs.values()),'forwardReverseBoundaryChecks':checks,'clientNumericObservations':sum(map(len,obs.values())),'partialInitialDisplays':load('manifest.json')['partialInitialDisplayCardCount'],'currentGameplaySpecChanges':0,'currentReleaseMetadataChanges':0,'rawEvidencePreserved':True,'twoBuildsIdempotent':True}))

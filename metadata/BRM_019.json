@@ -1,0 +1,368 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "BRM_019",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2015-04-03",
+    "status": "verified"
+  },
+  "baselineStatus": "partially-verified",
+  "confidenceNote": "All existing dates and numeric evidence are preserved.14 initial Korean name/text timelines and3 rarity timelines remain provisional. No fully verified baseline or exact cosmetic transition is invented.",
+  "sourceCommit": "0773e288056208e120d64f8fd11bf0834fa47b4a",
+  "originalSource": {
+    "schemaVersion": 2,
+    "mode": "constructed",
+    "englishName": "Grim Patron",
+    "card": {
+      "id": "BRM_019",
+      "dbfId": 2279,
+      "name": "험상궂은 손님",
+      "text": "이 하수인이 피해를 입고 생존할 때마다 다른 험상궂은 손님을 소환합니다.",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "classes": [],
+      "nativeSetId": 14,
+      "set": "BRM",
+      "rarity": "RARE",
+      "race": "",
+      "races": [],
+      "spellSchool": "",
+      "cost": 5,
+      "attack": 3,
+      "health": 3,
+      "armor": 0,
+      "durability": 0,
+      "collectible": true,
+      "chooseOne": false,
+      "heroPowerDbfId": 0,
+      "installed": true,
+      "portrait": "HS3-076_D.psd:cd9f5ee9bd129d440a08798dcded04a7",
+      "flavor": "정신이 번쩍 들게 두들겨 맞고 싶으십니까? 험상궂은 주정뱅이 선술집으로 오십시오!",
+      "nativeTags": [
+        {
+          "id": 32,
+          "name": "발동 효과 표시",
+          "value": 1
+        },
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 5
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "nativeRawText": "이 하수인은 피해를 받고 생존한 후에, 다른 험상궂은 손님을 소환합니다.",
+      "nativeTextBuilder": 0,
+      "releasedAt": "2015-04-03",
+      "releaseStatus": "verified",
+      "mechanics": [
+        "TRIGGER_VISUAL"
+      ],
+      "patches": [
+        {
+          "date": "2018-02-07",
+          "changes": {
+            "text": "이 하수인은 피해를 받고 생존한 후에, 다른 험상궂은 손님을 소환합니다."
+          }
+        }
+      ],
+      "patchSources": {
+        "2018-02-07": "https://hearthstone.blizzard.com/ko-kr/news/21507224"
+      },
+      "initialSpecStatus": "partially_verified"
+    },
+    "root": true,
+    "relatedIds": [
+      2279
+    ],
+    "expansion": {
+      "id": 14,
+      "slug": "blackrock-mountain",
+      "name": "검은바위 산",
+      "type": "adventure",
+      "englishName": "Blackrock Mountain"
+    },
+    "setOrder": 40,
+    "formats": [
+      "wild"
+    ],
+    "provenance": {
+      "source": "Installed Hearthstone dbf.unity3d",
+      "gameVersion": "6000.3.11.3145967",
+      "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+      "locale": "koKR"
+    },
+    "historicalTextObservations": [
+      {
+        "build": "2.4.0.8311",
+        "name": "험상궂은 손님",
+        "rawText": "이 하수인이 피해를 입고 생존할 때마다 다른 험상궂은 손님을 소환합니다.",
+        "source": "https://github.com/HearthSim/hsdata/blob/b335c43f5580c215e5bcdc0e494b5a3f34ff8015/CardDefs.xml",
+        "lastObservedBuild": "4.1.0.10956"
+      },
+      {
+        "build": "5.0.0.12574",
+        "name": "험상궂은 손님",
+        "rawText": "이 하수인은 피해를 입고 생존할 때마다 다른 험상궂은 손님을 소환합니다.",
+        "source": "https://github.com/HearthSim/hsdata/blob/4f7206f440ab05115824b7263aa36cd94a96327f/CardDefs.xml",
+        "lastObservedBuild": "8.0.0.18336"
+      },
+      {
+        "build": "9.0.0.20457",
+        "name": "험상궂은 손님",
+        "rawText": "이 하수인은 피해를 받고 생존할 때마다 다른 험상궂은 손님을 소환합니다.",
+        "source": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml",
+        "lastObservedBuild": "10.0.0.22611"
+      },
+      {
+        "build": "10.2.0.23180",
+        "name": "험상궂은 손님",
+        "rawText": "이 하수인은 피해를 받고 생존한 후에, 다른 험상궂은 손님을 소환합니다.",
+        "source": "https://github.com/HearthSim/hsdata/blob/1a0dcda07394c622066630e4d09817aca8ff9fbf/CardDefs.xml",
+        "lastObservedBuild": "37.0.2.256589"
+      }
+    ]
+  },
+  "currentCatalog": {
+    "id": "BRM_019",
+    "dbfId": 2279,
+    "name": "험상궂은 손님",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 5,
+    "text": "이 하수인은 피해를 받고 생존한 후에, 다른 험상궂은 손님을 소환합니다.",
+    "attack": 3,
+    "health": 3,
+    "durability": 0,
+    "armor": 0,
+    "art": "art/BRM_019.png",
+    "flavor": "정신이 번쩍 들게 두들겨 맞고 싶으십니까? 험상궂은 주정뱅이 선술집으로 오십시오!",
+    "portrait": "HS3-076_D.psd:cd9f5ee9bd129d440a08798dcded04a7",
+    "set": "BRM",
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 3
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 5
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "relatedDbfIds": [
+      2279
+    ],
+    "releasedAt": "2015-04-03",
+    "releaseStatus": "verified",
+    "classes": [],
+    "races": [],
+    "race": "",
+    "spellSchool": ""
+  },
+  "currentOnlyFields": [
+    "armor",
+    "art",
+    "durability",
+    "flavor",
+    "nativeTags",
+    "portrait",
+    "race",
+    "races",
+    "relatedDbfIds",
+    "set",
+    "spellSchool"
+  ],
+  "canonicalFields": [
+    "attack",
+    "cardClass",
+    "chooseOne",
+    "classes",
+    "collectible",
+    "cost",
+    "dbfId",
+    "health",
+    "id",
+    "mechanics",
+    "name",
+    "rarity",
+    "text",
+    "type"
+  ],
+  "keywordAbilityEvidence": {
+    "source": "tools/brm-keyword-abilities.json",
+    "vocabulary": "Bounded intrinsic keyword abilities and concrete targeting restrictions observed in the 36 pinned archives, corroborated by own card text. Not a complete free-text effect or engine-flag inventory. Empty list means no recognized keyword, not no effect. AURA/TRIGGER_VISUAL remain implementation observations."
+  },
+  "legacyMechanicsConvention": {
+    "present": true,
+    "original": [
+      "TRIGGER_VISUAL"
+    ],
+    "canonicalBaseline": []
+  },
+  "chooseOneEvidence": {
+    "meaning": "Original parent ability boolean, not generated-option membership.",
+    "preservedOriginalValue": false,
+    "baselineBasis": "BRM_010 release text explicitly has Choose One; the other40 original false booleans are retained. Current tags are corroboration, not release proof.",
+    "oldCurrentCatalogPresence": "Absent; root preserves endpoint-specific omission.",
+    "source": "tools/brm-keyword-abilities.json"
+  },
+  "baselineEvidence": {
+    "id": "BRM_019",
+    "releasedAt": "2015-04-03",
+    "initialNumericSpecStatus": "verified against 2.4.0.8311",
+    "initialNumbers": {
+      "cost": 5,
+      "attack": 3,
+      "health": 3,
+      "durability": 0
+    },
+    "initialType": "MINION",
+    "initialName": "험상궂은 손님",
+    "initialRawText": "이 하수인이 피해를 입고 생존할 때마다 다른 험상궂은 손님을 소환합니다.",
+    "initialRarityEnum": 3,
+    "initialDisplayMatchesRelease": true,
+    "datedPatches": [
+      {
+        "date": "2018-02-07",
+        "changes": {
+          "text": "이 하수인은 피해를 받고 생존한 후에, 다른 험상궂은 손님을 소환합니다."
+        }
+      }
+    ],
+    "observedTextTransitionRanges": [
+      {
+        "afterObservedBuild": "4.1.0.10956",
+        "byObservedBuild": "5.0.0.12574",
+        "dateStatus": "observation range; only separately sourced boundaries are dated in card.patches"
+      },
+      {
+        "afterObservedBuild": "8.0.0.18336",
+        "byObservedBuild": "9.0.0.20457",
+        "dateStatus": "observation range; only separately sourced boundaries are dated in card.patches"
+      },
+      {
+        "afterObservedBuild": "10.0.0.22611",
+        "byObservedBuild": "10.2.0.23180",
+        "dateStatus": "observation range; only separately sourced boundaries are dated in card.patches"
+      }
+    ],
+    "limitations": [
+      "Cosmetic wording, punctuation, spacing, client formatting and engine/bug-fix chronology are not exhaustive. A dated effect update does not date every intermediate cosmetic wording.",
+      "10.2 Whenever→After wording is not a stat nerf. 2022 temporary constructed ban/corpse-generation changes are engine/availability events outside this card.patches display schema and not exhaustively dated here."
+    ],
+    "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/b335c43f5580c215e5bcdc0e494b5a3f34ff8015/CardDefs.xml"
+  },
+  "availabilityScope": "User-selected Korean ordinary constructed-match availability by wing/reward acquisition; excludes client preload and earlier adventure challenge use. Generated entities follow their producer, including OG_044b on 2016-04-27.",
+  "dateRecheckEvidence": "tools/brm-date-recheck.json",
+  "undatedEvidence": {
+    "historicalTextObservations": [
+      {
+        "build": "2.4.0.8311",
+        "name": "험상궂은 손님",
+        "rawText": "이 하수인이 피해를 입고 생존할 때마다 다른 험상궂은 손님을 소환합니다.",
+        "source": "https://github.com/HearthSim/hsdata/blob/b335c43f5580c215e5bcdc0e494b5a3f34ff8015/CardDefs.xml",
+        "lastObservedBuild": "4.1.0.10956"
+      },
+      {
+        "build": "5.0.0.12574",
+        "name": "험상궂은 손님",
+        "rawText": "이 하수인은 피해를 입고 생존할 때마다 다른 험상궂은 손님을 소환합니다.",
+        "source": "https://github.com/HearthSim/hsdata/blob/4f7206f440ab05115824b7263aa36cd94a96327f/CardDefs.xml",
+        "lastObservedBuild": "8.0.0.18336"
+      },
+      {
+        "build": "9.0.0.20457",
+        "name": "험상궂은 손님",
+        "rawText": "이 하수인은 피해를 받고 생존할 때마다 다른 험상궂은 손님을 소환합니다.",
+        "source": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml",
+        "lastObservedBuild": "10.0.0.22611"
+      },
+      {
+        "build": "10.2.0.23180",
+        "name": "험상궂은 손님",
+        "rawText": "이 하수인은 피해를 받고 생존한 후에, 다른 험상궂은 손님을 소환합니다.",
+        "source": "https://github.com/HearthSim/hsdata/blob/1a0dcda07394c622066630e4d09817aca8ff9fbf/CardDefs.xml",
+        "lastObservedBuild": "37.0.2.256589"
+      }
+    ],
+    "reason": "Client observation ranges are not Korean effective dates."
+  },
+  "abilityImplementationObservations": [
+    {
+      "build": "2.4.0.8311",
+      "source": "https://github.com/HearthSim/hsdata/blob/b335c43f5580c215e5bcdc0e494b5a3f34ff8015/CardDefs.xml",
+      "Tag": {
+        "32": "1"
+      },
+      "ReferencedTag": {},
+      "dateStatus": "Observation only, not an asserted Korean effective date.",
+      "lastObservedBuild": "37.0.2.256589"
+    }
+  ]
+}

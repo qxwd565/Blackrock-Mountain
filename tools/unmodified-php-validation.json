@@ -1,0 +1,23 @@
+{
+  "result": "pass",
+  "php": "8.5.12",
+  "runtime": "Official @php-wasm/cli already installed locally",
+  "pluginCommit": "78ce6fdc4e70f689880a70d6f22aa77a6c75e337",
+  "verifiedGitBlobHashes": {
+    "includes/class-card-history.php": "e2382b0d1f25aa3ab27f6adce096f8d3f58d013f",
+    "includes/class-set-api.php": "1e26fd05afc62278d49af12ad07dddd5fc043dd4"
+  },
+  "importedCards": 41,
+  "historicalCases": 2583,
+  "checks": 2584,
+  "scope": "Offline unchanged PHP parser import equality and history resolver; no live WordPress, database, browser, deployment, or renderer test.",
+  "sourceProvenance": {
+    "testedSource": "Two GitHub blobs fetched directly by SHA from the pinned plugin commit, verified with git hash-object before the reported run. No plugin checkout was edited.",
+    "initialCandidateRejected": {
+      "description": "An earlier local original-source fixture had different blob hashes. Its passing run is not used as evidence for the pinned commit.",
+      "includes/class-set-api.php": "80f1deb11efa6a8802e74618b06d8ab6fcfa20d4",
+      "includes/class-card-history.php": "2b8d4e933baaa6127ea7e33d6c16e32c79127db5"
+    },
+    "claimBoundary": "Unmodified pinned parser source only; this does not prove the plugin currently deployed on a live site has these exact bytes."
+  }
+}

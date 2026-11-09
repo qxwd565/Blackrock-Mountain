@@ -1,8 +1,5 @@
 {
-  "schemaVersion": 2,
-  "mode": "constructed",
-  "englishName": "Druid of the Flame",
-  "card": {
+  "2015-04-10": {
     "id": "BRM_010",
     "dbfId": 2292,
     "name": "화염의 드루이드",
@@ -10,123 +7,17 @@
     "type": "MINION",
     "cardClass": "DRUID",
     "classes": [],
-    "nativeSetId": 14,
-    "set": "BRM",
     "rarity": "COMMON",
-    "race": "",
-    "races": [],
-    "spellSchool": "",
     "cost": 3,
     "attack": 2,
     "health": 2,
-    "armor": 0,
-    "durability": 0,
     "collectible": true,
     "chooseOne": true,
-    "heroPowerDbfId": 0,
-    "installed": true,
-    "portrait": "HS4-005_D.psd:fd784c6a71498e24bb62131b46c70eab",
-    "flavor": "노스렌드에서 너무 오랜 시간을 보낸 드루이드들은 라그나로스가 제공하는 핫초코의 유혹을 차마 뿌리치지 못했습니다.",
-    "nativeTags": [
-      {
-        "id": 45,
-        "name": "생명력",
-        "value": 2
-      },
-      {
-        "id": 47,
-        "name": "공격력",
-        "value": 2
-      },
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 3
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 2
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 4
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 1
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      },
-      {
-        "id": 443,
-        "name": "선택",
-        "value": 1
-      }
-    ],
-    "nativeRawText": "<b>선택 -</b> 5/2 또는 2/5 하수인으로 변신합니다.",
-    "nativeTextBuilder": 0,
-    "releasedAt": "2015-04-10",
-    "releaseStatus": "verified",
     "mechanics": [
       "CHOOSE_ONE"
-    ],
-    "patches": [
-      {
-        "date": "2016-11-30",
-        "changes": {
-          "text": "<b>선택 -</b> 5/2 또는 2/5 하수인으로 변신합니다."
-        }
-      }
-    ],
-    "patchSources": {
-      "2016-11-30": "https://hearthstone.blizzard.com/ko-kr/news/20382066"
-    },
-    "initialSpecStatus": "partially_verified"
+    ]
   },
-  "root": true,
-  "relatedIds": [
-    2293,
-    2294,
-    2310,
-    2311
-  ],
-  "expansion": {
-    "id": 14,
-    "slug": "blackrock-mountain",
-    "name": "검은바위 산",
-    "type": "adventure",
-    "englishName": "Blackrock Mountain"
-  },
-  "setOrder": 40,
-  "formats": [
-    "wild"
-  ],
-  "provenance": {
-    "source": "Installed Hearthstone dbf.unity3d",
-    "gameVersion": "6000.3.11.3145967",
-    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
-    "locale": "koKR"
-  },
-  "historicalTextObservations": [
-    {
-      "build": "2.4.0.8311",
-      "name": "화염의 드루이드",
-      "rawText": "<b>선택</b> - 5/2 또는 2/5 하수인으로 변신합니다.",
-      "source": "https://github.com/HearthSim/hsdata/blob/b335c43f5580c215e5bcdc0e494b5a3f34ff8015/CardDefs.xml",
-      "lastObservedBuild": "6.2.0.15181"
-    },
-    {
-      "build": "7.0.0.15590",
-      "name": "화염의 드루이드",
-      "rawText": "<b>선택 -</b> 5/2 또는 2/5 하수인으로 변신합니다.",
-      "source": "https://github.com/HearthSim/hsdata/blob/2155786e4175c66348b73037d3799c3fe96eeb6d/CardDefs.xml",
-      "lastObservedBuild": "37.0.2.256589"
-    }
-  ]
+  "2016-11-30": {
+    "text": "<b>선택 -</b> 5/2 또는 2/5 하수인으로 변신합니다."
+  }
 }
