@@ -11,7 +11,7 @@
       "rarity": "COMMON",
       "collectible": true,
       "cost": 5,
-      "text": "카드를 2장 뽑습니다.\n이번 턴에 죽은 하수인\n하나당 비용이 (1)씩\n감소합니다.",
+      "text": "카드를 2장 뽑습니다.<br></br>이번 턴에 죽은 하수인<br></br>하나당 비용이 (1)씩<br></br>감소합니다.",
       "attack": 0,
       "health": 0,
       "durability": 0,
@@ -48,7 +48,11 @@
         }
       ],
       "releasedAt": "2015-05-01",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "races": [],
+      "race": "",
+      "spellSchool": ""
     },
     {
       "id": "BRM_002",
@@ -114,7 +118,11 @@
         "TRIGGER_VISUAL"
       ],
       "releasedAt": "2015-04-24",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "races": [],
+      "race": "",
+      "spellSchool": ""
     },
     {
       "id": "BRM_003",
@@ -168,7 +176,10 @@
         }
       ],
       "releasedAt": "2015-04-03",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "races": [],
+      "race": ""
     },
     {
       "id": "BRM_004",
@@ -248,7 +259,9 @@
         "BATTLECRY"
       ],
       "releasedAt": "2015-04-17",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "spellSchool": ""
     },
     {
       "id": "BRM_005",
@@ -307,7 +320,10 @@
         }
       ],
       "releasedAt": "2015-04-24",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "races": [],
+      "race": ""
     },
     {
       "id": "BRM_006",
@@ -395,7 +411,9 @@
         2779
       ],
       "releasedAt": "2015-04-10",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "spellSchool": ""
     },
     {
       "id": "BRM_006t",
@@ -456,7 +474,9 @@
         }
       ],
       "releasedAt": "2015-04-10",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "spellSchool": ""
     },
     {
       "id": "BRM_007",
@@ -467,7 +487,7 @@
       "rarity": "COMMON",
       "collectible": true,
       "cost": 2,
-      "text": "하수인을 선택합니다.\n그 하수인을 셋 복사하여\n내 덱에 섞어 넣습니다.",
+      "text": "하수인을 선택합니다.<br></br>그 하수인을 셋 복사하여<br></br>내 덱에 섞어 넣습니다.",
       "attack": 0,
       "health": 0,
       "durability": 0,
@@ -504,7 +524,11 @@
         }
       ],
       "releasedAt": "2015-04-03",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "races": [],
+      "race": "",
+      "spellSchool": ""
     },
     {
       "id": "BRM_008",
@@ -570,7 +594,11 @@
         "BATTLECRY"
       ],
       "releasedAt": "2015-04-24",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "races": [],
+      "race": "",
+      "spellSchool": ""
     },
     {
       "id": "BRM_009",
@@ -581,7 +609,7 @@
       "rarity": "RARE",
       "collectible": true,
       "cost": 9,
-      "text": "<b>도발</b>\n이번 턴에 죽은 하수인 하나당 비용이 (1)씩 감소합니다.",
+      "text": "<b>도발</b><br></br>이번 턴에 죽은 하수인 하나당 비용이 (1)씩 감소합니다.",
       "attack": 7,
       "health": 8,
       "durability": 0,
@@ -636,7 +664,11 @@
         "TAUNT"
       ],
       "releasedAt": "2015-04-17",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "races": [],
+      "race": "",
+      "spellSchool": ""
     },
     {
       "id": "BRM_010",
@@ -708,7 +740,11 @@
         2311
       ],
       "releasedAt": "2015-04-10",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "races": [],
+      "race": "",
+      "spellSchool": ""
     },
     {
       "id": "BRM_010a",
@@ -780,7 +816,9 @@
         }
       ],
       "releasedAt": "2015-04-10",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "spellSchool": ""
     },
     {
       "id": "BRM_010b",
@@ -847,7 +885,9 @@
         }
       ],
       "releasedAt": "2015-04-10",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "spellSchool": ""
     },
     {
       "id": "BRM_010t",
@@ -919,7 +959,9 @@
         }
       ],
       "releasedAt": "2015-04-10",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "spellSchool": ""
     },
     {
       "id": "BRM_010t2",
@@ -986,7 +1028,9 @@
         }
       ],
       "releasedAt": "2015-04-10",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "spellSchool": ""
     },
     {
       "id": "BRM_011",
@@ -997,7 +1041,7 @@
       "rarity": "RARE",
       "collectible": true,
       "cost": 2,
-      "text": "피해를 $2 줍니다.\n<b>과부하</b>된 내 마나 수정이\n모두 잠금 해제됩니다.",
+      "text": "피해를 $2 줍니다.<br></br><b>과부하</b>된 내 마나 수정이<br></br>모두 잠금 해제됩니다.",
       "attack": 0,
       "health": 0,
       "durability": 0,
@@ -1048,7 +1092,10 @@
         "OVERLOAD"
       ],
       "releasedAt": "2015-04-10",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "races": [],
+      "race": ""
     },
     {
       "id": "BRM_012",
@@ -1059,7 +1106,7 @@
       "rarity": "COMMON",
       "collectible": true,
       "cost": 4,
-      "text": "<b>전투의 함성:</b> 공격력을 1-4 얻습니다.\n<b>과부하:</b> (1)",
+      "text": "<b>전투의 함성:</b> 공격력을 1-4 얻습니다.<br></br><b>과부하:</b> (1)",
       "attack": 3,
       "health": 6,
       "durability": 0,
@@ -1129,7 +1176,9 @@
         "BATTLECRY"
       ],
       "releasedAt": "2015-04-24",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "spellSchool": ""
     },
     {
       "id": "BRM_013",
@@ -1140,7 +1189,7 @@
       "rarity": "COMMON",
       "collectible": true,
       "cost": 2,
-      "text": "피해를 $3 줍니다.\n내 손에 카드가 없으면,\n카드를 뽑습니다.",
+      "text": "피해를 $3 줍니다.<br></br>내 손에 카드가 없으면,<br></br>카드를 뽑습니다.",
       "attack": 0,
       "health": 0,
       "durability": 0,
@@ -1182,7 +1231,11 @@
         }
       ],
       "releasedAt": "2015-04-03",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "races": [],
+      "race": "",
+      "spellSchool": ""
     },
     {
       "id": "BRM_014",
@@ -1263,7 +1316,9 @@
         "BATTLECRY"
       ],
       "releasedAt": "2015-04-17",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "spellSchool": ""
     },
     {
       "id": "BRM_015",
@@ -1274,7 +1329,7 @@
       "rarity": "RARE",
       "collectible": true,
       "cost": 2,
-      "text": "<b>모든</b> 하수인에게 피해를 $1 줍니다.\n내 생명력이 12 이하면, 피해를 $3 줍니다.",
+      "text": "<b>모든</b> 하수인에게 피해를 $1 줍니다.<br></br>내 생명력이 12 이하면, 피해를 $3 줍니다.",
       "attack": 0,
       "health": 0,
       "durability": 0,
@@ -1311,7 +1366,11 @@
         }
       ],
       "releasedAt": "2015-04-24",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "races": [],
+      "race": "",
+      "spellSchool": ""
     },
     {
       "id": "BRM_016",
@@ -1377,7 +1436,11 @@
         "TRIGGER_VISUAL"
       ],
       "releasedAt": "2015-04-10",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "races": [],
+      "race": "",
+      "spellSchool": ""
     },
     {
       "id": "BRM_017",
@@ -1388,7 +1451,7 @@
       "rarity": "RARE",
       "collectible": true,
       "cost": 2,
-      "text": "이번 게임에서 죽은\n무작위 아군 하수인을\n소환합니다.",
+      "text": "이번 게임에서 죽은<br></br>무작위 아군 하수인을<br></br>소환합니다.",
       "attack": 0,
       "health": 0,
       "durability": 0,
@@ -1431,7 +1494,10 @@
         }
       ],
       "releasedAt": "2015-04-03",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "races": [],
+      "race": ""
     },
     {
       "id": "BRM_018",
@@ -1442,7 +1508,7 @@
       "rarity": "RARE",
       "collectible": true,
       "cost": 5,
-      "text": "<b>전투의 함성:</b> 다음에 내가\n내는 용족의 비용이\n(2) 감소합니다.",
+      "text": "<b>전투의 함성:</b> 다음에 내가<br></br>내는 용족의 비용이<br></br>(2) 감소합니다.",
       "attack": 5,
       "health": 5,
       "durability": 0,
@@ -1506,7 +1572,9 @@
         "BATTLECRY"
       ],
       "releasedAt": "2015-04-17",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "spellSchool": ""
     },
     {
       "id": "BRM_019",
@@ -1575,7 +1643,11 @@
         2279
       ],
       "releasedAt": "2015-04-03",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "races": [],
+      "race": "",
+      "spellSchool": ""
     },
     {
       "id": "BRM_020",
@@ -1650,7 +1722,9 @@
         "TRIGGER_VISUAL"
       ],
       "releasedAt": "2015-05-01",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "spellSchool": ""
     },
     {
       "id": "BRM_022",
@@ -1719,7 +1793,11 @@
         2436
       ],
       "releasedAt": "2015-04-17",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "races": [],
+      "race": "",
+      "spellSchool": ""
     },
     {
       "id": "BRM_022t",
@@ -1780,7 +1858,9 @@
         }
       ],
       "releasedAt": "2015-04-17",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "spellSchool": ""
     },
     {
       "id": "BRM_024",
@@ -1855,7 +1935,9 @@
         "BATTLECRY"
       ],
       "releasedAt": "2015-05-01",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "spellSchool": ""
     },
     {
       "id": "BRM_025",
@@ -1922,7 +2004,9 @@
         }
       ],
       "releasedAt": "2015-05-01",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "spellSchool": ""
     },
     {
       "id": "BRM_026",
@@ -1997,7 +2081,9 @@
         "BATTLECRY"
       ],
       "releasedAt": "2015-04-24",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "spellSchool": ""
     },
     {
       "id": "BRM_027",
@@ -2077,7 +2163,11 @@
         2319
       ],
       "releasedAt": "2015-04-10",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "races": [],
+      "race": "",
+      "spellSchool": ""
     },
     {
       "id": "BRM_027h",
@@ -2122,7 +2212,11 @@
         2319
       ],
       "releasedAt": "2015-04-10",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "races": [],
+      "race": "",
+      "spellSchool": ""
     },
     {
       "id": "BRM_027p",
@@ -2164,7 +2258,11 @@
         }
       ],
       "releasedAt": "2015-04-10",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "races": [],
+      "race": "",
+      "spellSchool": ""
     },
     {
       "id": "BRM_028",
@@ -2235,7 +2333,11 @@
         "TRIGGER_VISUAL"
       ],
       "releasedAt": "2015-04-03",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "races": [],
+      "race": "",
+      "spellSchool": ""
     },
     {
       "id": "BRM_029",
@@ -2306,7 +2408,11 @@
         "BATTLECRY"
       ],
       "releasedAt": "2015-04-17",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "races": [],
+      "race": "",
+      "spellSchool": ""
     },
     {
       "id": "BRM_030",
@@ -2317,7 +2423,7 @@
       "rarity": "LEGENDARY",
       "collectible": true,
       "cost": 9,
-      "text": "<b>전투의 함성:</b>\n<i>상대편 직업</i>의 무작위\n주문 둘을 내 손으로\n가져옵니다.",
+      "text": "<b>전투의 함성:</b><br></br><i>상대편 직업</i>의 무작위<br></br>주문 둘을 내 손으로<br></br>가져옵니다.",
       "attack": 8,
       "health": 8,
       "durability": 0,
@@ -2389,7 +2495,9 @@
         2421
       ],
       "releasedAt": "2015-05-01",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "spellSchool": ""
     },
     {
       "id": "BRM_030t",
@@ -2431,7 +2539,11 @@
         }
       ],
       "releasedAt": "2015-05-01",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "races": [],
+      "race": "",
+      "spellSchool": ""
     },
     {
       "id": "BRM_031",
@@ -2442,7 +2554,7 @@
       "rarity": "LEGENDARY",
       "collectible": true,
       "cost": 8,
-      "text": "내가 카드를 뽑을 때마다\n그 카드를 복사하여 1장 더\n내 손으로 가져옵니다.",
+      "text": "내가 카드를 뽑을 때마다<br></br>그 카드를 복사하여 1장 더<br></br>내 손으로 가져옵니다.",
       "attack": 6,
       "health": 8,
       "durability": 0,
@@ -2511,7 +2623,9 @@
         "TRIGGER_VISUAL"
       ],
       "releasedAt": "2015-04-24",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "spellSchool": ""
     },
     {
       "id": "BRM_033",
@@ -2522,7 +2636,7 @@
       "rarity": "COMMON",
       "collectible": true,
       "cost": 3,
-      "text": "<b>전투의 함성:</b>\n내 손에 용족이 있으면,\n+1/+1을 얻습니다.",
+      "text": "<b>전투의 함성:</b><br></br>내 손에 용족이 있으면,<br></br>+1/+1을 얻습니다.",
       "attack": 2,
       "health": 4,
       "durability": 0,
@@ -2582,7 +2696,11 @@
         "BATTLECRY"
       ],
       "releasedAt": "2015-04-10",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "races": [],
+      "race": "",
+      "spellSchool": ""
     },
     {
       "id": "BRM_034",
@@ -2593,7 +2711,7 @@
       "rarity": "COMMON",
       "collectible": true,
       "cost": 5,
-      "text": "<b>전투의 함성:</b>\n내 손에 용족이 있으면, 피해를 5 줍니다.",
+      "text": "<b>전투의 함성:</b><br></br>내 손에 용족이 있으면, 피해를 5 줍니다.",
       "attack": 5,
       "health": 4,
       "durability": 0,
@@ -2653,7 +2771,11 @@
         "BATTLECRY"
       ],
       "releasedAt": "2015-05-01",
-      "releaseStatus": "verified"
+      "releaseStatus": "verified",
+      "classes": [],
+      "races": [],
+      "race": "",
+      "spellSchool": ""
     },
     {
       "id": "OG_044b",
@@ -2724,8 +2846,10 @@
           "value": 1
         }
       ],
-      "releasedAt": null,
-      "releaseStatus": "pending"
+      "releasedAt": "2016-04-27",
+      "releaseStatus": "verified",
+      "classes": [],
+      "spellSchool": ""
     }
   ]
 }

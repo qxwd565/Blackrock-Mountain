@@ -1,12 +1,12 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Solemn Vigil",
   "card": {
     "id": "BRM_001",
     "dbfId": 2274,
     "name": "엄숙한 애도",
-    "text": "[x]카드를 2장 뽑습니다.\n이번 턴에 죽은 하수인\n하나당 비용이 (1)씩\n감소합니다.",
+    "text": "카드를 2장 뽑습니다.<br></br>이번 턴에 죽은 하수인<br></br>하나당 비용이 (1)씩<br></br>감소합니다.",
     "type": "SPELL",
     "cardClass": "PALADIN",
     "classes": [],
@@ -57,7 +57,9 @@
     "nativeRawText": "[x]카드를 2장 뽑습니다.\n이번 턴에 죽은 하수인\n하나당 비용이 (1)씩\n감소합니다.",
     "nativeTextBuilder": 0,
     "releasedAt": "2015-05-01",
-    "releaseStatus": "verified"
+    "releaseStatus": "verified",
+    "patches": [],
+    "initialSpecStatus": "partially_verified"
   },
   "root": true,
   "relatedIds": [],
@@ -77,5 +79,21 @@
     "gameVersion": "6000.3.11.3145967",
     "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
     "locale": "koKR"
-  }
+  },
+  "historicalTextObservations": [
+    {
+      "build": "2.4.0.8311",
+      "name": "엄숙한 애도",
+      "rawText": "카드를 2장 뽑습니다. 이번 턴에 죽은 하수인 하나당 비용이 (1)씩 감소합니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/b335c43f5580c215e5bcdc0e494b5a3f34ff8015/CardDefs.xml",
+      "lastObservedBuild": "5.0.0.12574"
+    },
+    {
+      "build": "6.0.0.13921",
+      "name": "엄숙한 애도",
+      "rawText": "[x]카드를 2장 뽑습니다.\n이번 턴에 죽은 하수인\n하나당 비용이 (1)씩\n감소합니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+      "lastObservedBuild": "37.0.2.256589"
+    }
+  ]
 }

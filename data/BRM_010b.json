@@ -1,27 +1,26 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Fire Hawk Form",
   "card": {
     "id": "BRM_010b",
     "dbfId": 2294,
     "name": "불꽃매 변신",
-    "text": "",
-    "type": "MINION",
+    "text": "2/5 하수인으로 변신합니다.",
+    "type": "SPELL",
     "cardClass": "DRUID",
     "classes": [],
     "nativeSetId": 14,
     "set": "BRM",
     "rarity": "COMMON",
-    "race": "야수, 정령",
+    "race": "BEAST",
     "races": [
-      "BEAST",
-      "ELEMENTAL"
+      "BEAST"
     ],
     "spellSchool": "",
-    "cost": 3,
-    "attack": 2,
-    "health": 5,
+    "cost": 0,
+    "attack": 0,
+    "health": 0,
     "armor": 0,
     "durability": 0,
     "collectible": false,
@@ -75,7 +74,60 @@
     "nativeRawText": "",
     "nativeTextBuilder": 0,
     "releasedAt": "2015-04-10",
-    "releaseStatus": "verified"
+    "releaseStatus": "verified",
+    "patches": [
+      {
+        "date": "2016-10-21",
+        "changes": {
+          "races": [],
+          "race": ""
+        }
+      },
+      {
+        "date": "2018-04-11",
+        "changes": {
+          "text": "생명력 +3"
+        }
+      },
+      {
+        "date": "2018-11-30",
+        "changes": {
+          "type": "MINION",
+          "cost": 3,
+          "attack": 5,
+          "health": 2,
+          "text": "",
+          "races": [
+            "BEAST"
+          ],
+          "race": "BEAST"
+        }
+      },
+      {
+        "date": "2019-02-06",
+        "changes": {
+          "attack": 2,
+          "health": 5
+        }
+      },
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "BEAST",
+            "ELEMENTAL"
+          ]
+        }
+      }
+    ],
+    "patchSources": {
+      "2016-10-21": "https://hearthstone.blizzard.com/ko-kr/news/20328179",
+      "2018-04-11": "https://hearthstone.blizzard.com/ko-kr/news/21694420",
+      "2018-11-30": "https://hearthstone.blizzard.com/ko-kr/news/22788307",
+      "2019-02-06": "https://hearthstone.blizzard.com/ko-kr/news/22882146",
+      "2022-11-30": "https://hearthstone.blizzard.com/ko-kr/news/23882860"
+    },
+    "initialSpecStatus": "partially_verified"
   },
   "root": false,
   "relatedIds": [],
@@ -95,5 +147,28 @@
     "gameVersion": "6000.3.11.3145967",
     "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
     "locale": "koKR"
-  }
+  },
+  "historicalTextObservations": [
+    {
+      "build": "2.4.0.8311",
+      "name": "불꽃매 변신",
+      "rawText": "2/5 하수인으로 변신합니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/b335c43f5580c215e5bcdc0e494b5a3f34ff8015/CardDefs.xml",
+      "lastObservedBuild": "10.2.0.23180"
+    },
+    {
+      "build": "11.0.0.23966",
+      "name": "불꽃매 변신",
+      "rawText": "생명력 +3",
+      "source": "https://github.com/HearthSim/hsdata/blob/6317434bee453ec6e8267cbf45277c0a13da90f8/CardDefs.xml",
+      "lastObservedBuild": "12.2.0.26996"
+    },
+    {
+      "build": "13.0.0.27845",
+      "name": "불꽃매 변신",
+      "rawText": "",
+      "source": "https://github.com/HearthSim/hsdata/blob/0565689bc30e7fe550053066d033958f1f90033f/CardDefs.xml",
+      "lastObservedBuild": "37.0.2.256589"
+    }
+  ]
 }

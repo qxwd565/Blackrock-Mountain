@@ -1,31 +1,27 @@
-name: Publish HScard API
+name: Validate HScard API
 on:
   push:
     paths:
       - '.github/workflows/normalize-card-history.yml'
       - 'cards.json'
+      - 'render.json'
+      - 'history.json'
       - 'release-policy.json'
       - 'data/**'
+      - 'tools/**'
   workflow_dispatch:
 permissions:
-  contents: write
+  contents: read
 jobs:
-  publish:
+  validate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Fetch verified shared API builder
-        run: |
-          mkdir -p tools
-          curl --fail --location --retry 3 --silent --show-error 'https://raw.githubusercontent.com/qxwd565/legacy/a39c65fc67695398e454fb01a651ac09d187c5c7/tools/build-api.py' -o tools/build-api.py
-      - name: Generate current and historical API indexes
+        with:
+          persist-credentials: false
+      - name: Generate API indexes with the committed builder
         run: python3 tools/build-api.py
-      - name: Commit changed API indexes
-        run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -- cards.json render.json history.json data
-          if ! git diff --cached --quiet; then
-            git commit -m "Publish card API indexes [skip ci]"
-            git push
-          fi
+      - name: Validate Blackrock Mountain release and patch history
+        run: python3 tools/test-brm-history.py
+      - name: Verify committed indexes are current
+        run: git diff --exit-code -- cards.json render.json history.json data

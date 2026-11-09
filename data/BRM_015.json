@@ -1,12 +1,12 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Revenge",
   "card": {
     "id": "BRM_015",
     "dbfId": 2296,
     "name": "복수",
-    "text": "<b>모든</b> 하수인에게 피해를 $1 줍니다.\n내 생명력이 12 이하면, 피해를 $3 줍니다.",
+    "text": "<b>모든</b> 하수인에게 피해를 $1 줍니다. 만약 내 생명력이 12 이하라면 피해를 $3 줍니다.",
     "type": "SPELL",
     "cardClass": "WARRIOR",
     "classes": [],
@@ -57,7 +57,19 @@
     "nativeRawText": "<b>모든</b> 하수인에게 피해를 $1 줍니다.\n내 생명력이 12 이하면, 피해를 $3 줍니다.",
     "nativeTextBuilder": 0,
     "releasedAt": "2015-04-24",
-    "releaseStatus": "verified"
+    "releaseStatus": "verified",
+    "patches": [
+      {
+        "date": "2015-08-19",
+        "changes": {
+          "text": "<b>모든</b> 하수인에게 피해를 $1 줍니다.<br></br>내 생명력이 12 이하면, 피해를 $3 줍니다."
+        }
+      }
+    ],
+    "patchSources": {
+      "2015-08-19": "https://hearthstone.blizzard.com/ko-kr/news/19843161"
+    },
+    "initialSpecStatus": "partially_verified"
   },
   "root": true,
   "relatedIds": [],
@@ -77,5 +89,28 @@
     "gameVersion": "6000.3.11.3145967",
     "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
     "locale": "koKR"
-  }
+  },
+  "historicalTextObservations": [
+    {
+      "build": "2.4.0.8311",
+      "name": "복수",
+      "rawText": "<b>모든</b> 하수인에게 피해를 $1 줍니다. 만약 내 생명력이 12 이하라면 피해를 $3 줍니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/b335c43f5580c215e5bcdc0e494b5a3f34ff8015/CardDefs.xml",
+      "lastObservedBuild": "2.8.0.9554"
+    },
+    {
+      "build": "3.0.0.9786",
+      "name": "복수",
+      "rawText": "<b>모든</b> 하수인에게 피해를 $1 줍니다. 내 생명력이 12 이하면, 피해를 $3 줍니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/c5edcf97cfb9c177928bc92204f3aa96aaeec186/CardDefs.xml",
+      "lastObservedBuild": "7.1.0.17720"
+    },
+    {
+      "build": "8.0.0.18336",
+      "name": "복수",
+      "rawText": "<b>모든</b> 하수인에게 피해를 $1 줍니다.\n내 생명력이 12 이하면, 피해를 $3 줍니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/085f915af6c4374ac2a7088862390ebea44eb6c9/CardDefs.xml",
+      "lastObservedBuild": "37.0.2.256589"
+    }
+  ]
 }

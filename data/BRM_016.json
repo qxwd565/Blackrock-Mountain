@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Axe Flinger",
   "card": {
@@ -18,7 +18,7 @@
     "spellSchool": "",
     "cost": 4,
     "attack": 2,
-    "health": 6,
+    "health": 5,
     "armor": 0,
     "durability": 0,
     "collectible": true,
@@ -72,7 +72,22 @@
     "nativeRawText": "이 하수인은 피해를 받을 때마다 적 영웅에게 피해를 2 줍니다.",
     "nativeTextBuilder": 0,
     "releasedAt": "2015-04-10",
-    "releaseStatus": "verified"
+    "releaseStatus": "verified",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "patches": [
+      {
+        "date": "2023-08-23",
+        "changes": {
+          "health": 6
+        }
+      }
+    ],
+    "patchSources": {
+      "2023-08-23": "https://hearthstone.blizzard.com/ko-kr/news/23987537"
+    },
+    "initialSpecStatus": "partially_verified"
   },
   "root": true,
   "relatedIds": [],
@@ -92,5 +107,34 @@
     "gameVersion": "6000.3.11.3145967",
     "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
     "locale": "koKR"
-  }
+  },
+  "historicalTextObservations": [
+    {
+      "build": "2.4.0.8311",
+      "name": "도끼 투척수",
+      "rawText": "이 하수인이 피해를 입을 때마다, 적 영웅에게 피해를 2 줍니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/b335c43f5580c215e5bcdc0e494b5a3f34ff8015/CardDefs.xml",
+      "lastObservedBuild": "2.6.0.8834"
+    },
+    {
+      "build": "2.8.0.9554",
+      "name": "도끼 투척수",
+      "rawText": "이 하수인은 피해를 입을 때마다, 적 영웅에게 피해를 2 줍니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/2a81ee97953bc598b18dd27d05606980db21c078/CardDefs.xml"
+    },
+    {
+      "build": "3.0.0.9786",
+      "name": "도끼 투척수",
+      "rawText": "이 하수인은 피해를 입을 때마다 적 영웅에게 피해를 2 줍니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/c5edcf97cfb9c177928bc92204f3aa96aaeec186/CardDefs.xml",
+      "lastObservedBuild": "8.0.0.18336"
+    },
+    {
+      "build": "9.0.0.20457",
+      "name": "도끼 투척수",
+      "rawText": "이 하수인은 피해를 받을 때마다 적 영웅에게 피해를 2 줍니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/6f874a2b18045ed3464983aff85ca106bc656916/CardDefs.xml",
+      "lastObservedBuild": "37.0.2.256589"
+    }
+  ]
 }

@@ -1,0 +1,1467 @@
+{
+  "schema": 1,
+  "timezone": "Asia/Seoul",
+  "originalHead": "8aee67e6af8430f36266b41810c06f02f0d551de",
+  "scope": "41 constructed IDs:31 collectible and10 generated/choice/hero/power IDs.36 selected client builds; not exhaustive every-build, all cosmetic wording, hidden tags, bans or engine bug fixes.",
+  "datePolicy": "First collectible reward/constructed availability by Korean wing or expansion opening; not client addition, announcement day, Arena preview, or speculative random-generation access.",
+  "rawDataPolicy": "nativeTags/nativeRawText remain unchanged installed evidence, not historical gameplay values. HistoricalTextObservations preserve raw formatting verbatim.",
+  "textPolicy": "Verified effect/type/keyword/name boundaries are dated. Unknown wording/name/rarity transitions remain explicit per-card ranges rather than invented dates. Matching release text after display normalization is not a full initial-spec certification.",
+  "cards": [
+    {
+      "id": "BRM_001",
+      "releasedAt": "2015-05-01",
+      "initialNumericSpecStatus": "verified against 2.4.0.8311",
+      "initialNumbers": {
+        "cost": 5,
+        "attack": 0,
+        "health": 0,
+        "durability": 0
+      },
+      "initialType": "SPELL",
+      "initialName": "엄숙한 애도",
+      "initialRawText": "카드를 2장 뽑습니다. 이번 턴에 죽은 하수인 하나당 비용이 (1)씩 감소합니다.",
+      "initialRarityEnum": 1,
+      "initialDisplayMatchesRelease": true,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [],
+      "limitations": [],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/b335c43f5580c215e5bcdc0e494b5a3f34ff8015/CardDefs.xml"
+    },
+    {
+      "id": "BRM_002",
+      "releasedAt": "2015-04-24",
+      "initialNumericSpecStatus": "verified against 2.4.0.8311",
+      "initialNumbers": {
+        "cost": 3,
+        "attack": 2,
+        "health": 4,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "불꽃꼬리 전사",
+      "initialRawText": "내 주문이 시전된 후에, 모든 적에게 2의 피해를 무작위로 나누어 입힙니다.",
+      "initialRarityEnum": 3,
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "17.0.0.44222",
+          "byObservedBuild": "20.0.0.77662",
+          "dateStatus": "observation range; only separately sourced boundaries are dated in card.patches"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; the original and intermediate raw observations are preserved, not asserted to equal current wording.",
+        "Cosmetic wording, punctuation, spacing, client formatting and engine/bug-fix chronology are not exhaustive. A dated effect update does not date every intermediate cosmetic wording."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/b335c43f5580c215e5bcdc0e494b5a3f34ff8015/CardDefs.xml"
+    },
+    {
+      "id": "BRM_003",
+      "releasedAt": "2015-04-03",
+      "initialNumericSpecStatus": "verified against 2.4.0.8311",
+      "initialNumbers": {
+        "cost": 5,
+        "attack": 0,
+        "health": 0,
+        "durability": 0
+      },
+      "initialType": "SPELL",
+      "initialName": "용의 숨결",
+      "initialRawText": "피해를 $4 줍니다. 이번 턴에 죽은 하수인 하나당 비용이 (1)씩 감소합니다.",
+      "initialRarityEnum": 1,
+      "initialDisplayMatchesRelease": true,
+      "datedPatches": [
+        {
+          "date": "2021-03-26",
+          "changes": {
+            "spellSchool": "FIRE"
+          }
+        }
+      ],
+      "observedTextTransitionRanges": [],
+      "limitations": [],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/b335c43f5580c215e5bcdc0e494b5a3f34ff8015/CardDefs.xml"
+    },
+    {
+      "id": "BRM_004",
+      "releasedAt": "2015-04-17",
+      "initialNumericSpecStatus": "verified against 2.4.0.8311",
+      "initialNumbers": {
+        "cost": 1,
+        "attack": 2,
+        "health": 1,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "황혼의 새끼용",
+      "initialRawText": "<b>전투의 함성:</b> 만약 내 손에 용족 하수인이 있으면 생명력을 +2 얻습니다.",
+      "initialRarityEnum": 1,
+      "initialDisplayMatchesRelease": true,
+      "datedPatches": [
+        {
+          "date": "2015-08-19",
+          "changes": {
+            "text": "<b>전투의 함성:</b> 내 손에 용족이 있으면, 생명력을 +2 얻습니다."
+          }
+        }
+      ],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.8.0.9554",
+          "byObservedBuild": "3.0.0.9786",
+          "dateStatus": "observation range; only separately sourced boundaries are dated in card.patches"
+        }
+      ],
+      "limitations": [
+        "Cosmetic wording, punctuation, spacing, client formatting and engine/bug-fix chronology are not exhaustive. A dated effect update does not date every intermediate cosmetic wording."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/b335c43f5580c215e5bcdc0e494b5a3f34ff8015/CardDefs.xml"
+    },
+    {
+      "id": "BRM_005",
+      "releasedAt": "2015-04-24",
+      "initialNumericSpecStatus": "verified against 2.4.0.8311",
+      "initialNumbers": {
+        "cost": 3,
+        "attack": 0,
+        "health": 0,
+        "durability": 0
+      },
+      "initialType": "SPELL",
+      "initialName": "악마의 격노",
+      "initialRawText": "악마를 제외한 <b>모든</b> 하수인에게 피해를 $2 줍니다.",
+      "initialRarityEnum": 3,
+      "initialDisplayMatchesRelease": true,
+      "datedPatches": [
+        {
+          "date": "2021-03-26",
+          "changes": {
+            "spellSchool": "FEL"
+          }
+        }
+      ],
+      "observedTextTransitionRanges": [],
+      "limitations": [],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/b335c43f5580c215e5bcdc0e494b5a3f34ff8015/CardDefs.xml"
+    },
+    {
+      "id": "BRM_006",
+      "releasedAt": "2015-04-10",
+      "initialNumericSpecStatus": "verified against 2.4.0.8311",
+      "initialNumbers": {
+        "cost": 3,
+        "attack": 2,
+        "health": 4,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "임프 두목",
+      "initialRawText": "이 하수인은 피해를 입을 때마다 1/1 임프를 하나 소환합니다.",
+      "initialRarityEnum": 1,
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "8.0.0.18336",
+          "byObservedBuild": "9.0.0.20457",
+          "dateStatus": "observation range; only separately sourced boundaries are dated in card.patches"
+        },
+        {
+          "afterObservedBuild": "12.0.0.25770",
+          "byObservedBuild": "12.2.0.26996",
+          "dateStatus": "observation range; only separately sourced boundaries are dated in card.patches"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; the original and intermediate raw observations are preserved, not asserted to equal current wording.",
+        "Cosmetic wording, punctuation, spacing, client formatting and engine/bug-fix chronology are not exhaustive. A dated effect update does not date every intermediate cosmetic wording."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/b335c43f5580c215e5bcdc0e494b5a3f34ff8015/CardDefs.xml"
+    },
+    {
+      "id": "BRM_006t",
+      "releasedAt": "2015-04-10",
+      "initialNumericSpecStatus": "verified against 2.4.0.8311",
+      "initialNumbers": {
+        "cost": 1,
+        "attack": 1,
+        "health": 1,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "임프",
+      "initialRawText": "",
+      "initialRarityEnum": 0,
+      "initialDisplayMatchesRelease": true,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [],
+      "limitations": [],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/b335c43f5580c215e5bcdc0e494b5a3f34ff8015/CardDefs.xml"
+    },
+    {
+      "id": "BRM_007",
+      "releasedAt": "2015-04-03",
+      "initialNumericSpecStatus": "verified against 2.4.0.8311",
+      "initialNumbers": {
+        "cost": 2,
+        "attack": 0,
+        "health": 0,
+        "durability": 0
+      },
+      "initialType": "SPELL",
+      "initialName": "패거리",
+      "initialRawText": "하수인을 선택하고, 내 덱에 그 하수인을 3마리 섞어 넣습니다.",
+      "initialRarityEnum": 1,
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.4.0.8311",
+          "byObservedBuild": "2.5.0.8416",
+          "dateStatus": "observation range; only separately sourced boundaries are dated in card.patches"
+        },
+        {
+          "afterObservedBuild": "2.6.0.8834",
+          "byObservedBuild": "2.8.0.9554",
+          "dateStatus": "observation range; only separately sourced boundaries are dated in card.patches"
+        },
+        {
+          "afterObservedBuild": "3.0.0.9786",
+          "byObservedBuild": "4.1.0.10956",
+          "dateStatus": "observation range; only separately sourced boundaries are dated in card.patches"
+        },
+        {
+          "afterObservedBuild": "12.0.0.25770",
+          "byObservedBuild": "12.2.0.26996",
+          "dateStatus": "observation range; only separately sourced boundaries are dated in card.patches"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; the original and intermediate raw observations are preserved, not asserted to equal current wording.",
+        "Cosmetic wording, punctuation, spacing, client formatting and engine/bug-fix chronology are not exhaustive. A dated effect update does not date every intermediate cosmetic wording."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/b335c43f5580c215e5bcdc0e494b5a3f34ff8015/CardDefs.xml"
+    },
+    {
+      "id": "BRM_008",
+      "releasedAt": "2015-04-24",
+      "initialNumericSpecStatus": "verified against 2.4.0.8311",
+      "initialNumbers": {
+        "cost": 5,
+        "attack": 4,
+        "health": 3,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "검은무쇠 잠복자",
+      "initialRawText": "<b>전투의 함성:</b> 피해를 입지 않은 모든 적 하수인에게 피해를 2 줍니다.",
+      "initialRarityEnum": 3,
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [
+        {
+          "date": "2023-08-23",
+          "changes": {
+            "cost": 4
+          }
+        }
+      ],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "8.0.0.18336",
+          "byObservedBuild": "9.0.0.20457",
+          "dateStatus": "observation range; only separately sourced boundaries are dated in card.patches"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; the original and intermediate raw observations are preserved, not asserted to equal current wording.",
+        "Cosmetic wording, punctuation, spacing, client formatting and engine/bug-fix chronology are not exhaustive. A dated effect update does not date every intermediate cosmetic wording."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/b335c43f5580c215e5bcdc0e494b5a3f34ff8015/CardDefs.xml"
+    },
+    {
+      "id": "BRM_009",
+      "releasedAt": "2015-04-17",
+      "initialNumericSpecStatus": "verified against 2.4.0.8311",
+      "initialNumbers": {
+        "cost": 9,
+        "attack": 7,
+        "health": 8,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "화산의 나무정령",
+      "initialRawText": "<b>도발</b>\n이번 턴에 죽은 하수인 하나당 비용이 (1)씩 감소합니다.",
+      "initialRarityEnum": 3,
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "12.0.0.25770",
+          "byObservedBuild": "12.2.0.26996",
+          "dateStatus": "observation range; only separately sourced boundaries are dated in card.patches"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; the original and intermediate raw observations are preserved, not asserted to equal current wording.",
+        "Cosmetic wording, punctuation, spacing, client formatting and engine/bug-fix chronology are not exhaustive. A dated effect update does not date every intermediate cosmetic wording.",
+        "Korean name 화산의 나무정령→화산의 고대정령 observed between12.0 and12.2; exact first change not dated. Release articles use inconsistent translations and are not proof of in-game name."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/b335c43f5580c215e5bcdc0e494b5a3f34ff8015/CardDefs.xml"
+    },
+    {
+      "id": "BRM_010",
+      "releasedAt": "2015-04-10",
+      "initialNumericSpecStatus": "verified against 2.4.0.8311",
+      "initialNumbers": {
+        "cost": 3,
+        "attack": 2,
+        "health": 2,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "화염의 드루이드",
+      "initialRawText": "<b>선택</b> - 5/2 또는 2/5 하수인으로 변신합니다.",
+      "initialRarityEnum": 1,
+      "initialDisplayMatchesRelease": true,
+      "datedPatches": [
+        {
+          "date": "2016-11-30",
+          "changes": {
+            "text": "<b>선택 -</b> 5/2 또는 2/5 하수인으로 변신합니다."
+          }
+        }
+      ],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "6.2.0.15181",
+          "byObservedBuild": "7.0.0.15590",
+          "dateStatus": "observation range; only separately sourced boundaries are dated in card.patches"
+        }
+      ],
+      "limitations": [
+        "Cosmetic wording, punctuation, spacing, client formatting and engine/bug-fix chronology are not exhaustive. A dated effect update does not date every intermediate cosmetic wording."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/b335c43f5580c215e5bcdc0e494b5a3f34ff8015/CardDefs.xml"
+    },
+    {
+      "id": "BRM_010a",
+      "releasedAt": "2015-04-10",
+      "initialNumericSpecStatus": "verified against 2.4.0.8311",
+      "initialNumbers": {
+        "cost": 0,
+        "attack": 0,
+        "health": 0,
+        "durability": 0
+      },
+      "initialType": "SPELL",
+      "initialName": "불꽃표범 변신",
+      "initialRawText": "5/2 하수인으로 변신합니다.",
+      "initialRarityEnum": 1,
+      "initialDisplayMatchesRelease": true,
+      "datedPatches": [
+        {
+          "date": "2016-10-21",
+          "changes": {
+            "races": [],
+            "race": ""
+          }
+        },
+        {
+          "date": "2018-04-11",
+          "changes": {
+            "text": "공격력 +3"
+          }
+        },
+        {
+          "date": "2018-11-30",
+          "changes": {
+            "type": "MINION",
+            "cost": 3,
+            "attack": 2,
+            "health": 5,
+            "text": "",
+            "races": [
+              "BEAST"
+            ],
+            "race": "BEAST"
+          }
+        },
+        {
+          "date": "2019-02-06",
+          "changes": {
+            "attack": 5,
+            "health": 2
+          }
+        },
+        {
+          "date": "2022-11-30",
+          "changes": {
+            "races": [
+              "BEAST",
+              "ELEMENTAL"
+            ]
+          }
+        }
+      ],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "10.2.0.23180",
+          "byObservedBuild": "11.0.0.23966",
+          "dateStatus": "observation range; only separately sourced boundaries are dated in card.patches"
+        },
+        {
+          "afterObservedBuild": "12.2.0.26996",
+          "byObservedBuild": "13.0.0.27845",
+          "dateStatus": "observation range; only separately sourced boundaries are dated in card.patches"
+        }
+      ],
+      "limitations": [
+        "Cosmetic wording, punctuation, spacing, client formatting and engine/bug-fix chronology are not exhaustive. A dated effect update does not date every intermediate cosmetic wording.",
+        "Choice UI entities, not transformed minions. 13.0 temporarily displayed opposite stats; corrected 13.2. RARITY=1 through8.0, absent by9.0, restored13.0: exact removal date pending, interim API rarity provisional."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/b335c43f5580c215e5bcdc0e494b5a3f34ff8015/CardDefs.xml"
+    },
+    {
+      "id": "BRM_010b",
+      "releasedAt": "2015-04-10",
+      "initialNumericSpecStatus": "verified against 2.4.0.8311",
+      "initialNumbers": {
+        "cost": 0,
+        "attack": 0,
+        "health": 0,
+        "durability": 0
+      },
+      "initialType": "SPELL",
+      "initialName": "불꽃매 변신",
+      "initialRawText": "2/5 하수인으로 변신합니다.",
+      "initialRarityEnum": 1,
+      "initialDisplayMatchesRelease": true,
+      "datedPatches": [
+        {
+          "date": "2016-10-21",
+          "changes": {
+            "races": [],
+            "race": ""
+          }
+        },
+        {
+          "date": "2018-04-11",
+          "changes": {
+            "text": "생명력 +3"
+          }
+        },
+        {
+          "date": "2018-11-30",
+          "changes": {
+            "type": "MINION",
+            "cost": 3,
+            "attack": 5,
+            "health": 2,
+            "text": "",
+            "races": [
+              "BEAST"
+            ],
+            "race": "BEAST"
+          }
+        },
+        {
+          "date": "2019-02-06",
+          "changes": {
+            "attack": 2,
+            "health": 5
+          }
+        },
+        {
+          "date": "2022-11-30",
+          "changes": {
+            "races": [
+              "BEAST",
+              "ELEMENTAL"
+            ]
+          }
+        }
+      ],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "10.2.0.23180",
+          "byObservedBuild": "11.0.0.23966",
+          "dateStatus": "observation range; only separately sourced boundaries are dated in card.patches"
+        },
+        {
+          "afterObservedBuild": "12.2.0.26996",
+          "byObservedBuild": "13.0.0.27845",
+          "dateStatus": "observation range; only separately sourced boundaries are dated in card.patches"
+        }
+      ],
+      "limitations": [
+        "Cosmetic wording, punctuation, spacing, client formatting and engine/bug-fix chronology are not exhaustive. A dated effect update does not date every intermediate cosmetic wording.",
+        "Choice UI entities, not transformed minions. 13.0 temporarily displayed opposite stats; corrected 13.2. RARITY=1 through8.0, absent by9.0, restored13.0: exact removal date pending, interim API rarity provisional."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/b335c43f5580c215e5bcdc0e494b5a3f34ff8015/CardDefs.xml"
+    },
+    {
+      "id": "BRM_010t",
+      "releasedAt": "2015-04-10",
+      "initialNumericSpecStatus": "verified against 2.4.0.8311",
+      "initialNumbers": {
+        "cost": 3,
+        "attack": 5,
+        "health": 2,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "화염의 드루이드",
+      "initialRawText": "",
+      "initialRarityEnum": 1,
+      "initialDisplayMatchesRelease": true,
+      "datedPatches": [
+        {
+          "date": "2022-11-30",
+          "changes": {
+            "races": [
+              "BEAST",
+              "ELEMENTAL"
+            ]
+          }
+        }
+      ],
+      "observedTextTransitionRanges": [],
+      "limitations": [],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/b335c43f5580c215e5bcdc0e494b5a3f34ff8015/CardDefs.xml"
+    },
+    {
+      "id": "BRM_010t2",
+      "releasedAt": "2015-04-10",
+      "initialNumericSpecStatus": "verified against 2.4.0.8311",
+      "initialNumbers": {
+        "cost": 3,
+        "attack": 2,
+        "health": 5,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "화염의 드루이드",
+      "initialRawText": "",
+      "initialRarityEnum": 1,
+      "initialDisplayMatchesRelease": true,
+      "datedPatches": [
+        {
+          "date": "2022-11-30",
+          "changes": {
+            "races": [
+              "BEAST",
+              "ELEMENTAL"
+            ]
+          }
+        }
+      ],
+      "observedTextTransitionRanges": [],
+      "limitations": [],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/b335c43f5580c215e5bcdc0e494b5a3f34ff8015/CardDefs.xml"
+    },
+    {
+      "id": "BRM_011",
+      "releasedAt": "2015-04-10",
+      "initialNumericSpecStatus": "verified against 2.4.0.8311",
+      "initialNumbers": {
+        "cost": 2,
+        "attack": 0,
+        "health": 0,
+        "durability": 0
+      },
+      "initialType": "SPELL",
+      "initialName": "용암 충격",
+      "initialRawText": "피해를 $2 줍니다.\n<b>과부하</b>된 내 마나 수정이 모두 잠금 해제됩니다.",
+      "initialRarityEnum": 3,
+      "initialDisplayMatchesRelease": true,
+      "datedPatches": [
+        {
+          "date": "2021-03-26",
+          "changes": {
+            "spellSchool": "FIRE"
+          }
+        }
+      ],
+      "observedTextTransitionRanges": [],
+      "limitations": [],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/b335c43f5580c215e5bcdc0e494b5a3f34ff8015/CardDefs.xml"
+    },
+    {
+      "id": "BRM_012",
+      "releasedAt": "2015-04-24",
+      "initialNumericSpecStatus": "verified against 2.4.0.8311",
+      "initialNumbers": {
+        "cost": 4,
+        "attack": 3,
+        "health": 6,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "파괴의 화염수호정령",
+      "initialRawText": "<b>전투의 함성:</b> 공격력을 1-4 얻습니다. <b>과부하:</b> (1)",
+      "initialRarityEnum": 1,
+      "initialDisplayMatchesRelease": true,
+      "datedPatches": [
+        {
+          "date": "2017-04-05",
+          "changes": {
+            "races": [
+              "ELEMENTAL"
+            ],
+            "race": "ELEMENTAL"
+          }
+        }
+      ],
+      "observedTextTransitionRanges": [],
+      "limitations": [],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/b335c43f5580c215e5bcdc0e494b5a3f34ff8015/CardDefs.xml"
+    },
+    {
+      "id": "BRM_013",
+      "releasedAt": "2015-04-03",
+      "initialNumericSpecStatus": "verified against 2.4.0.8311",
+      "initialNumbers": {
+        "cost": 2,
+        "attack": 0,
+        "health": 0,
+        "durability": 0
+      },
+      "initialType": "SPELL",
+      "initialName": "속사",
+      "initialRawText": "피해를 $3 줍니다.\n만약 내 손에 카드가 없으면 카드를 1장 뽑습니다.",
+      "initialRarityEnum": 1,
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [
+        {
+          "date": "2019-04-05",
+          "changes": {
+            "name": "신속 사격"
+          }
+        }
+      ],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.8.0.9554",
+          "byObservedBuild": "3.0.0.9786",
+          "dateStatus": "observation range; only separately sourced boundaries are dated in card.patches"
+        },
+        {
+          "afterObservedBuild": "12.0.0.25770",
+          "byObservedBuild": "12.2.0.26996",
+          "dateStatus": "observation range; only separately sourced boundaries are dated in card.patches"
+        },
+        {
+          "afterObservedBuild": "13.2.0.28855",
+          "byObservedBuild": "14.0.0.29933",
+          "dateStatus": "observation range; only separately sourced boundaries are dated in card.patches"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; the original and intermediate raw observations are preserved, not asserted to equal current wording.",
+        "Cosmetic wording, punctuation, spacing, client formatting and engine/bug-fix chronology are not exhaustive. A dated effect update does not date every intermediate cosmetic wording."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/b335c43f5580c215e5bcdc0e494b5a3f34ff8015/CardDefs.xml"
+    },
+    {
+      "id": "BRM_014",
+      "releasedAt": "2015-04-17",
+      "initialNumericSpecStatus": "verified against 2.4.0.8311",
+      "initialNumbers": {
+        "cost": 4,
+        "attack": 4,
+        "health": 4,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "흉포한 심장부 사냥개",
+      "initialRawText": "<b>전투의 함성:</b> 만약 내 손에 카드가 없으면 +3/+3을 얻습니다.",
+      "initialRarityEnum": 3,
+      "initialDisplayMatchesRelease": true,
+      "datedPatches": [
+        {
+          "date": "2015-08-19",
+          "changes": {
+            "text": "<b>전투의_함성:</b> 내 손에 카드가 없으면, +3/+3을 얻습니다."
+          }
+        },
+        {
+          "date": "2026-02-10",
+          "changes": {
+            "races": [
+              "BEAST",
+              "ELEMENTAL"
+            ]
+          }
+        }
+      ],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.8.0.9554",
+          "byObservedBuild": "3.0.0.9786",
+          "dateStatus": "observation range; only separately sourced boundaries are dated in card.patches"
+        }
+      ],
+      "limitations": [
+        "Cosmetic wording, punctuation, spacing, client formatting and engine/bug-fix chronology are not exhaustive. A dated effect update does not date every intermediate cosmetic wording.",
+        "Secondary ELEMENTAL introduced34.6 on Korean2026-02-10, not the25.0 dual-type rollout. April Fools fake stat changes are excluded."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/b335c43f5580c215e5bcdc0e494b5a3f34ff8015/CardDefs.xml"
+    },
+    {
+      "id": "BRM_015",
+      "releasedAt": "2015-04-24",
+      "initialNumericSpecStatus": "verified against 2.4.0.8311",
+      "initialNumbers": {
+        "cost": 2,
+        "attack": 0,
+        "health": 0,
+        "durability": 0
+      },
+      "initialType": "SPELL",
+      "initialName": "복수",
+      "initialRawText": "<b>모든</b> 하수인에게 피해를 $1 줍니다. 만약 내 생명력이 12 이하라면 피해를 $3 줍니다.",
+      "initialRarityEnum": 3,
+      "initialDisplayMatchesRelease": true,
+      "datedPatches": [
+        {
+          "date": "2015-08-19",
+          "changes": {
+            "text": "<b>모든</b> 하수인에게 피해를 $1 줍니다.<br></br>내 생명력이 12 이하면, 피해를 $3 줍니다."
+          }
+        }
+      ],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.8.0.9554",
+          "byObservedBuild": "3.0.0.9786",
+          "dateStatus": "observation range; only separately sourced boundaries are dated in card.patches"
+        }
+      ],
+      "limitations": [
+        "Cosmetic wording, punctuation, spacing, client formatting and engine/bug-fix chronology are not exhaustive. A dated effect update does not date every intermediate cosmetic wording."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/b335c43f5580c215e5bcdc0e494b5a3f34ff8015/CardDefs.xml"
+    },
+    {
+      "id": "BRM_016",
+      "releasedAt": "2015-04-10",
+      "initialNumericSpecStatus": "verified against 2.4.0.8311",
+      "initialNumbers": {
+        "cost": 4,
+        "attack": 2,
+        "health": 5,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "도끼 투척수",
+      "initialRawText": "이 하수인이 피해를 입을 때마다, 적 영웅에게 피해를 2 줍니다.",
+      "initialRarityEnum": 1,
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [
+        {
+          "date": "2023-08-23",
+          "changes": {
+            "health": 6
+          }
+        }
+      ],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.6.0.8834",
+          "byObservedBuild": "2.8.0.9554",
+          "dateStatus": "observation range; only separately sourced boundaries are dated in card.patches"
+        },
+        {
+          "afterObservedBuild": "2.8.0.9554",
+          "byObservedBuild": "3.0.0.9786",
+          "dateStatus": "observation range; only separately sourced boundaries are dated in card.patches"
+        },
+        {
+          "afterObservedBuild": "8.0.0.18336",
+          "byObservedBuild": "9.0.0.20457",
+          "dateStatus": "observation range; only separately sourced boundaries are dated in card.patches"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; the original and intermediate raw observations are preserved, not asserted to equal current wording.",
+        "Cosmetic wording, punctuation, spacing, client formatting and engine/bug-fix chronology are not exhaustive. A dated effect update does not date every intermediate cosmetic wording."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/b335c43f5580c215e5bcdc0e494b5a3f34ff8015/CardDefs.xml"
+    },
+    {
+      "id": "BRM_017",
+      "releasedAt": "2015-04-03",
+      "initialNumericSpecStatus": "verified against 2.4.0.8311",
+      "initialNumbers": {
+        "cost": 2,
+        "attack": 0,
+        "health": 0,
+        "durability": 0
+      },
+      "initialType": "SPELL",
+      "initialName": "부활",
+      "initialRawText": "이번 게임에서 죽은 아군 하수인 중에 무작위로 선택된 하수인 하나를 소환합니다.",
+      "initialRarityEnum": 3,
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [
+        {
+          "date": "2021-03-26",
+          "changes": {
+            "spellSchool": "HOLY"
+          }
+        }
+      ],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.8.0.9554",
+          "byObservedBuild": "3.0.0.9786",
+          "dateStatus": "observation range; only separately sourced boundaries are dated in card.patches"
+        },
+        {
+          "afterObservedBuild": "10.2.0.23180",
+          "byObservedBuild": "11.0.0.23966",
+          "dateStatus": "observation range; only separately sourced boundaries are dated in card.patches"
+        },
+        {
+          "afterObservedBuild": "12.0.0.25770",
+          "byObservedBuild": "12.2.0.26996",
+          "dateStatus": "observation range; only separately sourced boundaries are dated in card.patches"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; the original and intermediate raw observations are preserved, not asserted to equal current wording.",
+        "Cosmetic wording, punctuation, spacing, client formatting and engine/bug-fix chronology are not exhaustive. A dated effect update does not date every intermediate cosmetic wording."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/b335c43f5580c215e5bcdc0e494b5a3f34ff8015/CardDefs.xml"
+    },
+    {
+      "id": "BRM_018",
+      "releasedAt": "2015-04-17",
+      "initialNumericSpecStatus": "verified against 2.4.0.8311",
+      "initialNumbers": {
+        "cost": 5,
+        "attack": 5,
+        "health": 5,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "용의 배우자",
+      "initialRawText": "<b>전투의 함성:</b> 다음에 내가 내는 용족 하수인의 비용이 (2) 감소합니다.",
+      "initialRarityEnum": 3,
+      "initialDisplayMatchesRelease": true,
+      "datedPatches": [
+        {
+          "date": "2015-08-19",
+          "changes": {
+            "text": "<b>전투의 함성:</b> 다음에 내가<br></br>내는 용족의 비용이<br></br>(2) 감소합니다."
+          }
+        }
+      ],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.8.0.9554",
+          "byObservedBuild": "3.0.0.9786",
+          "dateStatus": "observation range; only separately sourced boundaries are dated in card.patches"
+        }
+      ],
+      "limitations": [
+        "Cosmetic wording, punctuation, spacing, client formatting and engine/bug-fix chronology are not exhaustive. A dated effect update does not date every intermediate cosmetic wording."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/b335c43f5580c215e5bcdc0e494b5a3f34ff8015/CardDefs.xml"
+    },
+    {
+      "id": "BRM_019",
+      "releasedAt": "2015-04-03",
+      "initialNumericSpecStatus": "verified against 2.4.0.8311",
+      "initialNumbers": {
+        "cost": 5,
+        "attack": 3,
+        "health": 3,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "험상궂은 손님",
+      "initialRawText": "이 하수인이 피해를 입고 생존할 때마다 다른 험상궂은 손님을 소환합니다.",
+      "initialRarityEnum": 3,
+      "initialDisplayMatchesRelease": true,
+      "datedPatches": [
+        {
+          "date": "2018-02-07",
+          "changes": {
+            "text": "이 하수인은 피해를 받고 생존한 후에, 다른 험상궂은 손님을 소환합니다."
+          }
+        }
+      ],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "4.1.0.10956",
+          "byObservedBuild": "5.0.0.12574",
+          "dateStatus": "observation range; only separately sourced boundaries are dated in card.patches"
+        },
+        {
+          "afterObservedBuild": "8.0.0.18336",
+          "byObservedBuild": "9.0.0.20457",
+          "dateStatus": "observation range; only separately sourced boundaries are dated in card.patches"
+        },
+        {
+          "afterObservedBuild": "10.0.0.22611",
+          "byObservedBuild": "10.2.0.23180",
+          "dateStatus": "observation range; only separately sourced boundaries are dated in card.patches"
+        }
+      ],
+      "limitations": [
+        "Cosmetic wording, punctuation, spacing, client formatting and engine/bug-fix chronology are not exhaustive. A dated effect update does not date every intermediate cosmetic wording.",
+        "10.2 Whenever→After wording is not a stat nerf. 2022 temporary constructed ban/corpse-generation changes are engine/availability events outside this card.patches display schema and not exhaustively dated here."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/b335c43f5580c215e5bcdc0e494b5a3f34ff8015/CardDefs.xml"
+    },
+    {
+      "id": "BRM_020",
+      "releasedAt": "2015-05-01",
+      "initialNumericSpecStatus": "verified against 2.4.0.8311",
+      "initialNumbers": {
+        "cost": 4,
+        "attack": 3,
+        "health": 5,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "용혈족 마술사",
+      "initialRawText": "내가 주문의 대상으로 이 하수인을 지정할 때마다 +1/+1을 얻습니다.",
+      "initialRarityEnum": 1,
+      "initialDisplayMatchesRelease": true,
+      "datedPatches": [
+        {
+          "date": "2016-11-30",
+          "changes": {
+            "name": "용족 마술사"
+          }
+        }
+      ],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "6.2.0.15181",
+          "byObservedBuild": "7.0.0.15590",
+          "dateStatus": "observation range; only separately sourced boundaries are dated in card.patches"
+        }
+      ],
+      "limitations": [
+        "Cosmetic wording, punctuation, spacing, client formatting and engine/bug-fix chronology are not exhaustive. A dated effect update does not date every intermediate cosmetic wording."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/b335c43f5580c215e5bcdc0e494b5a3f34ff8015/CardDefs.xml"
+    },
+    {
+      "id": "BRM_022",
+      "releasedAt": "2015-04-17",
+      "initialNumericSpecStatus": "verified against 2.4.0.8311",
+      "initialNumbers": {
+        "cost": 1,
+        "attack": 0,
+        "health": 2,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "용의 알",
+      "initialRawText": "이 하수인은 피해를 입을 때마다 2/1 새끼용을 소환합니다.",
+      "initialRarityEnum": 3,
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "8.0.0.18336",
+          "byObservedBuild": "9.0.0.20457",
+          "dateStatus": "observation range; only separately sourced boundaries are dated in card.patches"
+        },
+        {
+          "afterObservedBuild": "10.2.0.23180",
+          "byObservedBuild": "11.0.0.23966",
+          "dateStatus": "observation range; only separately sourced boundaries are dated in card.patches"
+        },
+        {
+          "afterObservedBuild": "12.0.0.25770",
+          "byObservedBuild": "12.2.0.26996",
+          "dateStatus": "observation range; only separately sourced boundaries are dated in card.patches"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; the original and intermediate raw observations are preserved, not asserted to equal current wording.",
+        "Cosmetic wording, punctuation, spacing, client formatting and engine/bug-fix chronology are not exhaustive. A dated effect update does not date every intermediate cosmetic wording."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/b335c43f5580c215e5bcdc0e494b5a3f34ff8015/CardDefs.xml"
+    },
+    {
+      "id": "BRM_022t",
+      "releasedAt": "2015-04-17",
+      "initialNumericSpecStatus": "verified against 2.4.0.8311",
+      "initialNumbers": {
+        "cost": 1,
+        "attack": 2,
+        "health": 1,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "검은 새끼용",
+      "initialRawText": "",
+      "initialRarityEnum": 1,
+      "initialDisplayMatchesRelease": true,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [],
+      "limitations": [
+        "Raw release RARITY=1, absent by12.0 after11.0; exact removal date unresolved. API rarity FREE remains provisional. WHELP engine classification and other internal tags are not modeled as display mechanics."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/b335c43f5580c215e5bcdc0e494b5a3f34ff8015/CardDefs.xml"
+    },
+    {
+      "id": "BRM_024",
+      "releasedAt": "2015-05-01",
+      "initialNumericSpecStatus": "verified against 2.4.0.8311",
+      "initialNumbers": {
+        "cost": 6,
+        "attack": 6,
+        "health": 6,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "용기병 분쇄자",
+      "initialRawText": "<b>전투의 함성:</b> 만약 상대편의 생명력이 15 이하라면 +3/+3을 얻습니다.",
+      "initialRarityEnum": 1,
+      "initialDisplayMatchesRelease": true,
+      "datedPatches": [
+        {
+          "date": "2015-08-19",
+          "changes": {
+            "text": "<b>전투의 함성:</b> 상대편의 생명력이 15 이하면, +3/+3을 얻습니다."
+          }
+        }
+      ],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.8.0.9554",
+          "byObservedBuild": "3.0.0.9786",
+          "dateStatus": "observation range; only separately sourced boundaries are dated in card.patches"
+        }
+      ],
+      "limitations": [
+        "Cosmetic wording, punctuation, spacing, client formatting and engine/bug-fix chronology are not exhaustive. A dated effect update does not date every intermediate cosmetic wording."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/b335c43f5580c215e5bcdc0e494b5a3f34ff8015/CardDefs.xml"
+    },
+    {
+      "id": "BRM_025",
+      "releasedAt": "2015-05-01",
+      "initialNumericSpecStatus": "verified against 2.4.0.8311",
+      "initialNumbers": {
+        "cost": 6,
+        "attack": 6,
+        "health": 4,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "화산 비룡",
+      "initialRawText": "이번 턴에 죽은 하수인 하나당 비용이 (1)씩 감소합니다.",
+      "initialRarityEnum": 1,
+      "initialDisplayMatchesRelease": true,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [],
+      "limitations": [],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/b335c43f5580c215e5bcdc0e494b5a3f34ff8015/CardDefs.xml"
+    },
+    {
+      "id": "BRM_026",
+      "releasedAt": "2015-04-24",
+      "initialNumericSpecStatus": "verified against 2.4.0.8311",
+      "initialNumbers": {
+        "cost": 4,
+        "attack": 5,
+        "health": 6,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "굶주린 용",
+      "initialRawText": "<b>전투의 함성:</b> 무작위로 선택된 비용 1짜리 하수인 하나를 상대편에게 소환해 줍니다.",
+      "initialRarityEnum": 1,
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.8.0.9554",
+          "byObservedBuild": "3.0.0.9786",
+          "dateStatus": "observation range; only separately sourced boundaries are dated in card.patches"
+        },
+        {
+          "afterObservedBuild": "10.2.0.23180",
+          "byObservedBuild": "11.0.0.23966",
+          "dateStatus": "observation range; only separately sourced boundaries are dated in card.patches"
+        },
+        {
+          "afterObservedBuild": "12.0.0.25770",
+          "byObservedBuild": "12.2.0.26996",
+          "dateStatus": "observation range; only separately sourced boundaries are dated in card.patches"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; the original and intermediate raw observations are preserved, not asserted to equal current wording.",
+        "Cosmetic wording, punctuation, spacing, client formatting and engine/bug-fix chronology are not exhaustive. A dated effect update does not date every intermediate cosmetic wording."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/b335c43f5580c215e5bcdc0e494b5a3f34ff8015/CardDefs.xml"
+    },
+    {
+      "id": "BRM_027",
+      "releasedAt": "2015-04-10",
+      "initialNumericSpecStatus": "verified against 2.4.0.8311",
+      "initialNumbers": {
+        "cost": 9,
+        "attack": 9,
+        "health": 7,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "청지기 이그젝큐투스",
+      "initialRawText": "<b>죽음의 메아리:</b> 내 영웅을 불의 군주 라그나로스로 교체합니다.",
+      "initialRarityEnum": 5,
+      "initialDisplayMatchesRelease": true,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [],
+      "limitations": [],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/b335c43f5580c215e5bcdc0e494b5a3f34ff8015/CardDefs.xml"
+    },
+    {
+      "id": "BRM_027h",
+      "releasedAt": "2015-04-10",
+      "initialNumericSpecStatus": "verified against 2.4.0.8311",
+      "initialNumbers": {
+        "cost": 0,
+        "attack": 0,
+        "health": 8,
+        "durability": 0
+      },
+      "initialType": "HERO",
+      "initialName": "불의 군주 라그나로스",
+      "initialRawText": "",
+      "initialRarityEnum": 0,
+      "initialDisplayMatchesRelease": true,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [],
+      "limitations": [],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/b335c43f5580c215e5bcdc0e494b5a3f34ff8015/CardDefs.xml"
+    },
+    {
+      "id": "BRM_027p",
+      "releasedAt": "2015-04-10",
+      "initialNumericSpecStatus": "verified against 2.4.0.8311",
+      "initialNumbers": {
+        "cost": 2,
+        "attack": 0,
+        "health": 0,
+        "durability": 0
+      },
+      "initialType": "HERO_POWER",
+      "initialName": "죽어라, 벌레야!",
+      "initialRawText": "<b>영웅 능력</b>\n무작위로 선택된 적 하나에게 피해를 8 줍니다.",
+      "initialRarityEnum": 0,
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [
+        {
+          "date": "2022-11-30",
+          "changes": {
+            "text": "무작위 적에게 피해를 $8 줍니다."
+          }
+        }
+      ],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.8.0.9554",
+          "byObservedBuild": "3.0.0.9786",
+          "dateStatus": "observation range; only separately sourced boundaries are dated in card.patches"
+        },
+        {
+          "afterObservedBuild": "3.0.0.9786",
+          "byObservedBuild": "4.1.0.10956",
+          "dateStatus": "observation range; only separately sourced boundaries are dated in card.patches"
+        },
+        {
+          "afterObservedBuild": "12.0.0.25770",
+          "byObservedBuild": "12.2.0.26996",
+          "dateStatus": "observation range; only separately sourced boundaries are dated in card.patches"
+        },
+        {
+          "afterObservedBuild": "20.2.2.83143",
+          "byObservedBuild": "25.0.0.158725",
+          "dateStatus": "observation range; only separately sourced boundaries are dated in card.patches"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; the original and intermediate raw observations are preserved, not asserted to equal current wording.",
+        "Cosmetic wording, punctuation, spacing, client formatting and engine/bug-fix chronology are not exhaustive. A dated effect update does not date every intermediate cosmetic wording.",
+        "Korean name 죽어라, 벌레야!→죽어라, 벌레 같은 놈! observed between3.0 and4.1; exact Korean change date pending. 25.0 removes the hero-power label, not a damage change."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/b335c43f5580c215e5bcdc0e494b5a3f34ff8015/CardDefs.xml"
+    },
+    {
+      "id": "BRM_028",
+      "releasedAt": "2015-04-03",
+      "initialNumericSpecStatus": "verified against 2.4.0.8311",
+      "initialNumbers": {
+        "cost": 6,
+        "attack": 5,
+        "health": 5,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "제왕 타우릿산",
+      "initialRawText": "내 턴이 끝날 때, 내 손에 있는 카드들의 비용이 (1) 감소합니다.",
+      "initialRarityEnum": 5,
+      "initialDisplayMatchesRelease": true,
+      "datedPatches": [
+        {
+          "date": "2023-08-23",
+          "changes": {
+            "cost": 5,
+            "attack": 4,
+            "health": 4
+          }
+        }
+      ],
+      "observedTextTransitionRanges": [],
+      "limitations": [],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/b335c43f5580c215e5bcdc0e494b5a3f34ff8015/CardDefs.xml"
+    },
+    {
+      "id": "BRM_029",
+      "releasedAt": "2015-04-17",
+      "initialNumericSpecStatus": "verified against 2.4.0.8311",
+      "initialNumbers": {
+        "cost": 7,
+        "attack": 8,
+        "health": 4,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "렌드 블랙핸드",
+      "initialRawText": "<b>전투의 함성:</b> 내 손에 용족 하수인이 있으면 <b>전설</b> 하수인 하나를 처치합니다.",
+      "initialRarityEnum": 5,
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.8.0.9554",
+          "byObservedBuild": "3.0.0.9786",
+          "dateStatus": "observation range; only separately sourced boundaries are dated in card.patches"
+        },
+        {
+          "afterObservedBuild": "12.0.0.25770",
+          "byObservedBuild": "12.2.0.26996",
+          "dateStatus": "observation range; only separately sourced boundaries are dated in card.patches"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; the original and intermediate raw observations are preserved, not asserted to equal current wording.",
+        "Cosmetic wording, punctuation, spacing, client formatting and engine/bug-fix chronology are not exhaustive. A dated effect update does not date every intermediate cosmetic wording."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/b335c43f5580c215e5bcdc0e494b5a3f34ff8015/CardDefs.xml"
+    },
+    {
+      "id": "BRM_030",
+      "releasedAt": "2015-05-01",
+      "initialNumericSpecStatus": "verified against 2.4.0.8311",
+      "initialNumbers": {
+        "cost": 9,
+        "attack": 8,
+        "health": 8,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "네파리안",
+      "initialRawText": "<b>전투의 함성:</b> 무작위로 선택된 <i>상대편 직업</i>의 주문 카드 2장을 내 손으로 가져옵니다.",
+      "initialRarityEnum": 5,
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.5.0.8416",
+          "byObservedBuild": "2.6.0.8834",
+          "dateStatus": "observation range; only separately sourced boundaries are dated in card.patches"
+        },
+        {
+          "afterObservedBuild": "2.8.0.9554",
+          "byObservedBuild": "3.0.0.9786",
+          "dateStatus": "observation range; only separately sourced boundaries are dated in card.patches"
+        },
+        {
+          "afterObservedBuild": "8.0.0.18336",
+          "byObservedBuild": "9.0.0.20457",
+          "dateStatus": "observation range; only separately sourced boundaries are dated in card.patches"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; the original and intermediate raw observations are preserved, not asserted to equal current wording.",
+        "Cosmetic wording, punctuation, spacing, client formatting and engine/bug-fix chronology are not exhaustive. A dated effect update does not date every intermediate cosmetic wording."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/b335c43f5580c215e5bcdc0e494b5a3f34ff8015/CardDefs.xml"
+    },
+    {
+      "id": "BRM_030t",
+      "releasedAt": "2015-05-01",
+      "initialNumericSpecStatus": "verified against 2.4.0.8311",
+      "initialNumbers": {
+        "cost": 4,
+        "attack": 0,
+        "health": 0,
+        "durability": 0
+      },
+      "initialType": "SPELL",
+      "initialName": "꼬리 휩쓸기",
+      "initialRawText": "피해를 $4 줍니다.",
+      "initialRarityEnum": 0,
+      "initialDisplayMatchesRelease": true,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [],
+      "limitations": [],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/b335c43f5580c215e5bcdc0e494b5a3f34ff8015/CardDefs.xml"
+    },
+    {
+      "id": "BRM_031",
+      "releasedAt": "2015-04-24",
+      "initialNumericSpecStatus": "verified against 2.4.0.8311",
+      "initialNumbers": {
+        "cost": 8,
+        "attack": 6,
+        "health": 8,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "크로마구스",
+      "initialRawText": "내가 카드를 뽑을 때마다 그 카드를 1장 복사하여 내 손으로 가져옵니다.",
+      "initialRarityEnum": 5,
+      "initialDisplayMatchesRelease": false,
+      "datedPatches": [],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "12.0.0.25770",
+          "byObservedBuild": "12.2.0.26996",
+          "dateStatus": "observation range; only separately sourced boundaries are dated in card.patches"
+        }
+      ],
+      "limitations": [
+        "Exact release Korean display text/name remains provisional in API; the original and intermediate raw observations are preserved, not asserted to equal current wording.",
+        "Cosmetic wording, punctuation, spacing, client formatting and engine/bug-fix chronology are not exhaustive. A dated effect update does not date every intermediate cosmetic wording."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/b335c43f5580c215e5bcdc0e494b5a3f34ff8015/CardDefs.xml"
+    },
+    {
+      "id": "BRM_033",
+      "releasedAt": "2015-04-10",
+      "initialNumericSpecStatus": "verified against 2.4.0.8311",
+      "initialNumbers": {
+        "cost": 3,
+        "attack": 2,
+        "health": 4,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "검은날개 기술병",
+      "initialRawText": "<b>전투의 함성:</b> 내 손에 용족 하수인이 있으면 +1/+1을 얻습니다.",
+      "initialRarityEnum": 1,
+      "initialDisplayMatchesRelease": true,
+      "datedPatches": [
+        {
+          "date": "2015-08-19",
+          "changes": {
+            "text": "<b>전투의 함성:</b><br></br>내 손에 용족이 있으면,<br></br>+1/+1을 얻습니다."
+          }
+        }
+      ],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.8.0.9554",
+          "byObservedBuild": "3.0.0.9786",
+          "dateStatus": "observation range; only separately sourced boundaries are dated in card.patches"
+        }
+      ],
+      "limitations": [
+        "Cosmetic wording, punctuation, spacing, client formatting and engine/bug-fix chronology are not exhaustive. A dated effect update does not date every intermediate cosmetic wording."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/b335c43f5580c215e5bcdc0e494b5a3f34ff8015/CardDefs.xml"
+    },
+    {
+      "id": "BRM_034",
+      "releasedAt": "2015-05-01",
+      "initialNumericSpecStatus": "verified against 2.4.0.8311",
+      "initialNumbers": {
+        "cost": 5,
+        "attack": 5,
+        "health": 4,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "검은날개 타락자",
+      "initialRawText": "<b>전투의 함성:</b> 내 손에 용족 하수인이 있으면 피해를 3 줍니다.",
+      "initialRarityEnum": 1,
+      "initialDisplayMatchesRelease": true,
+      "datedPatches": [
+        {
+          "date": "2015-08-19",
+          "changes": {
+            "text": "<b>전투의 함성:</b> 내 손에 용족이 있으면, 피해를 3 줍니다."
+          }
+        },
+        {
+          "date": "2023-08-23",
+          "changes": {
+            "text": "<b>전투의 함성:</b><br></br>내 손에 용족이 있으면, 피해를 5 줍니다."
+          }
+        }
+      ],
+      "observedTextTransitionRanges": [
+        {
+          "afterObservedBuild": "2.8.0.9554",
+          "byObservedBuild": "3.0.0.9786",
+          "dateStatus": "observation range; only separately sourced boundaries are dated in card.patches"
+        },
+        {
+          "afterObservedBuild": "26.0.0.170824",
+          "byObservedBuild": "27.2.0.183876",
+          "dateStatus": "observation range; only separately sourced boundaries are dated in card.patches"
+        }
+      ],
+      "limitations": [
+        "Cosmetic wording, punctuation, spacing, client formatting and engine/bug-fix chronology are not exhaustive. A dated effect update does not date every intermediate cosmetic wording.",
+        "27.2 damage3→5 agrees in official notes and original-set raw data; no delayed server exception observed."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/b335c43f5580c215e5bcdc0e494b5a3f34ff8015/CardDefs.xml"
+    },
+    {
+      "id": "OG_044b",
+      "releasedAt": "2016-04-27",
+      "initialNumericSpecStatus": "verified against 5.0.0.12574",
+      "initialNumbers": {
+        "cost": 3,
+        "attack": 5,
+        "health": 5,
+        "durability": 0
+      },
+      "initialType": "MINION",
+      "initialName": "화염의 드루이드",
+      "initialRawText": "",
+      "initialRarityEnum": 1,
+      "initialDisplayMatchesRelease": true,
+      "datedPatches": [
+        {
+          "date": "2023-02-15",
+          "changes": {
+            "races": [
+              "BEAST",
+              "ELEMENTAL"
+            ]
+          }
+        }
+      ],
+      "observedTextTransitionRanges": [],
+      "limitations": [
+        "Combined Fandral transformation first obtainable with Old Gods Korean launch2016-04-27, not the2015 BRM release or5.0 client preload. Secondary ELEMENTAL is25.4, unlike separate BRM forms25.0."
+      ],
+      "releaseSnapshotSource": "https://github.com/HearthSim/hsdata/blob/4f7206f440ab05115824b7263aa36cd94a96327f/CardDefs.xml"
+    }
+  ]
+}

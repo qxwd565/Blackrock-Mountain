@@ -166,10 +166,17 @@
     "BRM_001": {
       "date": "2015-05-01",
       "status": "verified"
+    },
+    "OG_044b": {
+      "date": "2016-04-27",
+      "status": "verified"
     }
   },
   "sources": {
     "wings": "https://hearthstone.wiki.gg/wiki/Blackrock_Mountain",
-    "launch": "https://hearthstone.blizzard.com/ko-kr/news/18390556"
-  }
+    "launch": "https://hearthstone.blizzard.com/ko-kr/news/18390556",
+    "oldGodsKoreanLaunch": "https://hearthstone.blizzard.com/ko-kr/news/20097359",
+    "wingAudit": "tools/brm-independent-review.json"
+  },
+  "basis": "First collectible reward/constructed availability by Korean wing or expansion opening; not client addition, announcement day, Arena preview, or speculative random-generation access."
 }

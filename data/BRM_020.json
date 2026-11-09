@@ -1,11 +1,11 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Dragonkin Sorcerer",
   "card": {
     "id": "BRM_020",
     "dbfId": 2306,
-    "name": "용족 마술사",
+    "name": "용혈족 마술사",
     "text": "내가 주문의 대상으로 이 하수인을 지정할 때마다 +1/+1을 얻습니다.",
     "type": "MINION",
     "cardClass": "NEUTRAL",
@@ -13,7 +13,7 @@
     "nativeSetId": 14,
     "set": "BRM",
     "rarity": "COMMON",
-    "race": "용족",
+    "race": "DRAGON",
     "races": [
       "DRAGON"
     ],
@@ -79,7 +79,22 @@
     "nativeRawText": "내가 주문의 대상으로 이 하수인을 지정할 때마다 +1/+1을 얻습니다.",
     "nativeTextBuilder": 0,
     "releasedAt": "2015-05-01",
-    "releaseStatus": "verified"
+    "releaseStatus": "verified",
+    "mechanics": [
+      "TRIGGER_VISUAL"
+    ],
+    "patches": [
+      {
+        "date": "2016-11-30",
+        "changes": {
+          "name": "용족 마술사"
+        }
+      }
+    ],
+    "patchSources": {
+      "2016-11-30": "https://hearthstone.blizzard.com/ko-kr/news/20382066"
+    },
+    "initialSpecStatus": "partially_verified"
   },
   "root": true,
   "relatedIds": [],
@@ -99,5 +114,21 @@
     "gameVersion": "6000.3.11.3145967",
     "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
     "locale": "koKR"
-  }
+  },
+  "historicalTextObservations": [
+    {
+      "build": "2.4.0.8311",
+      "name": "용혈족 마술사",
+      "rawText": "내가 주문의 대상으로 이 하수인을 지정할 때마다 +1/+1을 얻습니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/b335c43f5580c215e5bcdc0e494b5a3f34ff8015/CardDefs.xml",
+      "lastObservedBuild": "6.2.0.15181"
+    },
+    {
+      "build": "7.0.0.15590",
+      "name": "용족 마술사",
+      "rawText": "내가 주문의 대상으로 이 하수인을 지정할 때마다 +1/+1을 얻습니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/2155786e4175c66348b73037d3799c3fe96eeb6d/CardDefs.xml",
+      "lastObservedBuild": "37.0.2.256589"
+    }
+  ]
 }

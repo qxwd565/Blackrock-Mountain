@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Ragnaros the Firelord",
   "card": {
@@ -12,7 +12,7 @@
     "classes": [],
     "nativeSetId": 14,
     "set": "BRM",
-    "rarity": null,
+    "rarity": "FREE",
     "race": "",
     "races": [],
     "spellSchool": "",
@@ -52,7 +52,9 @@
     "nativeRawText": "",
     "nativeTextBuilder": 0,
     "releasedAt": "2015-04-10",
-    "releaseStatus": "verified"
+    "releaseStatus": "verified",
+    "patches": [],
+    "initialSpecStatus": "partially_verified"
   },
   "root": false,
   "relatedIds": [
@@ -74,5 +76,14 @@
     "gameVersion": "6000.3.11.3145967",
     "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
     "locale": "koKR"
-  }
+  },
+  "historicalTextObservations": [
+    {
+      "build": "2.4.0.8311",
+      "name": "불의 군주 라그나로스",
+      "rawText": "",
+      "source": "https://github.com/HearthSim/hsdata/blob/b335c43f5580c215e5bcdc0e494b5a3f34ff8015/CardDefs.xml",
+      "lastObservedBuild": "37.0.2.256589"
+    }
+  ]
 }

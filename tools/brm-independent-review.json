@@ -1,0 +1,222 @@
+{
+  "scope": "Blackrock Mountain independent release and 27.2 review only",
+  "timezone": "Asia/Seoul",
+  "releasePolicy": "First availability as owned/constructed card, not preview or client preload",
+  "wingReviews": [
+    {
+      "wing": 1,
+      "name": "검은바위 나락",
+      "date": "2015-04-03",
+      "bossRewards": [
+        "BRM_019",
+        "BRM_007",
+        "BRM_017"
+      ],
+      "wingReward": "BRM_028",
+      "classRewards": {
+        "HUNTER": "BRM_013",
+        "MAGE": "BRM_003"
+      },
+      "sources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/18390556",
+        "https://hearthstone.blizzard.com/ko-kr/news/18555823"
+      ],
+      "evidence": "Launch explicitly states Korean April 3. Official wing article dated April 3 names Grim Patron, Gang Up, Resurrect, Emperor Thaurissan, hunter Quick Shot and mage Dragon's Breath rewards."
+    },
+    {
+      "wing": 2,
+      "name": "화산 심장부",
+      "date": "2015-04-10",
+      "bossRewards": [
+        "BRM_010",
+        "BRM_033",
+        "BRM_006"
+      ],
+      "wingReward": "BRM_027",
+      "classRewards": {
+        "WARRIOR": "BRM_016",
+        "SHAMAN": "BRM_011"
+      },
+      "sources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/18644230",
+        "https://m.inven.co.kr/webzine/wznews.php?idx=130378&site=hs"
+      ],
+      "evidence": "Official wing post dated April 10 names all six rewards. Contemporary Inven report explicitly says Korean April 10 at 10:00 opening, with Warrior Axe Flinger and Shaman Lava Shock challenges."
+    },
+    {
+      "wing": 3,
+      "name": "검은바위 첨탑",
+      "date": "2015-04-17",
+      "bossRewards": [
+        "BRM_014",
+        "BRM_018",
+        "BRM_022"
+      ],
+      "wingReward": "BRM_029",
+      "classRewards": {
+        "PRIEST": "BRM_004",
+        "DRUID": "BRM_009"
+      },
+      "sources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/18648154",
+        "https://m.kbench.com/?q=node/149201",
+        "https://www.inven.co.kr/webzine/news/?news=130820&vtype=pc"
+      ],
+      "evidence": "Official reward mapping confirmed. Official web post displays April 16, but contemporary Korean Blizzard press release carried by Kbench April17 10:59 and Inven April17 11:31 says opened today. Retain Korean April17, not the announcement date."
+    },
+    {
+      "wing": 4,
+      "name": "검은날개 둥지",
+      "date": "2015-04-24",
+      "bossRewards": [
+        "BRM_015",
+        "BRM_002",
+        "BRM_026",
+        "BRM_012"
+      ],
+      "wingReward": "BRM_031",
+      "classRewards": {
+        "WARLOCK": "BRM_005",
+        "ROGUE": "BRM_008"
+      },
+      "sources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/18813883",
+        "https://www.bodnara.co.kr/bbs/article.html?num=120961"
+      ],
+      "evidence": "Official article names the seven rewards and Warlock/Rogue challenge mapping. Official web post displays April23, but Korean Blizzard press release carried by Bodnara April24 11:08 says opened today. Retain April24."
+    },
+    {
+      "wing": 5,
+      "name": "숨겨진 연구실",
+      "date": "2015-05-01",
+      "bossRewards": [
+        "BRM_025",
+        "BRM_034",
+        "BRM_024",
+        "BRM_020"
+      ],
+      "wingReward": "BRM_030",
+      "classRewards": {
+        "PALADIN": "BRM_001"
+      },
+      "sources": [
+        "https://m.inven.co.kr/webzine/wznews.php?idx=131665",
+        "https://m.hungryapp.co.kr/bbs/bbs_view.php?bcode=hearthstone&pid=126488",
+        "https://hearthstone.wiki.gg/wiki/Blackrock_Mountain?section=13"
+      ],
+      "evidence": "Contemporary Korean Inven May1 11:17 launch report names all six rewards, explicitly including Paladin Solemn Vigil after wing completion. June7 2015 Korean reward summary and wiki corroborate mapping. Official Korean fifth-wing launch article was not located; the 2015-04-16 press-kit upload timestamp is NOT an unlock date."
+    }
+  ],
+  "releaseConclusion": "Existing 31 collectible cards' five wing dates and class-challenge placement agree with the above evidence. Do not automatically assign these dates to later-created tokens; verify each token's initial usable appearance separately. OG_044b is not a 2015 release.",
+  "patch272": {
+    "dateKst": "2023-08-23",
+    "officialSource": "https://hearthstone.blizzard.com/ko-kr/news/23987537",
+    "clientSource": "https://github.com/HearthSim/hsdata/blob/0403e1f741685c19216e432ca8f097e07c7ff32e/CardDefs.xml",
+    "verifiedChanges": {
+      "BRM_008": {
+        "cost": [
+          5,
+          4
+        ]
+      },
+      "BRM_016": {
+        "health": [
+          5,
+          6
+        ]
+      },
+      "BRM_028": {
+        "cost": [
+          6,
+          5
+        ],
+        "attack": [
+          5,
+          4
+        ],
+        "health": [
+          5,
+          4
+        ]
+      },
+      "BRM_034": {
+        "textDamage": [
+          3,
+          5
+        ]
+      }
+    },
+    "finding": "All four named BRM originals match the announced 27.2 stats/text in the 27.2 archive. No original-card delayed stat-application conflict observed for these four. BRM_007 Gang Up remains cost2 with the same effect, not part of this table."
+  },
+  "additionalPatchDates": [
+    {
+      "build": "6.2.0.15181",
+      "dateKst": "2016-10-21",
+      "sources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/20328179/하스스톤-업데이트-2016년-10월-21일-2016-10-21",
+        "https://m.inven.co.kr/board/hs/3559/8401?p=24"
+      ],
+      "basis": "Korean official title and same-day quest update report. OG_044b change content itself must come from raw comparison."
+    },
+    {
+      "build": "13.0.0.27845",
+      "dateKst": "2018-11-30",
+      "sources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/22788307",
+        "https://www.inven.co.kr/webzine/news/?news=211315&vtype=pc"
+      ],
+      "basis": "Korean official title and Korean same-day applied-patch report. Official UI change section explicitly names Druid of Flame. Not expansion release Dec5."
+    },
+    {
+      "build": "13.2.0.28855",
+      "dateKst": "2019-02-06",
+      "sources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/22882146",
+        "https://www.inven.co.kr/webzine/news/?news=214767&site=hs",
+        "https://hearthstone.wiki.gg/wiki/Firecat_Form"
+      ],
+      "basis": "Korean official title; contemporary Inven search index confirms applied Feb6, body direct fetch502. Firecat choice 2/5->5/2 belongs to this build."
+    },
+    {
+      "build": "25.4.0.165029",
+      "dateKst": "2023-02-15",
+      "sources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/23913671/25-4",
+        "https://www.inven.co.kr/board/hs/3508/19548",
+        "https://hearthstone.wiki.gg/wiki/Druid_of_the_Flame_%28Combined%29"
+      ],
+      "basis": "Explicit Korean official Feb15 release schedule; Feb17 Korean post confirms 25.4 tribe changes; individual combined-form wiki confirms this build. No independent same-day applied report located. BRM_010a/t earlier25.0 must not be confused with OG_044b25.4."
+    },
+    {
+      "build": "7.0.0.15590",
+      "dateKst": "2016-11-30",
+      "sources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/20382066/하스스톤-업데이트-2016년-11월-30일-2016-11-30",
+        "https://www.inven.co.kr/webzine/news/?news=168485&site=hs"
+      ],
+      "basis": "Korean official title explicitly Nov30 and contemporary Inven Nov30 14:26 applied-patch report; metadata Nov29 and Gadgetzan release Dec2 are different dates."
+    },
+    {
+      "build": "34.6.0.235290",
+      "dateKst": "2026-02-10",
+      "sources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/24242740",
+        "https://hearthstone.blizzard.com/ko-kr/news/24242864",
+        "https://www.inven.co.kr/board/hs/3508/23927",
+        "https://www.inven.co.kr/board/hs/3508/23943"
+      ],
+      "basis": "Official Korean34.6 notes say today, official rewards schedule puts34.6 rewards onFeb10, contemporary Korean patch-note repostFeb10 03:03 and tribe-change reportFeb13. US metadataFeb9 not used as Korean date."
+    },
+    {
+      "build": "10.2.0.23180",
+      "dateKst": "2018-02-07",
+      "sources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/21507224",
+        "https://www.inven.co.kr/webzine/news/?news=193845&site=hs"
+      ],
+      "officialTitle": "하스스톤 업데이트 10.2 – 2월 7일 등급전 업데이트",
+      "contemporaryQuote": "한국 시각으로 2월 7일, 하스스톤의 10.2 패치가 진행됐다.",
+      "basis": "Korean official title explicitly Feb7 and contemporary Inven Feb7 12:05 report explicitly states Korean time. Official Feb6 metadata is not the Korean date."
+    }
+  ]
+}

@@ -1,19 +1,19 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Drakonid Crusher",
   "card": {
     "id": "BRM_024",
     "dbfId": 2257,
     "name": "용기병 분쇄자",
-    "text": "<b>전투의 함성:</b> 상대편의 생명력이 15 이하면, +3/+3을 얻습니다.",
+    "text": "<b>전투의 함성:</b> 만약 상대편의 생명력이 15 이하라면 +3/+3을 얻습니다.",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "classes": [],
     "nativeSetId": 14,
     "set": "BRM",
     "rarity": "COMMON",
-    "race": "용족",
+    "race": "DRAGON",
     "races": [
       "DRAGON"
     ],
@@ -79,7 +79,22 @@
     "nativeRawText": "<b>전투의 함성:</b> 상대편의 생명력이 15 이하면, +3/+3을 얻습니다.",
     "nativeTextBuilder": 0,
     "releasedAt": "2015-05-01",
-    "releaseStatus": "verified"
+    "releaseStatus": "verified",
+    "mechanics": [
+      "BATTLECRY"
+    ],
+    "patches": [
+      {
+        "date": "2015-08-19",
+        "changes": {
+          "text": "<b>전투의 함성:</b> 상대편의 생명력이 15 이하면, +3/+3을 얻습니다."
+        }
+      }
+    ],
+    "patchSources": {
+      "2015-08-19": "https://hearthstone.blizzard.com/ko-kr/news/19843161"
+    },
+    "initialSpecStatus": "partially_verified"
   },
   "root": true,
   "relatedIds": [],
@@ -99,5 +114,21 @@
     "gameVersion": "6000.3.11.3145967",
     "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
     "locale": "koKR"
-  }
+  },
+  "historicalTextObservations": [
+    {
+      "build": "2.4.0.8311",
+      "name": "용기병 분쇄자",
+      "rawText": "<b>전투의 함성:</b> 만약 상대편의 생명력이 15 이하라면 +3/+3을 얻습니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/b335c43f5580c215e5bcdc0e494b5a3f34ff8015/CardDefs.xml",
+      "lastObservedBuild": "2.8.0.9554"
+    },
+    {
+      "build": "3.0.0.9786",
+      "name": "용기병 분쇄자",
+      "rawText": "<b>전투의 함성:</b> 상대편의 생명력이 15 이하면, +3/+3을 얻습니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/c5edcf97cfb9c177928bc92204f3aa96aaeec186/CardDefs.xml",
+      "lastObservedBuild": "37.0.2.256589"
+    }
+  ]
 }

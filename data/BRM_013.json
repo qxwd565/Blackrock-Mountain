@@ -1,12 +1,12 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mode": "constructed",
   "englishName": "Quick Shot",
   "card": {
     "id": "BRM_013",
     "dbfId": 2260,
-    "name": "신속 사격",
-    "text": "[x]피해를 $3 줍니다.\n내 손에 카드가 없으면,\n카드를 뽑습니다.",
+    "name": "속사",
+    "text": "피해를 $3 줍니다.<br></br>내 손에 카드가 없으면,<br></br>카드를 뽑습니다.",
     "type": "SPELL",
     "cardClass": "HUNTER",
     "classes": [],
@@ -61,16 +61,20 @@
     ],
     "nativeRawText": "[x]피해를 $3 줍니다.\n내 손에 카드가 없으면,\n카드를 뽑습니다.",
     "nativeTextBuilder": 0,
-    "history": [
+    "releasedAt": "2015-04-03",
+    "releaseStatus": "verified",
+    "patches": [
       {
-        "before": "2019-04-04",
+        "date": "2019-04-05",
         "changes": {
-          "name": "속사"
+          "name": "신속 사격"
         }
       }
     ],
-    "releasedAt": "2015-04-03",
-    "releaseStatus": "verified"
+    "patchSources": {
+      "2019-04-05": "https://hearthstone.blizzard.com/ko-kr/news/22938499/4-5"
+    },
+    "initialSpecStatus": "partially_verified"
   },
   "root": true,
   "relatedIds": [],
@@ -90,5 +94,42 @@
     "gameVersion": "6000.3.11.3145967",
     "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
     "locale": "koKR"
-  }
+  },
+  "historicalTextObservations": [
+    {
+      "build": "2.4.0.8311",
+      "name": "속사",
+      "rawText": "피해를 $3 줍니다.\n만약 내 손에 카드가 없으면 카드를 1장 뽑습니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/b335c43f5580c215e5bcdc0e494b5a3f34ff8015/CardDefs.xml",
+      "lastObservedBuild": "2.8.0.9554"
+    },
+    {
+      "build": "3.0.0.9786",
+      "name": "속사",
+      "rawText": "피해를 $3 줍니다.\n내 손에 카드가 없으면, 카드를 1장 뽑습니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/c5edcf97cfb9c177928bc92204f3aa96aaeec186/CardDefs.xml",
+      "lastObservedBuild": "7.1.0.17720"
+    },
+    {
+      "build": "8.0.0.18336",
+      "name": "속사",
+      "rawText": "[x]피해를 $3 줍니다.\n내 손에 카드가 없으면,\n카드를 1장 뽑습니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/085f915af6c4374ac2a7088862390ebea44eb6c9/CardDefs.xml",
+      "lastObservedBuild": "12.0.0.25770"
+    },
+    {
+      "build": "12.2.0.26996",
+      "name": "속사",
+      "rawText": "[x]피해를 $3 줍니다.\n내 손에 카드가 없으면,\n카드를 뽑습니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/6c5e7fdeb38d02bf91b167111a393ddaa80c3897/CardDefs.xml",
+      "lastObservedBuild": "13.2.0.28855"
+    },
+    {
+      "build": "14.0.0.29933",
+      "name": "신속 사격",
+      "rawText": "[x]피해를 $3 줍니다.\n내 손에 카드가 없으면,\n카드를 뽑습니다.",
+      "source": "https://github.com/HearthSim/hsdata/blob/ac324ef2563b800a8427758e1f47367007ce41e1/CardDefs.xml",
+      "lastObservedBuild": "37.0.2.256589"
+    }
+  ]
 }
