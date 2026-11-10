@@ -1,0 +1,69 @@
+name: One-time repair of Korean display-text underscores
+on:
+  push:
+    paths:
+      - '.github/workflows/repair-text-underscores-once.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fix visible underscores in card and token descriptions
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json, re
+          from pathlib import Path
+          patt=re.compile(r'(?<=[가-힣])_(?=[가-힣])')
+          stats={'changedFiles':0,'correctedDescriptions':0}
+          def visit(obj):
+              if isinstance(obj,dict):
+                  for key,val in obj.items():
+                      if key=='text' and isinstance(val,str):
+                          corrected=patt.sub(' ',val)
+                          if val!=corrected:
+                              stats['correctedDescriptions']+=1
+                              obj[key]=corrected
+                      else: visit(val)
+              elif isinstance(obj,list):
+                  for val in obj: visit(val)
+          paths=sorted(Path('data').glob('*.json'))
+          for p in ('cards.json','render.json','history.json','cards-date.json','render-date.json','history-date.json'):
+              q=Path(p)
+              if q.is_file(): paths.append(q)
+          for path in paths:
+              before=path.read_text(encoding='utf-8')
+              data=json.loads(before)
+              visit(data)
+              pretty=before.lstrip().startswith('{\n')
+              after=json.dumps(data,ensure_ascii=False,indent=2) if pretty else json.dumps(data,ensure_ascii=False,separators=(',',':'))
+              if before.endswith('\n'): after+='\n'
+              if before!=after:
+                  path.write_text(after,encoding='utf-8',newline='\n')
+                  stats['changedFiles']+=1
+          for path in paths:
+              doc=json.loads(path.read_text(encoding='utf-8'))
+              def assert_clean(obj):
+                  if isinstance(obj,dict):
+                      for key,val in obj.items():
+                          if key=='text' and isinstance(val,str) and patt.search(val):
+                              raise AssertionError(f'{path}: underscore remains')
+                          assert_clean(val)
+                  elif isinstance(obj,list):
+                      for val in obj: assert_clean(val)
+              assert_clean(doc)
+          print(json.dumps(stats))
+          PY
+      - name: Commit corrected card descriptions
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- data cards.json render.json history.json cards-date.json render-date.json history-date.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Correct Korean card-description spacing [skip ci]'
+            git push
+          fi
