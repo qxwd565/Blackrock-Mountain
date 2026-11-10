@@ -1246,7 +1246,7 @@
       "rarity": "RARE",
       "collectible": true,
       "cost": 4,
-      "text": "<b>전투의_함성:</b> 내 손에 카드가 없으면, +3/+3을 얻습니다.",
+      "text": "<b>전투의 함성:</b> 내 손에 카드가 없으면, +3/+3을 얻습니다.",
       "attack": 4,
       "health": 4,
       "durability": 0,
