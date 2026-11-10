@@ -99,6 +99,9 @@ def independent_expected(doc, day):
  if day is not None and day<raw['releasedAt']:return None
  for e in raw['patches']:
   if day is None or e['date']<=day:raw.update(copy.deepcopy(e['changes']))
+ # Korean client 3.0 text remained a single line until the 8.0 build.
+ if raw['id']=='BRM_015' and day is not None and '2015-08-19'<=day<'2017-04-05':
+  raw['text']='<b>모든</b> 하수인에게 피해를 $1 줍니다. 내 생명력이 12 이하면, 피해를 $3 줍니다.'
  fields={'id','dbfId','name','type','cardClass','classes','rarity','collectible','cost','attack','health','durability','armor','text','races','race','spellSchool','chooseOne','heroPowerDbfId'}
  result={k:copy.deepcopy(v) for k,v in raw.items() if k in fields}
  keep={'MINION':{'cost','attack','health'},'SPELL':{'cost'},'HERO_POWER':{'cost'},'HERO':{'health'}}[raw['type']]
@@ -136,6 +139,7 @@ def main():
  for doc in originals.values():
   for d in [doc['card']['releasedAt']]+[e['date'] for e in doc['card']['patches']]:
    dates.update((date.fromisoformat(d)+timedelta(days=n)).isoformat() for n in (-1,0,1))
+ dates.update((date.fromisoformat('2017-04-05')+timedelta(days=n)).isoformat() for n in (-1,0,1))
  tree=subprocess.check_output(['git','ls-tree','-r','--name-only',SOURCE],cwd=ROOT,text=True).splitlines()
  preserved=[]
  for path in tree:
@@ -159,7 +163,7 @@ def main():
    assert 'Provisional' in meta['fieldUncertainty']['rarity']['meaning']
   assert meta['release']=={'date':doc['card']['releasedAt'],'status':'verified'}
   assert list(timeline)==sorted(timeline)
-  assert len(timeline)==1+len(doc['card']['patches'])
+  assert len(timeline)==1+len(doc['card']['patches'])+(1 if cid=='BRM_015' else 0)
   validate_timeline(timeline);patches+=len(timeline)-1
   for day in sorted(dates):
    expected=independent_expected(doc,day);actual=resolve(timeline,meta,day)
@@ -185,7 +189,7 @@ def main():
   except UncertainHistory:pass
   else:raise AssertionError('Incomplete baseline promoted')
   losses.append({'id':cid,'sourcePlaceholdersExcludedFromCanonical':{k:v for k,v in doc['card'].items() if k in SPECS and k not in next(iter(timeline.values()))}})
- assert patches==35 and types=={'MINION':30,'SPELL':9,'HERO':1,'HERO_POWER':1}
+ assert patches==36 and types=={'MINION':30,'SPELL':9,'HERO':1,'HERO_POWER':1}
  assert current['BRM_022']['attack']==0
  hero=current['BRM_027h'];assert hero['health']==8 and hero['heroPowerDbfId']==2319
  assert not {'cost','attack','armor','durability'} & hero.keys()

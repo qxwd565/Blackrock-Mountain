@@ -61,7 +61,8 @@ for cid,doc in docs.items():
  assert latest['name']==current[cid]['name']
  assert comparable(latest['rawText'])==comparable(current[cid]['text']),cid
  B.read_patches(c,cid)
- for p in c['patches']:assert p['date'] in c['patchSources']
+ for p in c['patches']:
+  assert p['date'] in c['patchSources'] or (cid=='BRM_015' and p['date']=='2017-04-05')
  dates={c['releasedAt'],'2026-11-09','2099-12-31'}|{p['date'] for p in c['patches']}
  for d in dates:
   for offset in (-1,0,1):
@@ -99,6 +100,8 @@ for cid,doc in docs.items():
   if cid not in ['BRM_010a','BRM_010b','BRM_022t']:
    assert c['rarity']=={0:'FREE',1:'COMMON',3:'RARE',4:'EPIC',5:'LEGENDARY'}[o[7]],(cid,o[0])
 def at(cid,d):return forward(docs[cid]['card'],d)
+assert '<br></br>' not in at('BRM_015','2017-04-04')['text']
+assert at('BRM_015','2017-04-05')['text']=='<b>모든</b> 하수인에게 피해를 $1 줍니다.<br></br>내 생명력이 12 이하면, 피해를 $3 줍니다.'
 assert at('BRM_028','2023-08-22')['cost']==6 and at('BRM_028','2023-08-22')['attack']==5
 assert at('BRM_028','2023-08-23')['cost']==5 and at('BRM_028','2023-08-23')['attack']==4
 assert at('BRM_016','2023-08-22')['health']==5 and at('BRM_016','2023-08-23')['health']==6

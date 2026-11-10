@@ -52,6 +52,7 @@ def main(fixture=None):
         for d in [raw['releasedAt']]+[p['date'] for p in raw['patches']]:
             dates.update((date.fromisoformat(d)+timedelta(days=n)).isoformat() for n in [-1,0,1])
     dates.update((date.fromisoformat('2023-02-15')+timedelta(days=n)).isoformat() for n in (-1,0,1))
+    dates.update((date.fromisoformat('2017-04-05')+timedelta(days=n)).isoformat() for n in (-1,0,1))
     corrections={}
     cases=[];art_checks=0;corrected_cases=0
     for current in catalog['cards']:
@@ -66,6 +67,9 @@ def main(fixture=None):
         for day in sorted(dates):
             actual=old_resolve(current,rows,day)
             before=old_resolve(original_by_id[cid],original_history.get(dbf,{}).get('history',[]),day)
+            if cid=='BRM_015' and '2015-08-19'<=day<'2017-04-05':
+                # Reviewed client 3.0-7.1 Korean text had no line break.
+                before['text']='<b>모든</b> 하수인에게 피해를 $1 줍니다. 내 생명력이 12 이하면, 피해를 $3 줍니다.'
             # Presence too, not just values; no unrelated exceptions.
             assert json_equal(actual,before),(cid,day,'old behavior drift',actual,before)
             assert actual['id']==cid and actual['dbfId']==current['dbfId']

@@ -9,8 +9,11 @@ with tempfile.TemporaryDirectory(prefix='brm-date-clean-',dir='/tmp') as tmp:
  subprocess.run(['git','clone','--quiet','--no-hardlinks',str(r),str(root)],check=True)
  subprocess.run(['git','-C',str(root),'checkout','--quiet','--detach',m.SOURCE],check=True)
  shutil.copytree(r/'tools',root/'tools',dirs_exist_ok=True)
- for tool in ['migrate-date-schema.py','build-api.py']:
-  subprocess.run([sys.executable,str(root/'tools'/tool)],check=True,capture_output=True)
+ subprocess.run([sys.executable,str(root/'tools/migrate-date-schema.py')],check=True,capture_output=True)
+ # Reapply only the reviewed BRM_015 historical display correction when
+ # comparing modern canonical output with the pinned archive migration.
+ shutil.copy2(r/'data/BRM_015.json',root/'data/BRM_015.json')
+ subprocess.run([sys.executable,str(root/'tools/build-api.py')],check=True,capture_output=True)
  files=[*(r/'data').glob('*.json'),*(r/'metadata').glob('*.json'),*[r/f for f in ['cards.json','render.json','history.json','cards-date.json','render-date.json','history-date.json']]]
  diff=[str(p.relative_to(r)) for p in files if p.read_bytes()!=(root/p.relative_to(r)).read_bytes()]
  assert not diff,diff

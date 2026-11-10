@@ -63,3 +63,8 @@ Coverage includes all 41 source documents, all 35 events, 474 old audit boundary
 For the unchanged PHP parser, create a fixture with `python3 tools/test-legacy-compatibility.py --fixture /tmp/brm-compatibility.json`, then run `php tools/test-legacy-plugin.php /path/to/unmodified/plugin /tmp/brm-compatibility.json`. The pinned unmodified plugin commit is `78ce6fdc4e70f689880a70d6f22aa77a6c75e337`. This harness tests imports and historical resolution offline, not WordPress, browser rendering, deployment or database migration.
 
 The exact two PHP source blobs were re-fetched by their pinned Git hashes and verified locally before running the harness. PHP WASM 8.5.12 passes 2,584 checks: 41-card original/current import equality plus 2,583 historical cases. The blob identities and scope are saved in `tools/unmodified-php-validation.json`; no plugin source was modified.
+
+
+## Revenge (BRM_015) historical line break
+
+The 2015-08-19 Korean description kept both sentences on one line; the explicit break between the sentences is first observed in the 8.0 client on 2017-04-05. The former `data/BRM_015.json` incorrectly dated the modern line break to 2015-08-19. This is corrected by restoring the unbroken 2015-08-19 text and adding the explicit `<br></br>` on 2017-04-05. The archived source and numeric gameplay state remain unchanged. Source evidence is retained in `metadata/BRM_015.json` (3.0.0.9786 and 8.0.0.18336). Independent boundary and old-consumer tests allow only this specific display correction.
