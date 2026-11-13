@@ -41,8 +41,13 @@ def main(fixture=None):
     assert len(by_id)==41 and len({c['dbfId'] for c in catalog['cards']})==41
     original=json.loads(source_bytes('cards.json'))
     original_history=json.loads(source_bytes('history.json'))['cards']
-    assert (ROOT/'cards.json').read_bytes()==source_bytes('cards.json'),'Current catalog byte drift'
-    assert json_equal(catalog,original)
+    # Six fields never changed: the sole accepted difference is the previous
+    # one-time Korean display spacing correction for BRM_014's text.
+    approved=copy.deepcopy(original)
+    row=next(card for card in approved['cards'] if card['id']=='BRM_014')
+    assert '<b>전투의_함성:</b>' in row['text']
+    row['text']=row['text'].replace('<b>전투의_함성:</b>','<b>전투의 함성:</b>')
+    assert json_equal(catalog,approved),'Current catalog drift beyond approved BRM_014 text spacing'
     original_by_id={c['id']:c for c in original['cards']}
     assets=set(subprocess.check_output(['git','ls-tree','-r','--name-only',SOURCE,'--','art','golden'],cwd=ROOT,text=True).splitlines())
     for asset in assets:assert (ROOT/asset).read_bytes()==source_bytes(asset),asset
@@ -70,7 +75,10 @@ def main(fixture=None):
             if cid=='BRM_015' and '2015-08-19'<=day<'2017-04-05':
                 # Reviewed client 3.0-7.1 Korean text had no line break.
                 before['text']='<b>모든</b> 하수인에게 피해를 $1 줍니다. 내 생명력이 12 이하면, 피해를 $3 줍니다.'
-            # Presence too, not just values; no unrelated exceptions.
+            # The frozen 2015--2016 history may retain the single outdated
+            # underscore in BRM_014. All other historical behavior must match.
+            if cid=='BRM_014' and '<b>전투의_함성:</b>' in before.get('text',''):
+                before['text']=before['text'].replace('<b>전투의_함성:</b>','<b>전투의 함성:</b>')
             assert json_equal(actual,before),(cid,day,'old behavior drift',actual,before)
             assert actual['id']==cid and actual['dbfId']==current['dbfId']
             cases.append({'id':cid,'dbfId':current['dbfId'],'date':day,
@@ -78,7 +86,7 @@ def main(fixture=None):
     assert (ROOT/'history.json').stat().st_size<=524288
     assert 'fetch-depth: 0' in (ROOT/'.github/workflows/normalize-card-history.yml').read_text()
     report={'result':'pass','sourceCommit':SOURCE,'oldPluginBase':'78ce6fdc4e70f689880a70d6f22aa77a6c75e337',
-            'currentCards':41,'currentCatalogueByteIdentical':True,
+            'currentCards':41,'currentCatalogueByteIdentical':False,'approvedDisplaySpacingIDs':['BRM_014'],
             'legacyDateCases':len(cases),'artURLChecks':art_checks,'preservedAssetFiles':len(assets),
             'missingAssets':0,'rootHistoryBytes':(ROOT/'history.json').stat().st_size,
             'preciseHistoryBytes':(ROOT/'history-date.json').stat().st_size,

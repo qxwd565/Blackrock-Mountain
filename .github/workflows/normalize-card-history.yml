@@ -26,6 +26,8 @@ jobs:
         run: python3 tools/build-api.py
       - name: Validate Blackrock Mountain release and patch history
         run: python3 tools/test-brm-history.py
+      - name: Validate all 41 earliest Korean wing rewards and child card dates
+        run: python3 tools/test-brm-first-use.py
       - name: Validate date schema, preservation and compatibility
         run: |
           python3 tools/test-date-schema.py

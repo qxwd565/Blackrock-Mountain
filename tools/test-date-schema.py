@@ -116,6 +116,10 @@ def independent_expected(doc, day):
  if raw['id']=='BRM_010':result['mechanics']=['CHOOSE_ONE']
  if raw['id']=='BRM_012':result['mechanics']=['BATTLECRY','OVERLOAD']
  if raw['id']=='BRM_027':result['mechanics']=['DEATHRATTLE']
+ # Preserve immutable original source but recognize the one approved display
+ # spelling correction after BRM_014's 2015-08-19 recorded wording change.
+ if raw['id']=='BRM_014' and '<b>전투의_함성:</b>' in result.get('text',''):
+  result['text']=result['text'].replace('<b>전투의_함성:</b>','<b>전투의 함성:</b>')
  return result
 
 def main():

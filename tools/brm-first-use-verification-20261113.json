@@ -1,0 +1,457 @@
+{
+  "schema": 1,
+  "reviewedOn": "2026-11-13",
+  "timezone": "Asia/Seoul",
+  "repository": "qxwd565/Blackrock-Mountain",
+  "scope": "All 41 existing Blackrock Mountain API IDs: 31 collectible adventure rewards across five original Korea wing openings, plus 9 in-era generated/choice/hero/hero-power entities and one 2016-only combined form.",
+  "dateRule": "First actually accessible normal owned/constructed gameplay in Korea; do not use preloaded client files, western publication headers or speculative challenge/locked random generation. Tokens follow original producer availability, except the later Fandral combined form that requires 2016 OG_044.",
+  "firstOriginalClientBuild": "2.4.0.8311 preloaded March 31 2015; not proof of gameplay release",
+  "primaryOfficial": "https://hearthstone.blizzard.com/ko-kr/news/18390556",
+  "wings": [
+    {
+      "wing": 1,
+      "name": "검은바위 나락",
+      "openDateKst": "2015-04-03",
+      "collectibles": [
+        {
+          "id": "BRM_019",
+          "name": "험상궂은 손님",
+          "dbfId": 2279,
+          "kind": "boss"
+        },
+        {
+          "id": "BRM_007",
+          "name": "패거리",
+          "dbfId": 2304,
+          "kind": "boss"
+        },
+        {
+          "id": "BRM_017",
+          "name": "부활",
+          "dbfId": 2298,
+          "kind": "boss"
+        },
+        {
+          "id": "BRM_028",
+          "name": "제왕 타우릿산",
+          "dbfId": 2262,
+          "kind": "wingLegendary"
+        },
+        {
+          "id": "BRM_013",
+          "name": "신속 사격",
+          "dbfId": 2260,
+          "kind": "classChallenge",
+          "heroClass": "HUNTER"
+        },
+        {
+          "id": "BRM_003",
+          "name": "용의 숨결",
+          "dbfId": 2284,
+          "kind": "classChallenge",
+          "heroClass": "MAGE"
+        }
+      ],
+      "generated": [],
+      "evidence": {
+        "official": "https://hearthstone.blizzard.com/ko-kr/news/18555823",
+        "local": "https://www.inven.co.kr/webzine/news/?news=129973&site=hs",
+        "evidence": "Official Korean opening release April 3; live opening at 10:00 Korea stated in contemporary press"
+      }
+    },
+    {
+      "wing": 2,
+      "name": "화산 심장부",
+      "openDateKst": "2015-04-10",
+      "collectibles": [
+        {
+          "id": "BRM_010",
+          "name": "화염의 드루이드",
+          "dbfId": 2292,
+          "kind": "boss"
+        },
+        {
+          "id": "BRM_033",
+          "name": "검은날개 기술병",
+          "dbfId": 2408,
+          "kind": "boss"
+        },
+        {
+          "id": "BRM_006",
+          "name": "임프 두목",
+          "dbfId": 2288,
+          "kind": "boss"
+        },
+        {
+          "id": "BRM_027",
+          "name": "청지기 이그젝큐투스",
+          "dbfId": 2281,
+          "kind": "wingLegendary"
+        },
+        {
+          "id": "BRM_016",
+          "name": "도끼 투척수",
+          "dbfId": 2297,
+          "kind": "classChallenge",
+          "heroClass": "WARRIOR"
+        },
+        {
+          "id": "BRM_011",
+          "name": "용암 충격",
+          "dbfId": 2289,
+          "kind": "classChallenge",
+          "heroClass": "SHAMAN"
+        }
+      ],
+      "generated": [
+        {
+          "id": "BRM_006t",
+          "name": "임프",
+          "dbfId": 2779,
+          "kind": "summoned",
+          "parentCardIds": [
+            "BRM_006"
+          ],
+          "date": "2015-04-10"
+        },
+        {
+          "id": "BRM_010a",
+          "name": "불꽃표범 변신",
+          "dbfId": 2293,
+          "kind": "choice",
+          "parentCardIds": [
+            "BRM_010"
+          ],
+          "date": "2015-04-10"
+        },
+        {
+          "id": "BRM_010b",
+          "name": "불꽃매 변신",
+          "dbfId": 2294,
+          "kind": "choice",
+          "parentCardIds": [
+            "BRM_010"
+          ],
+          "date": "2015-04-10"
+        },
+        {
+          "id": "BRM_010t",
+          "name": "화염의 드루이드",
+          "dbfId": 2310,
+          "kind": "transformed",
+          "parentCardIds": [
+            "BRM_010"
+          ],
+          "date": "2015-04-10"
+        },
+        {
+          "id": "BRM_010t2",
+          "name": "화염의 드루이드",
+          "dbfId": 2311,
+          "kind": "transformed",
+          "parentCardIds": [
+            "BRM_010"
+          ],
+          "date": "2015-04-10"
+        },
+        {
+          "id": "BRM_027h",
+          "name": "불의 군주 라그나로스",
+          "dbfId": 2318,
+          "kind": "hero-replacement",
+          "parentCardIds": [
+            "BRM_027"
+          ],
+          "date": "2015-04-10"
+        },
+        {
+          "id": "BRM_027p",
+          "name": "죽어라, 벌레 같은 놈!",
+          "dbfId": 2319,
+          "kind": "hero-power",
+          "parentCardIds": [
+            "BRM_027h",
+            "BRM_027"
+          ],
+          "date": "2015-04-10"
+        }
+      ],
+      "evidence": {
+        "official": "https://hearthstone.blizzard.com/ko-kr/news/18644230",
+        "local": "https://m.inven.co.kr/webzine/wznews.php?idx=130378&site=hs",
+        "evidence": "Live local report April 10 explicitly states 10:00 KST unlock and named rewards"
+      }
+    },
+    {
+      "wing": 3,
+      "name": "검은바위 첨탑",
+      "openDateKst": "2015-04-17",
+      "collectibles": [
+        {
+          "id": "BRM_014",
+          "name": "흉포한 심장부 사냥개",
+          "dbfId": 2263,
+          "kind": "boss"
+        },
+        {
+          "id": "BRM_018",
+          "name": "용의 배우자",
+          "dbfId": 2299,
+          "kind": "boss"
+        },
+        {
+          "id": "BRM_022",
+          "name": "용의 알",
+          "dbfId": 2278,
+          "kind": "boss"
+        },
+        {
+          "id": "BRM_029",
+          "name": "렌드 블랙핸드",
+          "dbfId": 2308,
+          "kind": "wingLegendary"
+        },
+        {
+          "id": "BRM_004",
+          "name": "황혼의 새끼용",
+          "dbfId": 2286,
+          "kind": "classChallenge",
+          "heroClass": "PRIEST"
+        },
+        {
+          "id": "BRM_009",
+          "name": "화산의 고대정령",
+          "dbfId": 2295,
+          "kind": "classChallenge",
+          "heroClass": "DRUID"
+        }
+      ],
+      "generated": [
+        {
+          "id": "BRM_022t",
+          "name": "검은 새끼용",
+          "dbfId": 2436,
+          "kind": "summoned",
+          "parentCardIds": [
+            "BRM_022"
+          ],
+          "date": "2015-04-17"
+        }
+      ],
+      "evidence": {
+        "official": "https://hearthstone.blizzard.com/ko-kr/news/18648154",
+        "local": "https://m.inven.co.kr/webzine/wznews.php?idx=130820&site=hs",
+        "evidence": "Official page calendar April 16 does not supersede actual April 17 Korean opening"
+      }
+    },
+    {
+      "wing": 4,
+      "name": "검은날개 둥지",
+      "openDateKst": "2015-04-24",
+      "collectibles": [
+        {
+          "id": "BRM_015",
+          "name": "복수",
+          "dbfId": 2296,
+          "kind": "boss"
+        },
+        {
+          "id": "BRM_002",
+          "name": "불꽃꼬리 전사",
+          "dbfId": 2275,
+          "kind": "boss"
+        },
+        {
+          "id": "BRM_026",
+          "name": "굶주린 용",
+          "dbfId": 2283,
+          "kind": "boss"
+        },
+        {
+          "id": "BRM_012",
+          "name": "파괴의 화염수호정령",
+          "dbfId": 2290,
+          "kind": "boss"
+        },
+        {
+          "id": "BRM_031",
+          "name": "크로마구스",
+          "dbfId": 2280,
+          "kind": "wingLegendary"
+        },
+        {
+          "id": "BRM_005",
+          "name": "악마의 격노",
+          "dbfId": 2301,
+          "kind": "classChallenge",
+          "heroClass": "WARLOCK"
+        },
+        {
+          "id": "BRM_008",
+          "name": "검은무쇠 잠복자",
+          "dbfId": 2291,
+          "kind": "classChallenge",
+          "heroClass": "ROGUE"
+        }
+      ],
+      "generated": [],
+      "evidence": {
+        "official": "https://hearthstone.blizzard.com/ko-kr/news/18813883",
+        "local": "https://www.inven.co.kr/webzine/news/?news=131233&vtype=pc",
+        "evidence": "Official page calendar April 23, Korean contemporary live date April 24"
+      }
+    },
+    {
+      "wing": 5,
+      "name": "숨겨진 연구실",
+      "openDateKst": "2015-05-01",
+      "collectibles": [
+        {
+          "id": "BRM_025",
+          "name": "화산 비룡",
+          "dbfId": 2258,
+          "kind": "boss"
+        },
+        {
+          "id": "BRM_034",
+          "name": "검은날개 타락자",
+          "dbfId": 2409,
+          "kind": "boss"
+        },
+        {
+          "id": "BRM_024",
+          "name": "용기병 분쇄자",
+          "dbfId": 2257,
+          "kind": "boss"
+        },
+        {
+          "id": "BRM_020",
+          "name": "용족 마술사",
+          "dbfId": 2306,
+          "kind": "boss"
+        },
+        {
+          "id": "BRM_030",
+          "name": "네파리안",
+          "dbfId": 2261,
+          "kind": "wingLegendary"
+        },
+        {
+          "id": "BRM_001",
+          "name": "엄숙한 애도",
+          "dbfId": 2274,
+          "kind": "classChallenge",
+          "heroClass": "PALADIN"
+        }
+      ],
+      "generated": [
+        {
+          "id": "BRM_030t",
+          "name": "꼬리 휩쓸기",
+          "dbfId": 2421,
+          "kind": "conditional-generated-spell",
+          "parentCardIds": [
+            "BRM_030"
+          ],
+          "date": "2015-05-01"
+        }
+      ],
+      "evidence": {
+        "official": "https://hearthstone.blizzard.com/ko-kr/news/18456682",
+        "local": "https://www.inven.co.kr/webzine/news/?news=131665&vtype=pc",
+        "evidence": "Korean 2015-05-01 11:17 launch report confirms fifth wing. Official link here is a prior preview article only, not a launch report."
+      }
+    }
+  ],
+  "laterGenerated": [
+    {
+      "id": "OG_044b",
+      "name": "화염의 드루이드",
+      "dbfId": 38320,
+      "firstPlayableKst": "2016-04-27",
+      "parents": [
+        "BRM_010",
+        "OG_044"
+      ],
+      "gameplayProof": "With Fandral Staghelm, the Blackrock Mountain Druid of the Flame can gain both form effects. This combined form could not be generated before Fandral was live.",
+      "sources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/20097936",
+        "https://hearthstone.blizzard.com/ko-kr/news/20097359",
+        "https://hearthstone.wiki.gg/wiki/Druid_of_the_Flame_%28Combined%29"
+      ]
+    }
+  ],
+  "generatedEvidence": [
+    {
+      "id": "BRM_006t",
+      "description": "Damage-trigger Imp generation by Imp Gang Boss"
+    },
+    {
+      "id": "BRM_010a",
+      "description": "Druid of the Flame's original Firecat choice effect"
+    },
+    {
+      "id": "BRM_010b",
+      "description": "Druid of the Flame's original Fire Hawk choice effect"
+    },
+    {
+      "id": "BRM_010t",
+      "description": "Druid of the Flame's 5/2 form"
+    },
+    {
+      "id": "BRM_010t2",
+      "description": "Druid of the Flame's 2/5 form"
+    },
+    {
+      "id": "BRM_027h",
+      "description": "Majordomo Executus Deathrattle replaces the player's hero with Ragnaros"
+    },
+    {
+      "id": "BRM_027p",
+      "description": "Ragnaros transformed hero's Die Insect! hero power"
+    },
+    {
+      "id": "BRM_022t",
+      "description": "Dragon Egg's triggered Black Whelp generation"
+    },
+    {
+      "id": "BRM_030t",
+      "description": "Nefarian conditionally generates Tail Swipe against Ragnaros class-less hero"
+    },
+    {
+      "id": "OG_044b",
+      "description": "Fandral Staghelm (OG_044) combines both Druid of the Flame forms after its 2016 Korean release"
+    }
+  ],
+  "previousVerification": {
+    "independentReview": "tools/brm-independent-review.json",
+    "dateRecheck": "tools/brm-date-recheck.json",
+    "baselineAudit": "tools/brm-release-audit.json"
+  },
+  "reviewedCounts": {
+    "total": 41,
+    "collectible": 31,
+    "boss": 17,
+    "wingLegendary": 5,
+    "classChallenge": 9,
+    "uncollectible": 10,
+    "in2015": 40,
+    "added2016": 1
+  },
+  "result": {
+    "actualKoreanReleaseDatesMatchExisting": true,
+    "incorrectInitialDates": [],
+    "missingCatalogIds": [],
+    "misdatedGeneratedIds": [],
+    "duplicateIds": [],
+    "changesNeeded": 0,
+    "sourcePatchChanges": 0
+  },
+  "limits": [
+    "Checks first normal-match available date by wing/reward, not earliest possible use in every adventure-only fixed deck.",
+    "Original source ties 9 in-era tokens directly to parent IDs; OG_044b is a derived form requiring the external OG_044, so do not invent a BRM_010.relatedDbfIds mapping.",
+    "No claim that every individual entity was seen in a dated match log at the exact unlock minute.",
+    "14 exact Korean first-text histories and 3 rarity histories remain partially verified; all full baselines remain partially verified.",
+    "Balance patches, keyword history, original images, and plugin connection are not changed in this audit."
+  ]
+}
