@@ -28,6 +28,8 @@ jobs:
         run: python3 tools/test-brm-history.py
       - name: Validate all 41 earliest Korean wing rewards and child card dates
         run: python3 tools/test-brm-first-use.py
+      - name: Verify all generated cards and Fandral 2016-only forms
+        run: python3 tools/test-brm-token-fandral.py
       - name: Validate date schema, preservation and compatibility
         run: |
           python3 tools/test-date-schema.py

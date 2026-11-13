@@ -1,0 +1,281 @@
+{
+  "schema": 1,
+  "reviewedOn": "2026-11-14",
+  "timezone": "Asia/Seoul",
+  "repository": "qxwd565/Blackrock-Mountain",
+  "scope": "Original playable collectible Blackrock Mountain cards and their directly generated cards, choices, replacements and powers: all 31 collectible IDs + 10 child IDs; excludes solo boss-only and preloaded unused cards.",
+  "releaseRule": "Each child first becomes available with an actually usable producer, or (for combined Choose One transforms) no earlier than the release of Fandral Staghelm OG_044, 2016-04-27 Korea. An unused client artifact is not proof of an available player card.",
+  "sourceReferences": {
+    "officialFandralReleaseKst": "https://hearthstone.blizzard.com/ko-kr/news/20097936",
+    "FandralMechanics": "https://hearthstone.wiki.gg/wiki/Fandral_Staghelm",
+    "completeBlackrockCollectibleAndRelatedGallery": "https://hearthstone.wiki.gg/wiki/Blackrock_Mountain/Gallery",
+    "combinedBlackrockForm": "https://hearthstone.wiki.gg/wiki/Druid_of_the_Flame_%28Combined%29",
+    "earlierNormalFirecat": "https://hearthstone.wiki.gg/wiki/Druid_of_the_Flame_%28Firecat_Form%29",
+    "unusedBlackrockWhelp": "https://hearthstone.wiki.gg/wiki/Whelp_%28unused_Blackrock_Mountain%29",
+    "grimPatronSelfClone": "https://hearthstone.wiki.gg/wiki/Grim_Patron",
+    "priorWingEvidence": "tools/brm-independent-review.json",
+    "priorFirstUseAudit": "tools/brm-first-use-verification-20261113.json"
+  },
+  "fandralFirstPlayableKst": "2016-04-27",
+  "crossExpansionFandralCombinedForms": [
+    {
+      "id": "OG_044a",
+      "displayName": "Druid of the Claw, combined",
+      "repo": "qxwd565/legacy",
+      "verifiedKst": "2016-04-27",
+      "observedMainSha": "a2b91508d86312c48816f19789d88ca26d76ab08"
+    },
+    {
+      "id": "OG_044b",
+      "displayName": "Druid of the Flame, combined",
+      "repo": "qxwd565/Blackrock-Mountain",
+      "verifiedKst": "2016-04-27",
+      "observedMainSha": "95e1f037113d40d1047f80a2c52241ee9f5ec43d"
+    },
+    {
+      "id": "OG_044c",
+      "displayName": "Druid of the Saber, combined",
+      "repo": "qxwd565/The-Grand-Tournament",
+      "verifiedKst": "2016-04-27",
+      "observedMainSha": "89515aeb9a98effc38d23bbe5d636e01c2c82fd5"
+    }
+  ],
+  "checkedBlackrockChildIds": [
+    {
+      "id": "BRM_006t",
+      "name": "임프",
+      "dbfId": 2779,
+      "releaseDateKst": "2015-04-10",
+      "initialCardType": "MINION",
+      "role": "summoned",
+      "parentCardIds": [
+        "BRM_006"
+      ],
+      "confirmationBasis": "Imp Gang Boss damage trigger",
+      "requiresFandral": false
+    },
+    {
+      "id": "BRM_010a",
+      "name": "불꽃표범 변신",
+      "dbfId": 2293,
+      "releaseDateKst": "2015-04-10",
+      "initialCardType": "SPELL",
+      "role": "choice-effect",
+      "parentCardIds": [
+        "BRM_010"
+      ],
+      "confirmationBasis": "Original 2015 Firecat choice was a spell-like selection, not a Fandral-exclusive combined minion",
+      "requiresFandral": false
+    },
+    {
+      "id": "BRM_010b",
+      "name": "불꽃매 변신",
+      "dbfId": 2294,
+      "releaseDateKst": "2015-04-10",
+      "initialCardType": "SPELL",
+      "role": "choice-effect",
+      "parentCardIds": [
+        "BRM_010"
+      ],
+      "confirmationBasis": "Original 2015 Fire Hawk choice was a spell-like selection, not a Fandral-exclusive combined minion",
+      "requiresFandral": false
+    },
+    {
+      "id": "BRM_010t",
+      "name": "화염의 드루이드",
+      "dbfId": 2310,
+      "releaseDateKst": "2015-04-10",
+      "initialCardType": "MINION",
+      "role": "normal-transform",
+      "parentCardIds": [
+        "BRM_010"
+      ],
+      "confirmationBasis": "Original base Druid of the Flame 5/2 transform available without Fandral",
+      "requiresFandral": false
+    },
+    {
+      "id": "BRM_010t2",
+      "name": "화염의 드루이드",
+      "dbfId": 2311,
+      "releaseDateKst": "2015-04-10",
+      "initialCardType": "MINION",
+      "role": "normal-transform",
+      "parentCardIds": [
+        "BRM_010"
+      ],
+      "confirmationBasis": "Original base Druid of the Flame 2/5 transform available without Fandral",
+      "requiresFandral": false
+    },
+    {
+      "id": "BRM_022t",
+      "name": "검은 새끼용",
+      "dbfId": 2436,
+      "releaseDateKst": "2015-04-17",
+      "initialCardType": "MINION",
+      "role": "summoned",
+      "parentCardIds": [
+        "BRM_022"
+      ],
+      "confirmationBasis": "Dragon Egg on-damage Black Whelp",
+      "requiresFandral": false
+    },
+    {
+      "id": "BRM_027h",
+      "name": "불의 군주 라그나로스",
+      "dbfId": 2318,
+      "releaseDateKst": "2015-04-10",
+      "initialCardType": "HERO",
+      "role": "hero-transformation",
+      "parentCardIds": [
+        "BRM_027"
+      ],
+      "confirmationBasis": "Majordomo Executus deathrattle hero replacement",
+      "requiresFandral": false
+    },
+    {
+      "id": "BRM_027p",
+      "name": "죽어라, 벌레 같은 놈!",
+      "dbfId": 2319,
+      "releaseDateKst": "2015-04-10",
+      "initialCardType": "HERO_POWER",
+      "role": "transformed-hero-power",
+      "parentCardIds": [
+        "BRM_027",
+        "BRM_027h"
+      ],
+      "confirmationBasis": "Majordomo Executus / replacement neutral Ragnaros hero power",
+      "requiresFandral": false
+    },
+    {
+      "id": "BRM_030t",
+      "name": "꼬리 휩쓸기",
+      "dbfId": 2421,
+      "releaseDateKst": "2015-05-01",
+      "initialCardType": "SPELL",
+      "role": "conditional-created",
+      "parentCardIds": [
+        "BRM_030"
+      ],
+      "confirmationBasis": "Nefarian Tail Swipe conditional opponent-class case",
+      "requiresFandral": false
+    },
+    {
+      "id": "OG_044b",
+      "name": "화염의 드루이드",
+      "dbfId": 38320,
+      "releaseDateKst": "2016-04-27",
+      "initialCardType": "MINION",
+      "role": "fandral-exclusive-combined",
+      "parentCardIds": [
+        "BRM_010",
+        "OG_044"
+      ],
+      "confirmationBasis": "First playable with Fandral Staghelm's combined Choose One transform effect; earlier 2015 BRM base Druid of Flame forms are distinct IDs",
+      "requiresFandral": true
+    }
+  ],
+  "sourceRelatedIdExpectations": [
+    {
+      "sourceId": "BRM_006",
+      "childIds": [
+        "BRM_006t"
+      ],
+      "sourceIsOwnChild": false
+    },
+    {
+      "sourceId": "BRM_010",
+      "childIds": [
+        "BRM_010a",
+        "BRM_010b",
+        "BRM_010t",
+        "BRM_010t2"
+      ],
+      "sourceIsOwnChild": false
+    },
+    {
+      "sourceId": "BRM_019",
+      "childIds": [
+        "BRM_019"
+      ],
+      "sourceIsOwnChild": true
+    },
+    {
+      "sourceId": "BRM_022",
+      "childIds": [
+        "BRM_022t"
+      ],
+      "sourceIsOwnChild": false
+    },
+    {
+      "sourceId": "BRM_027",
+      "childIds": [
+        "BRM_027h",
+        "BRM_027p"
+      ],
+      "sourceIsOwnChild": false
+    },
+    {
+      "sourceId": "BRM_027h",
+      "childIds": [
+        "BRM_027p"
+      ],
+      "sourceIsOwnChild": false
+    },
+    {
+      "sourceId": "BRM_030",
+      "childIds": [
+        "BRM_030t"
+      ],
+      "sourceIsOwnChild": false
+    }
+  ],
+  "excludedAndSpecialCases": [
+    {
+      "id": "BRM_004t",
+      "dbfId": 2287,
+      "name": "Whelp / 새끼용 (unused)",
+      "status": "exclude",
+      "rationale": "Original client contains an unused solo-adventure Whelp. No confirmed normal-match producer among BRM collectibles; never set its release to the client-install date.",
+      "source": "https://hearthstone.wiki.gg/wiki/Whelp_%28unused_Blackrock_Mountain%29"
+    },
+    {
+      "id": "BRM_019",
+      "dbfId": 2279,
+      "name": "Grim Patron / 험상궂은 손님",
+      "status": "already-represented-own-id",
+      "rationale": "Its summoned copy is another BRM_019 with DBF 2279, not a missing distinct token ID.",
+      "source": "https://hearthstone.wiki.gg/wiki/Grim_Patron"
+    },
+    {
+      "id": "OG_044a",
+      "name": "Druid of the Claw combined",
+      "status": "other-set",
+      "rationale": "Legacy set, 2016-04-27; should not be duplicated in BRM"
+    },
+    {
+      "id": "OG_044c",
+      "name": "Druid of the Saber combined",
+      "status": "other-set",
+      "rationale": "The Grand Tournament set, 2016-04-27; should not be duplicated in BRM"
+    }
+  ],
+  "limits": [
+    "The comparison uses the public set related-card gallery plus all 41 imported source relationships; it does not enumerate 109 boss-only challenge cards as collectible-card children.",
+    "Randomly generating or copying a preexisting external card ID does not create a new BRM child ID.",
+    "Only first real playable availability is checked, not exhaustive patch, rarity, every client build or distinct match-log sighting.",
+    "Cross-expansion OG_044a and OG_044c were directly checked via their connected repositories as of the stated main SHAs, but the BRM CI does not fetch other repositories."
+  ],
+  "results": {
+    "totalExistingIDs": 41,
+    "collectible": 31,
+    "children": 10,
+    "fandralExclusiveInBRM": 1,
+    "otherFandralExclusiveVerified": 2,
+    "sourceRelatedParentIds": 7,
+    "unaccountedRelatedIds": [],
+    "missingNormalMatchTokens": [],
+    "fandralOnlyIncorrectFirstDates": [],
+    "dateChangesRequired": false,
+    "canonicalGameplayMutations": 0
+  }
+}
