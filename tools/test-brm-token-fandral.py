@@ -84,8 +84,26 @@ def main():
     for cid in ("BRM_010t","BRM_010t2"):
         timeline,_=read_card(ROOT,cid)
         assert timeline["2015-04-10"]["type"]=="MINION"
+    # Unused Whelp BRM_004t must remain deleted across every exported JSON.
+    # BRM_022t is the legitimate Dragon Egg child and must remain available.
     assert "BRM_004t" not in catalog
-    assert not (ROOT/"data/BRM_004t.json").exists()
+    assert "BRM_022t" in catalog
+    for filepath in (
+        "data/BRM_004t.json",
+        "metadata/BRM_004t.json",
+        "golden/cards/BRM_004t.json",
+        "art/BRM_004t.png",
+    ):
+        assert not (ROOT/ filepath).exists(), ("Unused Whelp reintroduced", filepath)
+    assert "BRM_004t" not in policy["cards"]
+    for api_file in (
+        "cards.json", "cards-date.json", "render.json", "render-date.json",
+        "history.json", "history-date.json", "manifest.json", "release-policy.json",
+    ):
+        document=read(api_file)
+        assert "BRM_004t" not in json.dumps(document,ensure_ascii=False),api_file
+        if api_file.startswith("history"):
+            assert "2287" not in document["cards"],("Unused Whelp DBF restored",api_file)
     for cross in audit["crossExpansionFandralCombinedForms"]:
         assert cross["verifiedKst"]==fandral_day
         assert cross["repo"].startswith("qxwd565/")
