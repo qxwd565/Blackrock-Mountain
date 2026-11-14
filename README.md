@@ -23,9 +23,8 @@ python3 tools/build-api.py
 python3 tools/test-brm-history.py
 ```
 
-- `cards.json`: 현재값 목록
-- `render.json`: 현재값과 날짜 조회용 역방향 이력
-- `history.json`: 이전 소비자를 위한 호환 이력
+- `cards.json`: 현재 카드 목록
+- `data/<CARD_ID>.json`: 한국 날짜별 카드 이력의 정본
 
 생성 파일을 직접 고치지 말고 원본 JSON을 수정한 뒤 빌드하세요. 빌더는 저장소에 커밋된 코드만 실행합니다. CI는 읽기 전용이며 외부 스크립트 다운로드나 자동 커밋/푸시를 하지 않습니다.
 
@@ -33,7 +32,7 @@ python3 tools/test-brm-history.py
 
 ## Date-first canonical data
 
-Card-specific files now use ascending Korean date keys with explicit field-removal semantics. See [docs/date-schema.md](docs/date-schema.md) for the dual root transports, preserved source evidence, bounded historical uncertainty and reproducible checks. Existing schema1 plugin endpoints remain unchanged in purpose; precise clients must explicitly select the `*-date.json` siblings.
+Card-specific files now use ascending Korean date keys with explicit field-removal semantics. See [docs/date-schema.md](docs/date-schema.md) for historical validation and reproducible checks. Legacy aggregate transports are no longer published; cards are read by ID from the dated `data/` documents.
 
 ## 2026-11-13 최초 사용일 전수 재검증
 
@@ -46,3 +45,12 @@ Card-specific files now use ascending Korean date keys with explicit field-remov
 [전체 토큰/판드랄 교차 검증 기록](tools/brm-token-fandral-review-20261114.json)과 `python3 tools/test-brm-token-fandral.py`를 추가했습니다. 기존 10개 비수집 자식 카드의 2015년 원본 유형, 실제 부모 DBF 관계, 판드랄 전용 합체형 `OG_044b`의 2016-04-27 첫 날짜를 구별해 검사합니다. 함께 검토한 타 세트의 `OG_044a`(고전)와 `OG_044c`(대 마상시합)도 모두 판드랄의 한국 출시일인 2016-04-27로 확인돼 보정할 선행 날짜가 없었습니다.
 
 `BRM_010t`·`BRM_010t2`는 판드랄 이전부터 쓸 수 있었던 일반 변신형이며, `BRM_010a`·`BRM_010b`는 당시 SPELL 선택지였습니다. 또한 험상궂은 손님 `BRM_019`의 자기 자신 복제와 사용되지 않은 모험 클라이언트 `BRM_004t`는 별도 수집 가능 생성 토큰으로 오분류하지 않습니다. 현재 등록된 수집 카드 31개에서 이어지는 자식 10종과 모든 `relatedIds` 연결을 검사했고, 원본/밸런스 이력과 카드 날짜 키는 변경하지 않았습니다.
+
+
+## API 경량화·편집 지침 (2026-11-14)
+
+- **게시할 카드 데이터는 `cards.json`(현재 카드 목록)과 `data/<카드ID>.json`(날짜별 변경 기록)**입니다. 나머지 `render*.json`, `history*.json`, `cards-date.json`은 테스트 과정의 임시 생성물일 뿐, GitHub에 커밋하거나 배포하지 않습니다.
+- 카드 원화 `art/`, 황금 원화·애니메이션 `golden/`, 프레임 `frame/`은 실제 사용 여부를 확인한 뒤 그대로 유지합니다. 바이너리 파일, 재질, 셰이더, 링크를 임의 수정하지 않습니다.
+- 최초 날짜는 **한국 시간 실제 대전 가능일**입니다. 모험모드는 지구 개방, 이벤트는 행사 개시를 적용하며 클라이언트 사전 탑재일을 쓰지 않습니다. 토큰과 선택지도 부모 효과 및 생성 가능일을 검사합니다.
+- `data/`에는 `YYYY-MM-DD` 날짜 키를 사용합니다. 첫 기록은 최초 상태, 다음 기록부터는 변경 필드만 넣습니다. 잘못된 날짜 키는 새 기록 추가만 하지 말고 삭제·통합하고, 능력·효과·설명과 `<br></br>` 표기를 확인합니다.
+- `metadata/`, `tools/` 및 CI에는 검증되지 않은 최초 스펙을 확정하지 않기 위해 필요한 원본 근거와 재현용 코드만 보존합니다. 근거 삭제 전에 빌드·검증의 참조를 전부 제거해야 합니다. 불필요한 신규 호환/스키마 래퍼는 추가하지 않습니다.
