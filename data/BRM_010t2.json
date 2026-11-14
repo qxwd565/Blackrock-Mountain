@@ -16,7 +16,6 @@
     "attack": 2,
     "health": 5,
     "collectible": false,
-    "chooseOne": false,
     "mechanics": []
   },
   "2022-11-30": {

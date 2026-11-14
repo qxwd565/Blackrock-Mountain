@@ -10,7 +10,6 @@
     "rarity": "FREE",
     "health": 8,
     "collectible": false,
-    "chooseOne": false,
     "heroPowerDbfId": 2319,
     "mechanics": []
   }

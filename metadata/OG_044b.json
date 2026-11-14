@@ -308,5 +308,12 @@
       "dateStatus": "Observation only, not an asserted Korean effective date.",
       "lastObservedBuild": "37.0.2.256589"
     }
-  ]
+  ],
+  "normalization": {
+    "datedExcludedFields": {
+      "2016-04-27": {
+        "chooseOne": false
+      }
+    }
+  }
 }

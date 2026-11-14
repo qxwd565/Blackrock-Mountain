@@ -12,7 +12,6 @@
     "attack": 3,
     "health": 6,
     "collectible": true,
-    "chooseOne": false,
     "mechanics": [
       "BATTLECRY",
       "OVERLOAD"

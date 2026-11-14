@@ -286,5 +286,12 @@
       "unresolved": "Exact effective dates and generated-entity display semantics. No dated rarity patch invented.",
       "source": "tools/brm-mechanics-evidence.json"
     }
+  },
+  "normalization": {
+    "datedExcludedFields": {
+      "2015-04-17": {
+        "chooseOne": false
+      }
+    }
   }
 }

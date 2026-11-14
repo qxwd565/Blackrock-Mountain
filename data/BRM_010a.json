@@ -14,7 +14,6 @@
     ],
     "cost": 0,
     "collectible": false,
-    "chooseOne": false,
     "mechanics": []
   },
   "2016-10-21": {
@@ -29,11 +28,11 @@
   "2018-11-30": {
     "text": "",
     "type": "MINION",
+    "cost": 3,
     "race": "BEAST",
     "races": [
       "BEAST"
     ],
-    "cost": 3,
     "attack": 2,
     "health": 5
   },

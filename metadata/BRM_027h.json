@@ -243,5 +243,12 @@
     "heroPowerDbfId": 2319,
     "stats": "Only health is actually tagged in release and latest archives; zero cost/attack/armor/durability are exporter placeholders. No playable HERO template applied.",
     "source": "tools/brm-mechanics-evidence.json"
+  },
+  "normalization": {
+    "datedExcludedFields": {
+      "2015-04-10": {
+        "chooseOne": false
+      }
+    }
   }
 }

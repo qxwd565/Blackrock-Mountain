@@ -12,7 +12,6 @@
     "attack": 7,
     "health": 8,
     "collectible": true,
-    "chooseOne": false,
     "mechanics": [
       "TAUNT"
     ]
