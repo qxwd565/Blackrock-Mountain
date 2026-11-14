@@ -1,26 +1,33 @@
-name: Unify card API with Legacy
+name: Verify and normalize card API to Legacy
 on:
   push:
+    branches: [main]
     paths:
-      - .github/workflows/unify-legacy-api.yml
+      - 'cards.json'
+      - 'data/**'
+      - 'metadata/**'
+      - '.github/workflows/unify-legacy-api.yml'
   workflow_dispatch:
 permissions:
   contents: write
+concurrency:
+  group: legacy-api-${{ github.repository }}-main
+  cancel-in-progress: false
 jobs:
-  normalize:
+  verify:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
           persist-credentials: true
-      - name: Verify and normalize all card JSON
+      - name: Verify and normalize card JSON
         run: |
-          curl -fsSL --retry 3 https://raw.githubusercontent.com/qxwd565/legacy/8d3af83a8631b7c9d16cca854857f30ce283d1e3/tools/unify-card-apis.py -o /tmp/unify-card-apis.py
+          curl -fsSL --retry 3 https://raw.githubusercontent.com/qxwd565/legacy/a3c04b21a974d6ae66bef016eabdd7eb1f82b4c9/tools/unify-card-apis.py -o /tmp/unify-card-apis.py
           python3 /tmp/unify-card-apis.py
           python3 /tmp/unify-card-apis.py --apply
           python3 /tmp/unify-card-apis.py
           git diff --check
-      - name: Commit verified normalization
+      - name: Commit canonical API if needed
         run: |
           git add cards.json data metadata
           if ! git diff --cached --quiet; then
